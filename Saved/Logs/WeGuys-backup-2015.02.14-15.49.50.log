@@ -1,0 +1,1254 @@
+﻿Log file open, 02/14/15 15:14:40
+LogInit:Display: Running engine for game: WeGuys
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.14-20.14.40:895][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.14-20.14.40:954][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.14-20.14.41:016][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.14-20.14.41:023][  0]LogInit: Object subsystem initialized
+[2015.02.14-20.14.41:025][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.14-20.14.41:025][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.14-20.14.41:025][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.14-20.14.41:025][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.14-20.14.41:026][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.14-20.14.41:026][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.14-20.14.41:026][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.14-20.14.41:034][  0]LogInit: Computer: ASUS
+[2015.02.14-20.14.41:034][  0]LogInit: User: Owner
+[2015.02.14-20.14.41:034][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.14-20.14.41:034][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.02.14-20.14.41:034][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.02.14-20.14.41:035][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.14.41:035][  0]LogMemory: Process Physical Memory: 48.40 MB used, 48.40 MB peak
+[2015.02.14-20.14.41:035][  0]LogMemory: Process Virtual Memory: 25.04 MB used, 25.04 MB peak
+[2015.02.14-20.14.41:035][  0]LogMemory: Physical Memory: 3788.39 MB used, 16267.18 MB total
+[2015.02.14-20.14.41:035][  0]LogMemory: Virtual Memory: 270.99 MB used, 134217728.00 MB total
+[2015.02.14-20.14.41:194][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.02.14-20.14.41:194][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.02.14-20.14.41:206][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.02.14-20.14.41:206][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.02.14-20.14.41:207][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.14-20.14.41:207][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.14-20.14.41:208][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.14-20.14.41:212][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.14-20.14.41:226][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.14-20.14.41:395][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.14-20.14.41:528][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.14-20.14.47:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.14-20.14.47:755][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.14-20.14.47:843][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.14-20.14.47:886][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.14-20.14.47:886][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.14-20.14.47:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.14-20.14.47:886][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.14-20.14.47:948][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.14-20.14.47:961][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.14-20.14.48:136][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.14-20.14.48:401][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.14-20.14.48:401][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.14-20.14.49:069][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.14-20.14.49:200][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.14-20.14.50:676][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.14-20.14.51:035][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/WeGuys/Binaries/Win64. Error: 0
+[2015.02.14-20.14.51:277][  0]SourceControl: Info Source control is disabled
+[2015.02.14-20.14.51:277][  0]SourceControl: Info Source control is disabled
+[2015.02.14-20.14.51:291][  0]SourceControl: Info Source control is disabled
+[2015.02.14-20.14.51:601][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.14-20.14.51:601][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.14-20.14.51:692][  0]LogEngine: Initializing Engine...
+[2015.02.14-20.14.51:843][  0]LogInit: XAudio2 using 'Speakers (M-Audio Micro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.14-20.14.51:856][  0]LogInit: FAudioDevice initialized.
+[2015.02.14-20.14.51:898][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.14-20.14.51:921][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.14-20.14.51:924][  0]LogInit: Texture streaming: Enabled
+[2015.02.14-20.14.51:987][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.14-20.14.51:987][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.14-20.14.51:989][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.02.14-20.14.51:989][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.14-20.14.52:019][  0]LogInit: Transaction tracking system initialized
+[2015.02.14-20.14.52:244][  0]BlueprintLog: New page: Editor Load
+[2015.02.14-20.14.52:313][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.02.14-20.14.52:314][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.14-20.14.53:093][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.14-20.14.53:499][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.14-20.14.53:910][  0]LogConsoleResponse:Display: 
+[2015.02.14-20.14.53:962][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.14-20.14.54:330][  0]SourceControl: Info Source control is disabled
+[2015.02.14-20.14.54:330][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.14-20.14.54:331][  0]LightingResults: New page: Lighting Build
+[2015.02.14-20.14.54:348][  0]MapCheck: New page: Map Check
+[2015.02.14-20.14.54:348][  0]LightingResults: New page: Lighting Build
+[2015.02.14-20.14.54:355][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADA7B5940
+[2015.02.14-20.14.55:199][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.14-20.14.55:199][  0]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.14.55:200][  0]Cmd: MAP CHECKDEP
+[2015.02.14-20.14.55:201][  0]MapCheck: New page: Map1 - Feb 14, 2015, 10:14:55 AM
+[2015.02.14-20.14.55:420][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 219.688ms to complete.
+[2015.02.14-20.14.55:420][  0]LogFileHelpers: Loading map 'Map1' took 1.090
+[2015.02.14-20.14.55:520][  0]LogCollectionManager: Loaded 0 collections in 0.001953 seconds
+[2015.02.14-20.14.55:726][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.14-20.14.55:790][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.14-20.14.55:821][  0]LogLoad: Full Startup: 17.27 seconds (BP compile: 0.22 seconds)
+[2015.02.14-20.14.56:166][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.14-20.14.56:344][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.14-20.14.56:858][  2]LogAssetRegistry: Asset discovery search completed in 4.5563 seconds
+[2015.02.14-20.20.13:723][ 92]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.02.14-20.20.16:400][248]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.14-20.20.16:413][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.02.14-20.20.16:475][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.02.14-20.20.16:475][248]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.02.14-20.20.16:477][248]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.14-20.20.16:503][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.14-20.20.17:575][282]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.20.17:575][282]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.20.17:575][282]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.20.35:271][292]Cmd: TRANSACTION UNDO
+[2015.02.14-20.20.35:271][292]LogEditorTransaction: Undo Create Actors
+[2015.02.14-20.20.35:281][292]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.14-20.20.35:422][299]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.20.35:422][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.20.35:422][299]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.20.47:476][998]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.20.47:476][998]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.20.47:520][998]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.14-20.20.47:543][998]LogPlayLevel: PIE:  Blueprint regeneration took 67 ms (1 blueprints)
+[2015.02.14-20.20.47:544][998]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:20:47 AM)
+[2015.02.14-20.20.47:546][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001965s)
+[2015.02.14-20.20.47:546][998]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2015.02.14-20.20.47:546][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002558s)
+[2015.02.14-20.20.47:603][998]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.20.47:605][998]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.20.47:606][998]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.20.47
+[2015.02.14-20.20.47:606][998]LogWorld: Bringing up level for play took: 0.001202
+[2015.02.14-20.20.47:614][998]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.804
+[2015.02.14-20.20.49:662][112]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD6487240
+[2015.02.14-20.20.56:977][539]LogMaterial: Missing cached shader map for material MyStone, compiling.
+[2015.02.14-20.21.00:765][744]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.00:794][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.02.14-20.21.00:851][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.02.14-20.21.00:851][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.02.14-20.21.00:853][744]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.00:878][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.14-20.21.01:690][771]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.21.01:690][771]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.01:690][771]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.05:359][939]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.02.14-20.21.16:033][443]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.16:035][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.21.16:061][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.14-20.21.16:064][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.21.16:208][447]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.21.16:208][447]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.16:208][447]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.23:275][810]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.23:303][810]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.21.23:470][816]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.21.23:470][816]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.23:470][816]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.25:670][917]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.25:699][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.21.25:867][923]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.21.25:867][923]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.25:867][923]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.27:393][994]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.27:556][  0]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.21.27:556][  0]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.27:556][  0]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.30:155][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.14-20.21.30:155][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.02.14-20.21.31:079][180]LogMaterialEditor: Saving and Compiling material MyStone
+[2015.02.14-20.21.32:410][180]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.21.32:472][180]LogMaterial: Missing cached shader map for material MyStone, compiling.
+[2015.02.14-20.21.32:475][180]LogMaterial: Missing cached shader map for material MyStone, compiling.
+[2015.02.14-20.21.32:479][180]LogMaterial: 0.001552 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.21.32:800][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MyStone" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/MyStone.uasset" SILENT=true
+[2015.02.14-20.21.32:913][180]LogSavePackage: Save=110.486214ms
+[2015.02.14-20.21.32:913][180]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyStone8868B4D64EBBF8951809649D1D291CC4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/MyStone.uasset'
+[2015.02.14-20.21.32:928][180]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2015.02.14-20.21.32:928][180]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.21.32:928][180]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.21.33:733][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.21.33:821][206]LogSavePackage: Save=27.516886ms
+[2015.02.14-20.21.33:821][206]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1D8118DF147EFFA79696348896CC09D68.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.21.33:864][206]LogFileHelpers: Saving map 'Map1' took 0.345
+[2015.02.14-20.21.38:960][499]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.21.38:960][499]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.21.38:988][499]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.14-20.21.39:000][499]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2015.02.14-20.21.39:000][499]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:21:39 AM)
+[2015.02.14-20.21.39:002][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001726s)
+[2015.02.14-20.21.39:002][499]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2015.02.14-20.21.39:002][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002342s)
+[2015.02.14-20.21.39:042][499]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.21.39:044][499]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.21.39:045][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.21.39
+[2015.02.14-20.21.39:046][499]LogWorld: Bringing up level for play took: 0.001267
+[2015.02.14-20.21.39:054][499]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.244
+[2015.02.14-20.21.44:414][813]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE4ED2E80
+[2015.02.14-20.21.45:333][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite)
+[2015.02.14-20.21.45:341][867]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.21.59:590][714]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.21.59:590][714]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.21.59:628][714]LogPlayLevel: PIE:  Blueprint regeneration took 38 ms (1 blueprints)
+[2015.02.14-20.21.59:628][714]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:21:59 AM)
+[2015.02.14-20.21.59:630][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001818s)
+[2015.02.14-20.21.59:630][714]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2015.02.14-20.21.59:631][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002370s)
+[2015.02.14-20.21.59:681][714]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.21.59:682][714]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.21.59:683][714]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.21.59
+[2015.02.14-20.21.59:683][714]LogWorld: Bringing up level for play took: 0.001098
+[2015.02.14-20.21.59:690][714]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.881
+[2015.02.14-20.22.02:327][864]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.22.02:381][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD4ADB6A0
+[2015.02.14-20.22.09:229][185]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.22.09:891][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.22.09:997][201]LogSavePackage: Save=30.380020ms
+[2015.02.14-20.22.09:997][201]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map19243E53045E4D9513EA3AABA4EBBA9BB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.22.10:039][201]LogFileHelpers: Saving map 'Map1' took 0.410
+[2015.02.14-20.22.10:061][202]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.22.10:061][202]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.22.10:061][202]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.22.12:461][335]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.22.12:461][335]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.22.12:515][335]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2015.02.14-20.22.12:516][335]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:22:12 AM)
+[2015.02.14-20.22.12:518][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001829s)
+[2015.02.14-20.22.12:518][335]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2015.02.14-20.22.12:518][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002381s)
+[2015.02.14-20.22.12:563][335]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.22.12:564][335]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.22.12:564][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.22.12
+[2015.02.14-20.22.12:566][335]LogWorld: Bringing up level for play took: 0.001139
+[2015.02.14-20.22.12:574][335]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.237
+[2015.02.14-20.22.15:279][488]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.22.15:331][489]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE5F91580
+[2015.02.14-20.22.26:823][ 60]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.22.27:011][ 68]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.22.27:011][ 68]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.22.27:011][ 68]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.22.28:156][124]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.22.28:325][131]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.22.28:325][131]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.22.28:325][131]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.22.29:678][198]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.22.29:826][204]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.22.29:826][204]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.22.29:826][204]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.22.31:325][278]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.22.31:490][285]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.22.31:491][285]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.22.31:491][285]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.22.35:913][518]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.22.35:913][518]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.22.35:955][518]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2015.02.14-20.22.35:955][518]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:22:35 AM)
+[2015.02.14-20.22.35:957][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001788s)
+[2015.02.14-20.22.35:958][518]LogPlayLevel: PIE: World Init took: (0.000437s)
+[2015.02.14-20.22.35:958][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002358s)
+[2015.02.14-20.22.36:004][518]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.22.36:006][518]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.22.36:007][518]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.22.36
+[2015.02.14-20.22.36:008][518]LogWorld: Bringing up level for play took: 0.001252
+[2015.02.14-20.22.36:016][518]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.794
+[2015.02.14-20.22.42:572][902]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.22.42:625][903]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE5F91BC0
+[2015.02.14-20.22.50:053][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Stone_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset" SILENT=true
+[2015.02.14-20.22.50:167][330]LogSavePackage: Save=111.669533ms
+[2015.02.14-20.22.50:167][330]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Stone_MaterialF495DCBF45DFBBA178CA43A91CC7876D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset'
+[2015.02.14-20.22.50:201][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/MyStone" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/MyStone.uasset" SILENT=true
+[2015.02.14-20.22.50:254][330]LogSavePackage: Save=3.091074ms
+[2015.02.14-20.22.50:254][330]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyStoneA39FF4EC4A20B91BD5D4E1831363FED4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/MyStone.uasset'
+[2015.02.14-20.22.51:106][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.14-20.22.59:329][855]LogMaterial: Missing cached shader map for material Brick_Material, compiling.
+[2015.02.14-20.23.00:558][922]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.23.00:582][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.14-20.23.00:641][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.02.14-20.23.00:641][922]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.02.14-20.23.00:642][922]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.23.00:673][922]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.14-20.23.06:359][954]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.02.14-20.23.06:424][954]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.23.06:426][954]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.23.06:429][954]LogMaterial: 0.001096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.23.06:639][955]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.23.06:639][955]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.23.06:639][955]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.23.10:222][993]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.02.14-20.23.10:284][993]LogMaterial: Missing cached shader map for material PrototypingSpriteMaterial, compiling.
+[2015.02.14-20.23.10:291][993]LogMaterial: Missing cached shader map for material PrototypingSpriteMaterial, compiling.
+[2015.02.14-20.23.10:295][993]LogMaterial: 0.001543 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.23.13:253][118]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.23.13:253][118]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.23.13:289][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE17EB560
+[2015.02.14-20.23.13:291][118]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD5EFB240
+[2015.02.14-20.23.13:291][118]LogPlayLevel: PIE:  Blueprint regeneration took 37 ms (1 blueprints)
+[2015.02.14-20.23.13:291][118]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:23:13 AM)
+[2015.02.14-20.23.13:293][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001672s)
+[2015.02.14-20.23.13:293][118]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.02.14-20.23.13:293][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002264s)
+[2015.02.14-20.23.13:335][118]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.23.13:336][118]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.23.13:337][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.23.13
+[2015.02.14-20.23.13:337][118]LogWorld: Bringing up level for play took: 0.001105
+[2015.02.14-20.23.13:346][118]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.536
+[2015.02.14-20.23.15:184][203]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.23.15:245][204]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE5790720
+[2015.02.14-20.23.17:251][292]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.23.17:261][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.02.14-20.23.17:317][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.02.14-20.23.17:317][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.02.14-20.23.17:317][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.02.14-20.23.17:317][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.02.14-20.23.17:318][292]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.23.17:344][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.23.17:485][294]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.23.17:485][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.23.17:486][294]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.23.22:602][547]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.23.22:764][554]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.23.22:764][554]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.23.22:764][554]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.23.23:129][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.23.23:211][559]LogSavePackage: Save=26.740269ms
+[2015.02.14-20.23.23:211][559]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1DD021FF3464083A1C11118BA36B1BC92.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.23.23:251][559]LogFileHelpers: Saving map 'Map1' took 0.332
+[2015.02.14-20.23.23:368][559]LogSavePackage: Save=56.626350ms
+[2015.02.14-20.23.23:368][559]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/PrototypingSpriteMaterialBFCEADEF41D6EA32F669EC8C5B3E5356.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/PrototypingSpriteMaterial.uasset'
+[2015.02.14-20.23.23:388][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Stone_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset" SILENT=true
+[2015.02.14-20.23.23:549][559]LogSavePackage: Save=111.750786ms
+[2015.02.14-20.23.23:549][559]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Stone_MaterialD548A7354AAD1FB82DF1429AEC0B54C9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset'
+[2015.02.14-20.23.23:568][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Brick_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset" SILENT=true
+[2015.02.14-20.23.23:626][559]LogSavePackage: Save=55.058147ms
+[2015.02.14-20.23.23:626][559]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Brick_MaterialBB87CEF542A9067A9DE72AAEDCD6EDB4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset'
+[2015.02.14-20.23.24:698][610]LogMaterialEditor: Saving and Compiling material Stone_Material
+[2015.02.14-20.23.26:035][610]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.23.26:092][610]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.23.26:096][610]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.23.26:099][610]LogMaterial: 0.001428 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.23.26:437][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Stone_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset" SILENT=true
+[2015.02.14-20.23.26:594][610]LogSavePackage: Save=110.425919ms
+[2015.02.14-20.23.26:594][610]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Stone_Material3258755143264E3BDC69D1B0B47C88A5.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset'
+[2015.02.14-20.23.26:606][610]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2015.02.14-20.23.26:606][610]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.23.26:606][610]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.23.29:260][753]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.23.29:260][753]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.23.29:302][753]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2015.02.14-20.23.29:302][753]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:23:29 AM)
+[2015.02.14-20.23.29:304][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001730s)
+[2015.02.14-20.23.29:304][753]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2015.02.14-20.23.29:304][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002286s)
+[2015.02.14-20.23.29:350][753]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.23.29:352][753]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.23.29:353][753]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.23.29
+[2015.02.14-20.23.29:354][753]LogWorld: Bringing up level for play took: 0.001989
+[2015.02.14-20.23.29:363][753]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.553
+[2015.02.14-20.23.31:540][875]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.23.31:594][876]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADB4E59E0
+[2015.02.14-20.23.32:261][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.23.32:350][899]LogSavePackage: Save=27.927860ms
+[2015.02.14-20.23.32:350][899]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1D341143440309B478DEF31A832043233.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.23.32:391][899]LogFileHelpers: Saving map 'Map1' took 0.339
+[2015.02.14-20.23.42:184][430]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.23.42:361][438]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.23.42:361][438]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.23.42:361][438]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.23.46:058][623]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.02.14-20.23.46:752][656]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.02.14-20.23.47:867][698]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.02.14-20.24.17:474][970]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.17:476][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.14-20.24.17:501][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling.
+[2015.02.14-20.24.17:504][970]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.14-20.24.18:596][  7]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.24.18:596][  7]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.18:596][  7]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.24.19:518][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.19:668][ 51]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.02.14-20.24.19:668][ 51]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.19:668][ 51]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.02.14-20.24.22:181][164]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.22:211][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.14-20.24.22:371][169]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.02.14-20.24.22:371][169]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.22:371][169]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.02.14-20.24.23:391][213]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.23:418][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.02.14-20.24.23:578][218]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.24.23:578][218]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.23:578][218]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.24.24:815][272]LogMaterialEditor: Saving and Compiling material Brick_Material
+[2015.02.14-20.24.26:149][272]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.26:212][272]LogMaterial: Missing cached shader map for material Brick_Material, compiling.
+[2015.02.14-20.24.26:215][272]LogMaterial: Missing cached shader map for material Brick_Material, compiling.
+[2015.02.14-20.24.26:217][272]LogMaterial: 0.001275 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.24.26:553][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Brick_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset" SILENT=true
+[2015.02.14-20.24.26:719][272]LogSavePackage: Save=116.884758ms
+[2015.02.14-20.24.26:719][272]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Brick_Material8068380A4F23CDA4DDC10081E25AA879.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset'
+[2015.02.14-20.24.26:733][272]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2015.02.14-20.24.26:733][272]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.26:733][272]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.24.30:358][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.02.14-20.24.36:187][797]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.24.36:187][797]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.24.36:217][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.14-20.24.36:226][797]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2015.02.14-20.24.36:226][797]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:24:36 AM)
+[2015.02.14-20.24.36:228][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001779s)
+[2015.02.14-20.24.36:228][797]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2015.02.14-20.24.36:228][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002387s)
+[2015.02.14-20.24.36:267][797]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.24.36:269][797]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.24.36:269][797]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.24.36
+[2015.02.14-20.24.36:270][797]LogWorld: Bringing up level for play took: 0.001107
+[2015.02.14-20.24.36:277][797]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.533
+[2015.02.14-20.24.37:951][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.24.38:004][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADD3DAAC0
+[2015.02.14-20.24.42:769][117]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.24.42:938][124]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.24.42:938][124]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.42:938][124]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.24.43:561][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.24.43:643][142]LogSavePackage: Save=26.399002ms
+[2015.02.14-20.24.43:643][142]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map13D7FFB904F3D396793C62B8FAE1641D8.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.24.43:687][142]LogFileHelpers: Saving map 'Map1' took 0.341
+[2015.02.14-20.24.45:302][228]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.24.45:302][228]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.24.45:343][228]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2015.02.14-20.24.45:343][228]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:24:45 AM)
+[2015.02.14-20.24.45:345][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001728s)
+[2015.02.14-20.24.45:345][228]LogPlayLevel: PIE: World Init took: (0.000404s)
+[2015.02.14-20.24.45:345][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002256s)
+[2015.02.14-20.24.45:392][228]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.24.45:394][228]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.24.45:394][228]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.24.45
+[2015.02.14-20.24.45:395][228]LogWorld: Bringing up level for play took: 0.001118
+[2015.02.14-20.24.45:403][228]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.593
+[2015.02.14-20.24.49:786][483]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.24.49:841][484]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADD3D8F40
+[2015.02.14-20.24.55:215][752]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.24.55:380][759]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.24.55:380][759]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.24.55:380][759]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.24.57:392][861]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.24.57:392][861]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.24.57:433][861]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2015.02.14-20.24.57:434][861]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:24:57 AM)
+[2015.02.14-20.24.57:436][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2015.02.14-20.24.57:436][861]LogPlayLevel: PIE: World Init took: (0.000417s)
+[2015.02.14-20.24.57:436][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002265s)
+[2015.02.14-20.24.57:477][861]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.24.57:479][861]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.24.57:480][861]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.24.57
+[2015.02.14-20.24.57:480][861]LogWorld: Bringing up level for play took: 0.001187
+[2015.02.14-20.24.57:488][861]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.678
+[2015.02.14-20.24.58:388][908]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.24.58:441][909]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE6B8C680
+[2015.02.14-20.25.01:190][ 65]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.25.01:190][ 65]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.25.01:220][ 65]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.14-20.25.01:229][ 65]LogPlayLevel: PIE:  Blueprint regeneration took 39 ms (1 blueprints)
+[2015.02.14-20.25.01:229][ 65]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:25:01 AM)
+[2015.02.14-20.25.01:231][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2015.02.14-20.25.01:232][ 65]LogPlayLevel: PIE: World Init took: (0.000420s)
+[2015.02.14-20.25.01:232][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002278s)
+[2015.02.14-20.25.01:274][ 65]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.25.01:275][ 65]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.25.01:276][ 65]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.25.01
+[2015.02.14-20.25.01:277][ 65]LogWorld: Bringing up level for play took: 0.001101
+[2015.02.14-20.25.01:284][ 65]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.474
+[2015.02.14-20.25.05:052][281]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.25.05:106][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE6B8CEA0
+[2015.02.14-20.25.05:798][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.25.05:887][306]LogSavePackage: Save=33.125122ms
+[2015.02.14-20.25.05:887][306]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map144DB76CD4AB2E12127D00AAD7010CEB6.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.25.05:967][306]LogFileHelpers: Saving map 'Map1' took 0.387
+[2015.02.14-20.25.24:069][360]LogMaterial: Missing cached shader map for material Stone_Material2, compiling.
+[2015.02.14-20.25.30:265][717]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.02.14-20.25.44:281][483]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.02.14-20.25.49:366][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Wood_Material.uasset" SILENT=true
+[2015.02.14-20.25.49:480][769]LogSavePackage: Save=111.861549ms
+[2015.02.14-20.25.49:480][769]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Wood_MaterialDBDF06B74B2667208C5003A3B3FB286F.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Wood_Material.uasset'
+[2015.02.14-20.25.50:516][822]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.25.50:545][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.02.14-20.25.50:604][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.02.14-20.25.50:604][822]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.02.14-20.25.50:604][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.02.14-20.25.50:604][822]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.02.14-20.25.50:605][822]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.25.50:631][822]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.02.14-20.25.51:532][852]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.25.51:532][852]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.25.51:532][852]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.25.53:041][925]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.25.53:043][925]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2015.02.14-20.25.53:211][931]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.02.14-20.25.53:211][931]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.25.53:211][931]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.02.14-20.25.53:826][960]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.02.14-20.25.58:817][145]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.25.58:819][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.02.14-20.25.58:843][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.02.14-20.25.59:005][149]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.02.14-20.25.59:005][149]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.25.59:005][149]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.02.14-20.26.00:629][218]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.26.00:655][218]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.02.14-20.26.00:821][223]MaterialEditorStats: Info Base pass shader without light map: 18 instructions
+[2015.02.14-20.26.00:821][223]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.26.00:821][223]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.02.14-20.26.01:778][259]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.26.01:806][259]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.02.14-20.26.01:968][264]MaterialEditorStats: Info Base pass shader without light map: 22 instructions
+[2015.02.14-20.26.01:968][264]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.26.01:968][264]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.26.03:100][315]LogMaterialEditor: Saving and Compiling material Wood_Material
+[2015.02.14-20.26.04:437][315]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.02.14-20.26.04:506][315]LogMaterial: Missing cached shader map for material Wood_Material, compiling.
+[2015.02.14-20.26.04:509][315]LogMaterial: Missing cached shader map for material Wood_Material, compiling.
+[2015.02.14-20.26.04:512][315]LogMaterial: 0.001815 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.26.04:833][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Wood_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Wood_Material.uasset" SILENT=true
+[2015.02.14-20.26.05:046][315]LogSavePackage: Save=165.333954ms
+[2015.02.14-20.26.05:046][315]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Wood_Material843BAFDE48EF6028F3AD9A9933076758.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Wood_Material.uasset'
+[2015.02.14-20.26.05:058][315]MaterialEditorStats: Info Base pass shader without light map: 46 instructions
+[2015.02.14-20.26.05:058][315]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.02.14-20.26.05:058][315]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.02.14-20.26.05:527][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.14-20.26.05:795][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.26.05:881][336]LogSavePackage: Save=26.267284ms
+[2015.02.14-20.26.05:881][336]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map176F533314A31775F6DC8B38D890FD907.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.26.05:922][336]LogFileHelpers: Saving map 'Map1' took 0.339
+[2015.02.14-20.26.05:924][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Stone_Material2" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material2.uasset" SILENT=true
+[2015.02.14-20.26.05:929][336]LogSavePackage: Save=2.047174ms
+[2015.02.14-20.26.05:929][336]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Stone_Material2CE28399A410A34CA1C084BA2F391D23E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material2.uasset'
+[2015.02.14-20.26.08:625][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.02.14-20.26.11:549][647]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.26.11:549][647]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.26.11:579][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.14-20.26.11:591][647]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2015.02.14-20.26.11:591][647]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:26:11 AM)
+[2015.02.14-20.26.11:594][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002734s)
+[2015.02.14-20.26.11:595][647]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2015.02.14-20.26.11:595][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.003511s)
+[2015.02.14-20.26.11:635][647]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.26.11:637][647]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.26.11:637][647]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.26.11
+[2015.02.14-20.26.11:638][647]LogWorld: Bringing up level for play took: 0.001095
+[2015.02.14-20.26.11:647][647]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.837
+[2015.02.14-20.28.38:774][424]LogPackageName: SearchForPackageOnDisk took   0.139s to resolve Map1.umap
+[2015.02.14-20.28.38:910][425]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Map1.umap
+[2015.02.14-20.28.38:910][425]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.28.38:910][425]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.28.38:920][425]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE5DE2980
+[2015.02.14-20.28.38:920][425]Cmd: MEM
+[2015.02.14-20.28.38:929][425]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.28.38:929][425]LogMemory: Process Physical Memory: 542.01 MB used, 545.23 MB peak
+[2015.02.14-20.28.38:929][425]LogMemory: Process Virtual Memory: 447.98 MB used, 451.33 MB peak
+[2015.02.14-20.28.38:929][425]LogMemory: Physical Memory: 4860.40 MB used, 16267.18 MB total
+[2015.02.14-20.28.38:929][425]LogMemory: Virtual Memory: 965.20 MB used, 134217728.00 MB total
+[2015.02.14-20.28.38:929][425]LogMemory: 
+[2015.02.14-20.28.38:929][425]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.28.38:931][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001880s)
+[2015.02.14-20.28.38:932][425]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2015.02.14-20.28.38:932][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002471s)
+[2015.02.14-20.28.38:933][425]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.28.38:934][425]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.28.38:935][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.28.38
+[2015.02.14-20.28.38:935][425]LogWorld: Bringing up level for play took: 0.001082
+[2015.02.14-20.28.47:268][916]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.14-20.28.47:406][917]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Map1.umap
+[2015.02.14-20.28.47:406][917]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.28.47:406][917]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.28.47:418][917]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE5DE20C0
+[2015.02.14-20.28.47:420][917]Cmd: MEM
+[2015.02.14-20.28.47:431][917]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.28.47:431][917]LogMemory: Process Physical Memory: 542.08 MB used, 545.43 MB peak
+[2015.02.14-20.28.47:431][917]LogMemory: Process Virtual Memory: 447.98 MB used, 451.33 MB peak
+[2015.02.14-20.28.47:431][917]LogMemory: Physical Memory: 4884.73 MB used, 16267.18 MB total
+[2015.02.14-20.28.47:432][917]LogMemory: Virtual Memory: 965.20 MB used, 134217728.00 MB total
+[2015.02.14-20.28.47:432][917]LogMemory: 
+[2015.02.14-20.28.47:432][917]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.28.47:434][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002059s)
+[2015.02.14-20.28.47:434][917]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2015.02.14-20.28.47:434][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002829s)
+[2015.02.14-20.28.47:436][917]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.28.47:437][917]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.28.47:438][917]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.28.47
+[2015.02.14-20.28.47:439][917]LogWorld: Bringing up level for play took: 0.001289
+[2015.02.14-20.28.50:625][ 99]LogPackageName: SearchForPackageOnDisk took   0.126s to resolve Map1.umap
+[2015.02.14-20.28.50:764][100]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Map1.umap
+[2015.02.14-20.28.50:764][100]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.28.50:764][100]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.28.50:772][100]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADA1F9BC0
+[2015.02.14-20.28.50:774][100]Cmd: MEM
+[2015.02.14-20.28.50:782][100]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.28.50:782][100]LogMemory: Process Physical Memory: 542.07 MB used, 545.43 MB peak
+[2015.02.14-20.28.50:782][100]LogMemory: Process Virtual Memory: 447.98 MB used, 451.33 MB peak
+[2015.02.14-20.28.50:782][100]LogMemory: Physical Memory: 4863.91 MB used, 16267.18 MB total
+[2015.02.14-20.28.50:782][100]LogMemory: Virtual Memory: 965.20 MB used, 134217728.00 MB total
+[2015.02.14-20.28.50:782][100]LogMemory: 
+[2015.02.14-20.28.50:782][100]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.28.50:784][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001804s)
+[2015.02.14-20.28.50:784][100]LogPlayLevel: PIE: World Init took: (0.000440s)
+[2015.02.14-20.28.50:785][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002379s)
+[2015.02.14-20.28.50:785][100]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.28.50:787][100]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.28.50:787][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.28.50
+[2015.02.14-20.28.50:788][100]LogWorld: Bringing up level for play took: 0.001035
+[2015.02.14-20.29.03:318][842]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Map1.umap
+[2015.02.14-20.29.03:455][843]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.14-20.29.03:455][843]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.29.03:455][843]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.29.03:463][843]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADA1FAA20
+[2015.02.14-20.29.03:464][843]Cmd: MEM
+[2015.02.14-20.29.03:473][843]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.29.03:473][843]LogMemory: Process Physical Memory: 542.89 MB used, 545.73 MB peak
+[2015.02.14-20.29.03:473][843]LogMemory: Process Virtual Memory: 449.03 MB used, 451.85 MB peak
+[2015.02.14-20.29.03:473][843]LogMemory: Physical Memory: 4862.52 MB used, 16267.18 MB total
+[2015.02.14-20.29.03:473][843]LogMemory: Virtual Memory: 965.20 MB used, 134217728.00 MB total
+[2015.02.14-20.29.03:473][843]LogMemory: 
+[2015.02.14-20.29.03:473][843]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.29.03:475][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001850s)
+[2015.02.14-20.29.03:476][843]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2015.02.14-20.29.03:476][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002472s)
+[2015.02.14-20.29.03:477][843]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.29.03:478][843]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.29.03:479][843]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.29.03
+[2015.02.14-20.29.03:480][843]LogWorld: Bringing up level for play took: 0.001131
+[2015.02.14-20.29.09:586][199]LogPackageName: SearchForPackageOnDisk took   0.135s to resolve Map1.umap
+[2015.02.14-20.29.09:726][200]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve Map1.umap
+[2015.02.14-20.29.09:726][200]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.29.09:726][200]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.29.09:734][200]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE57928E0
+[2015.02.14-20.29.09:735][200]Cmd: MEM
+[2015.02.14-20.29.09:745][200]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.29.09:745][200]LogMemory: Process Physical Memory: 543.13 MB used, 546.12 MB peak
+[2015.02.14-20.29.09:745][200]LogMemory: Process Virtual Memory: 449.00 MB used, 452.25 MB peak
+[2015.02.14-20.29.09:745][200]LogMemory: Physical Memory: 4862.70 MB used, 16267.18 MB total
+[2015.02.14-20.29.09:745][200]LogMemory: Virtual Memory: 960.38 MB used, 134217728.00 MB total
+[2015.02.14-20.29.09:745][200]LogMemory: 
+[2015.02.14-20.29.09:745][200]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.29.09:747][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001732s)
+[2015.02.14-20.29.09:747][200]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2015.02.14-20.29.09:747][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002255s)
+[2015.02.14-20.29.09:748][200]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.29.09:750][200]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.29.09:750][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.29.09
+[2015.02.14-20.29.09:751][200]LogWorld: Bringing up level for play took: 0.001115
+[2015.02.14-20.29.20:780][834]LogPackageName: SearchForPackageOnDisk took   0.151s to resolve Map1.umap
+[2015.02.14-20.29.20:933][835]LogPackageName: SearchForPackageOnDisk took   0.141s to resolve Map1.umap
+[2015.02.14-20.29.20:934][835]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.29.20:956][835]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.29.20:965][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEC1AF600
+[2015.02.14-20.29.20:966][835]Cmd: MEM
+[2015.02.14-20.29.20:974][835]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.29.20:974][835]LogMemory: Process Physical Memory: 547.61 MB used, 604.95 MB peak
+[2015.02.14-20.29.20:974][835]LogMemory: Process Virtual Memory: 457.13 MB used, 538.52 MB peak
+[2015.02.14-20.29.20:974][835]LogMemory: Physical Memory: 4868.32 MB used, 16267.18 MB total
+[2015.02.14-20.29.20:974][835]LogMemory: Virtual Memory: 992.00 MB used, 134217728.00 MB total
+[2015.02.14-20.29.20:974][835]LogMemory: 
+[2015.02.14-20.29.20:974][835]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.29.20:976][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001769s)
+[2015.02.14-20.29.20:977][835]LogPlayLevel: PIE: World Init took: (0.000418s)
+[2015.02.14-20.29.20:977][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002317s)
+[2015.02.14-20.29.20:978][835]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.29.20:979][835]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.29.20:980][835]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.29.20
+[2015.02.14-20.29.20:980][835]LogWorld: Bringing up level for play took: 0.001031
+[2015.02.14-20.29.33:783][589]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Map1.umap
+[2015.02.14-20.29.33:923][590]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.14-20.29.33:923][590]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.29.33:923][590]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.29.33:932][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADA1F91C0
+[2015.02.14-20.29.33:933][590]Cmd: MEM
+[2015.02.14-20.29.33:945][590]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.29.33:945][590]LogMemory: Process Physical Memory: 547.44 MB used, 604.95 MB peak
+[2015.02.14-20.29.33:945][590]LogMemory: Process Virtual Memory: 453.31 MB used, 538.52 MB peak
+[2015.02.14-20.29.33:945][590]LogMemory: Physical Memory: 4860.64 MB used, 16267.18 MB total
+[2015.02.14-20.29.33:945][590]LogMemory: Virtual Memory: 987.18 MB used, 134217728.00 MB total
+[2015.02.14-20.29.33:945][590]LogMemory: 
+[2015.02.14-20.29.33:945][590]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.29.33:947][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001822s)
+[2015.02.14-20.29.33:948][590]LogPlayLevel: PIE: World Init took: (0.000441s)
+[2015.02.14-20.29.33:948][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002407s)
+[2015.02.14-20.29.33:948][590]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.29.33:950][590]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.29.33:951][590]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.29.33
+[2015.02.14-20.29.33:951][590]LogWorld: Bringing up level for play took: 0.001113
+[2015.02.14-20.29.40:127][947]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.14-20.29.40:263][948]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Map1.umap
+[2015.02.14-20.29.40:263][948]LogNet: Browse: /Game/Maps/Map1
+[2015.02.14-20.29.40:263][948]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.14-20.29.40:272][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEDBDB7E0
+[2015.02.14-20.29.40:273][948]Cmd: MEM
+[2015.02.14-20.29.40:281][948]LogMemory: Platform Memory Stats for Windows
+[2015.02.14-20.29.40:281][948]LogMemory: Process Physical Memory: 540.37 MB used, 604.95 MB peak
+[2015.02.14-20.29.40:281][948]LogMemory: Process Virtual Memory: 446.14 MB used, 538.52 MB peak
+[2015.02.14-20.29.40:281][948]LogMemory: Physical Memory: 4858.07 MB used, 16267.18 MB total
+[2015.02.14-20.29.40:281][948]LogMemory: Virtual Memory: 984.01 MB used, 134217728.00 MB total
+[2015.02.14-20.29.40:281][948]LogMemory: 
+[2015.02.14-20.29.40:281][948]Allocator Stats for TBB: (not implemented)
+[2015.02.14-20.29.40:283][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2015.02.14-20.29.40:284][948]LogPlayLevel: PIE: World Init took: (0.000443s)
+[2015.02.14-20.29.40:284][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002354s)
+[2015.02.14-20.29.40:285][948]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.29.40:286][948]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.29.40:287][948]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.29.40
+[2015.02.14-20.29.40:287][948]LogWorld: Bringing up level for play took: 0.001108
+[2015.02.14-20.29.42:675][ 87]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.29.42:698][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEDBD9120
+[2015.02.14-20.29.43:585][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.29.43:670][122]LogSavePackage: Save=27.094364ms
+[2015.02.14-20.29.43:670][122]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1305DFB6E4B86DE3AE0ADEFB78BDA4609.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.29.43:712][122]LogFileHelpers: Saving map 'Map1' took 0.342
+[2015.02.14-20.30.03:436][278]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.14-20.30.03:877][304]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.14-20.30.33:294][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.14-20.30.33:295][405]BlueprintLog: New page: Collapse to Function
+[2015.02.14-20.30.39:109][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.30.39:288][611]LogSavePackage: Save=128.268448ms
+[2015.02.14-20.30.39:288][611]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Apple9BCCF6264959A07B8E8C84B20DFA2AE0.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.30.40:924][676]BlueprintLog: New page: Compile Apple
+[2015.02.14-20.30.41:030][676]BlueprintEditorCompileResults: Info [0962.48] Compile of Apple successful! [in 90 ms]
+[2015.02.14-20.30.56:524][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.30.56:701][289]LogSavePackage: Save=128.276138ms
+[2015.02.14-20.30.56:701][289]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Apple4C76D93442A0A47BBD054682880E3A38.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.31.14:306][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.14-20.31.15:120][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/NewFolder'
+[2015.02.14-20.31.16:161][130]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.02.14-20.31.20:448][366]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.02.14-20.31.27:352][772]LogMetaData: Removing '/Game/Data/AppleSpeed.AppleSpeed' ref from Metadata '/Game/Data/AppleType.PackageMetaData'
+[2015.02.14-20.31.27:407][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AppleSpeed" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleSpeed.uasset" SILENT=true
+[2015.02.14-20.31.27:433][772]LogSavePackage: Save=2.285376ms
+[2015.02.14-20.31.27:433][772]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleSpeedA524F51446E294D252C36D9B40FB5BA9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleSpeed.uasset'
+[2015.02.14-20.31.27:468][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.14-20.31.32:499][ 62]LogEnum:Warning: Enum Text AppleSpeed::NewEnumerator0 for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:504][ 62]LogEnum:Warning: Enum Text AppleType_MAX for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:504][ 62]LogEnum:Warning: Enum Text AppleType_MAX for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:721][ 75]LogEnum:Warning: Enum Text AppleSpeed::NewEnumerator1 for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:724][ 75]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:724][ 75]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:892][ 85]LogEnum:Warning: Enum Text AppleSpeed::NewEnumerator2 for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:897][ 85]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.32:897][ 85]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.37:194][337]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.37:194][337]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.40:313][520]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.40:313][520]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.43:617][715]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.43:617][715]LogEnum:Warning: Enum Text (INVALID) for Enum AppleSpeed failed to resolve to any value
+[2015.02.14-20.31.44:618][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AppleSpeed" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleSpeed.uasset" SILENT=true
+[2015.02.14-20.31.44:672][769]LogSavePackage: Save=2.265704ms
+[2015.02.14-20.31.44:672][769]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleSpeedE357E5EA452723D93C6D2C87B6F995D6.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleSpeed.uasset'
+[2015.02.14-20.31.45:088][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.14-20.31.45:147][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AppleType" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleType.uasset" SILENT=true
+[2015.02.14-20.31.45:159][792]LogSavePackage: Save=2.318305ms
+[2015.02.14-20.31.45:159][792]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleTypeDA613FAE45BCAAAFA6413D8B56D007F3.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleType.uasset'
+[2015.02.14-20.32.01:052][371]BlueprintLog: New page: Compile Apple
+[2015.02.14-20.32.01:176][371]BlueprintEditorCompileResults: Info [1042.62] Compile of Apple successful! [in 108 ms]
+[2015.02.14-20.32.01:619][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.32.01:797][382]LogSavePackage: Save=127.824112ms
+[2015.02.14-20.32.01:797][382]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleAE7C4E42486F1D004ED57C93FD6715AB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.32.43:226][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.43:227][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1762.EdGraphPin_1822"''
+[2015.02.14-20.32.43:228][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Timeline_6.EdGraphPin_1647"''
+[2015.02.14-20.32.43:228][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1860"''
+[2015.02.14-20.32.43:228][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1857"''
+[2015.02.14-20.32.43:228][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2493.EdGraphPin_18249"''
+[2015.02.14-20.32.43:229][903]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1859"''
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:072][215]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.14-20.32.52:073][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_1762.EdGraphPin_1822"''
+[2015.02.14-20.32.52:073][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Timeline_6.EdGraphPin_1647"''
+[2015.02.14-20.32.52:073][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1860"''
+[2015.02.14-20.32.52:074][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1857"''
+[2015.02.14-20.32.52:074][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2493.EdGraphPin_18249"''
+[2015.02.14-20.32.52:075][215]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_6021.EdGraphPin_1859"''
+[2015.02.14-20.32.57:063][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.32.57:246][382]LogSavePackage: Save=133.109467ms
+[2015.02.14-20.32.57:246][382]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleAF657AC243E72BE6A0A8DEB10147DEDB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.32.59:742][473]BlueprintLog: New page: Compile Apple
+[2015.02.14-20.32.59:862][473]BlueprintEditorCompileResults: Info [1101.31] Compile of Apple successful! [in 99 ms]
+[2015.02.14-20.33.08:279][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.33.08:462][867]LogSavePackage: Save=134.609253ms
+[2015.02.14-20.33.08:463][867]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Apple99FB123442804CAF536497B3240872C8.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.33.19:048][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.33.19:130][357]LogSavePackage: Save=29.851015ms
+[2015.02.14-20.33.19:130][357]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Apple4C73305143B0DF0D29A4D19BBFFD98A2.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.33.20:616][429]BlueprintLog: New page: Compile Apple
+[2015.02.14-20.33.20:733][429]BlueprintEditorCompileResults: Info [1122.18] Compile of Apple successful! [in 96 ms]
+[2015.02.14-20.33.29:019][826]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.14-20.33.57:384][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.14-20.33.58:583][159]BlueprintLog: New page: Compile Apple
+[2015.02.14-20.33.58:750][159]BlueprintEditorCompileResults: Info [1160.20] Compile of Apple successful! [in 144 ms]
+[2015.02.14-20.33.59:431][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.33.59:535][169]LogSavePackage: Save=33.893188ms
+[2015.02.14-20.33.59:535][169]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1DB948549498CD2524E3C2BBE1106E6DC.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.33.59:578][169]LogFileHelpers: Saving map 'Map1' took 0.371
+[2015.02.14-20.33.59:591][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Apple" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" SILENT=true
+[2015.02.14-20.33.59:772][169]LogSavePackage: Save=132.629639ms
+[2015.02.14-20.33.59:772][169]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/AppleD82DB50248B828754E84FE97A5C71426.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset'
+[2015.02.14-20.34.33:683][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.34.33:784][117]LogSavePackage: Save=33.174305ms
+[2015.02.14-20.34.33:784][117]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map14699D9AB4E1AD741C3603BA36BADE9B6.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.34.33:831][117]LogFileHelpers: Saving map 'Map1' took 0.376
+[2015.02.14-20.34.34:308][139]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.34.34:313][139]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.34.34:502][139]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.14-20.34.34:539][139]LogPlayLevel: [PIE] Compiling PROTO_BP_AnimBlueprint_0 before PIE...
+[2015.02.14-20.34.34:574][139]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.34.34:618][139]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.34.34:736][139]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.34.34:841][139]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.34.34:965][139]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.34.35:025][139]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.34.35:073][139]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.34.35:161][139]LogPlayLevel: PIE:  Blueprint regeneration took 853 ms (10 blueprints)
+[2015.02.14-20.34.35:161][139]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:34:35 AM)
+[2015.02.14-20.34.35:163][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002176s)
+[2015.02.14-20.34.35:164][139]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2015.02.14-20.34.35:164][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002837s)
+[2015.02.14-20.34.35:212][139]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.34.35:213][139]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.34.35:214][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.34.35
+[2015.02.14-20.34.35:215][139]LogWorld: Bringing up level for play took: 0.001237
+[2015.02.14-20.34.35:224][139]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.414
+[2015.02.14-20.34.43:556][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.14-20.34.43:610][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF3BE3600
+[2015.02.14-20.34.56:026][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.34.56:131][332]LogSavePackage: Save=32.740234ms
+[2015.02.14-20.34.56:131][332]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map12C90C550410E739347057D8CE9B20399.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.34.56:172][332]LogFileHelpers: Saving map 'Map1' took 0.374
+[2015.02.14-20.34.56:823][367]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.34.56:828][367]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.34.57:004][367]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.34.57:048][367]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.34.57:170][367]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.34.57:273][367]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.34.57:399][367]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.34.57:461][367]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.34.57:511][367]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.34.57:608][367]LogPlayLevel: PIE:  Blueprint regeneration took 785 ms (8 blueprints)
+[2015.02.14-20.34.57:608][367]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:34:57 AM)
+[2015.02.14-20.34.57:610][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002000s)
+[2015.02.14-20.34.57:611][367]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2015.02.14-20.34.57:611][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002582s)
+[2015.02.14-20.34.57:652][367]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.34.57:654][367]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.34.57:655][367]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.34.57
+[2015.02.14-20.34.57:655][367]LogWorld: Bringing up level for play took: 0.001184
+[2015.02.14-20.34.57:663][367]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.854
+[2015.02.14-20.35.03:921][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.02.14-20.35.03:980][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAE7AEF880
+[2015.02.14-20.35.07:556][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.35.07:655][919]LogSavePackage: Save=31.807098ms
+[2015.02.14-20.35.07:655][919]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map12892B5EC4B977A10E698C884453E982E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.35.07:695][919]LogFileHelpers: Saving map 'Map1' took 0.366
+[2015.02.14-20.35.08:332][953]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.35.08:337][953]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.35.08:520][953]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.35.08:566][953]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.35.08:681][953]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.35.08:782][953]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.35.08:907][953]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.35.08:965][953]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.35.09:013][953]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.35.09:103][953]LogPlayLevel: PIE:  Blueprint regeneration took 771 ms (8 blueprints)
+[2015.02.14-20.35.09:103][953]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:35:09 AM)
+[2015.02.14-20.35.09:105][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002101s)
+[2015.02.14-20.35.09:106][953]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2015.02.14-20.35.09:106][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002718s)
+[2015.02.14-20.35.09:152][953]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.35.09:153][953]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.35.09:154][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.35.09
+[2015.02.14-20.35.09:155][953]LogWorld: Bringing up level for play took: 0.001154
+[2015.02.14-20.35.09:165][953]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.354
+[2015.02.14-20.35.30:202][154]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.02.14-20.35.30:255][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF9D14900
+[2015.02.14-20.35.37:187][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.35.37:289][548]LogSavePackage: Save=33.883350ms
+[2015.02.14-20.35.37:289][548]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map17A912C744D66CEDE474DEB9103A9C96C.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.35.37:329][548]LogFileHelpers: Saving map 'Map1' took 0.369
+[2015.02.14-20.35.37:972][574]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.35.37:977][574]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.35.38:156][574]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.35.38:202][574]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.35.38:323][574]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.35.38:427][574]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.35.38:550][574]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.35.38:608][574]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.35.38:657][574]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.35.38:747][574]LogPlayLevel: PIE:  Blueprint regeneration took 774 ms (8 blueprints)
+[2015.02.14-20.35.38:747][574]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:35:38 AM)
+[2015.02.14-20.35.38:749][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002178s)
+[2015.02.14-20.35.38:750][574]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2015.02.14-20.35.38:750][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002816s)
+[2015.02.14-20.35.38:791][574]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.35.38:793][574]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.35.38:794][574]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.35.38
+[2015.02.14-20.35.38:794][574]LogWorld: Bringing up level for play took: 0.001148
+[2015.02.14-20.35.38:804][574]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.005
+[2015.02.14-20.35.59:991][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.02.14-20.36.00:046][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF9CDD080
+[2015.02.14-20.36.02:948][925]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.36.02:953][925]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.36.03:129][925]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.36.03:174][925]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.36.03:294][925]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.36.03:399][925]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.36.03:525][925]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.36.03:587][925]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.36.03:635][925]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.36.03:726][925]LogPlayLevel: PIE:  Blueprint regeneration took 778 ms (8 blueprints)
+[2015.02.14-20.36.03:726][925]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:36:03 AM)
+[2015.02.14-20.36.03:728][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2015.02.14-20.36.03:729][925]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2015.02.14-20.36.03:729][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002647s)
+[2015.02.14-20.36.03:774][925]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.36.03:776][925]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.36.03:777][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.36.03
+[2015.02.14-20.36.03:778][925]LogWorld: Bringing up level for play took: 0.001246
+[2015.02.14-20.36.03:786][925]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.976
+[2015.02.14-20.36.14:200][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.02.14-20.36.14:258][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF8EC76A0
+[2015.02.14-20.36.15:198][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.36.15:297][570]LogSavePackage: Save=31.075384ms
+[2015.02.14-20.36.15:297][570]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1CF89F63243D8910918743CA737E3328D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.36.15:338][570]LogFileHelpers: Saving map 'Map1' took 0.364
+[2015.02.14-20.36.49:746][117]BlueprintLog: New page: Compile Bullet
+[2015.02.14-20.36.49:806][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.02.14-20.36.49:846][117]BlueprintEditorCompileResults: Info [1331.29] Compile of Bullet successful! [in 89 ms]
+[2015.02.14-20.36.50:256][132]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.02.14-20.36.50:356][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bullet" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Bullet.uasset" SILENT=true
+[2015.02.14-20.36.50:549][132]LogSavePackage: Save=141.420898ms
+[2015.02.14-20.36.50:549][132]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/BulletEC5B0F2149FA8A7FA2C7A3B988AFDCC9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Bullet.uasset'
+[2015.02.14-20.36.53:363][279]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.36.53:370][279]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.36.53:567][279]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.36.53:632][279]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.36.53:674][279]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.36.53:800][279]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.36.53:907][279]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.36.54:044][279]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.36.54:105][279]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.36.54:183][279]LogPlayLevel: PIE:  Blueprint regeneration took 819 ms (8 blueprints)
+[2015.02.14-20.36.54:183][279]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:36:54 AM)
+[2015.02.14-20.36.54:185][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002069s)
+[2015.02.14-20.36.54:186][279]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2015.02.14-20.36.54:186][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.003016s)
+[2015.02.14-20.36.54:227][279]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.36.54:229][279]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.36.54:230][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.36.54
+[2015.02.14-20.36.54:231][279]LogWorld: Bringing up level for play took: 0.001347
+[2015.02.14-20.36.54:237][279]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 1.427
+[2015.02.14-20.37.06:496][  0]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.02.14-20.37.06:552][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF7A8BEC0
+[2015.02.14-20.37.09:730][181]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.37.09:737][181]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.37.09:920][181]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.37.09:995][181]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.37.10:057][181]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.37.10:101][181]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.37.10:257][181]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.37.10:392][181]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.37.10:453][181]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.37.10:523][181]LogPlayLevel: PIE:  Blueprint regeneration took 793 ms (8 blueprints)
+[2015.02.14-20.37.10:523][181]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:37:10 AM)
+[2015.02.14-20.37.10:526][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002195s)
+[2015.02.14-20.37.10:526][181]LogPlayLevel: PIE: World Init took: (0.000449s)
+[2015.02.14-20.37.10:526][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002794s)
+[2015.02.14-20.37.10:571][181]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.37.10:572][181]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.37.10:573][181]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.37.10
+[2015.02.14-20.37.10:574][181]LogWorld: Bringing up level for play took: 0.001436
+[2015.02.14-20.37.10:581][181]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 1.772
+[2015.02.14-20.37.26:403][102]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.02.14-20.37.26:457][103]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEEF2B560
+[2015.02.14-20.37.27:292][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.37.27:397][136]LogSavePackage: Save=32.828331ms
+[2015.02.14-20.37.27:397][136]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map197111602479FB07B28BD2582C8E3D861.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.37.27:437][136]LogFileHelpers: Saving map 'Map1' took 0.370
+[2015.02.14-20.37.52:476][623]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.37.52:480][623]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.37.52:666][623]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.37.52:743][623]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.37.52:789][623]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.37.52:938][623]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.37.53:071][623]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.37.53:130][623]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.37.53:179][623]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.37.53:268][623]LogPlayLevel: PIE:  Blueprint regeneration took 792 ms (8 blueprints)
+[2015.02.14-20.37.53:268][623]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:37:53 AM)
+[2015.02.14-20.37.53:271][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002252s)
+[2015.02.14-20.37.53:271][623]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2015.02.14-20.37.53:272][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.003014s)
+[2015.02.14-20.37.53:313][623]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.37.53:315][623]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.37.53:316][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.37.53
+[2015.02.14-20.37.53:317][623]LogWorld: Bringing up level for play took: 0.001800
+[2015.02.14-20.37.53:324][623]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.514
+[2015.02.14-20.37.58:903][939]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.02.14-20.37.58:954][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEEF2B420
+[2015.02.14-20.38.02:532][141]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-20.38.02:538][141]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.14-20.38.02:740][141]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.14-20.38.02:819][141]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.14-20.38.02:867][141]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-20.38.03:021][141]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.14-20.38.03:158][141]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.14-20.38.03:220][141]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-20.38.03:269][141]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.14-20.38.03:361][141]LogPlayLevel: PIE:  Blueprint regeneration took 828 ms (8 blueprints)
+[2015.02.14-20.38.03:361][141]PIE: New page: PIE session: Map1 (Feb 14, 2015, 10:38:03 AM)
+[2015.02.14-20.38.03:363][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001947s)
+[2015.02.14-20.38.03:364][141]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2015.02.14-20.38.03:364][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002529s)
+[2015.02.14-20.38.03:406][141]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-20.38.03:408][141]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-20.38.03:409][141]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.14-15.38.03
+[2015.02.14-20.38.03:409][141]LogWorld: Bringing up level for play took: 0.001345
+[2015.02.14-20.38.03:420][141]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.609
+[2015.02.14-20.38.03:497][142]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095758 > MaxSimulationTimeStep (0.050) for 'MyCharacter_C_1'
+[2015.02.14-20.38.06:437][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.02.14-20.38.06:492][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAFCBF9F80
+[2015.02.14-20.38.07:269][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.38.07:373][332]LogSavePackage: Save=32.620495ms
+[2015.02.14-20.38.07:373][332]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map167CBA1C049078CF5DE09E8A5380DD8A7.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-20.38.07:416][332]LogFileHelpers: Saving map 'Map1' took 0.375
+[2015.02.14-20.38.46:416][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.02.14-20.38.46:445][625]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.14-20.38.46:480][625]LightingResults: New page: Lighting Build
+[2015.02.14-20.38.46:519][625]LoadErrors: New page: Loading map: Template.umap
+[2015.02.14-20.38.46:696][625]MapCheck: New page: Map Check
+[2015.02.14-20.38.46:696][625]LightingResults: New page: Lighting Build
+[2015.02.14-20.38.46:718][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADD573A60
+[2015.02.14-20.38.46:841][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.14-20.38.46:841][625]LogAIModule: Creating AISystem for world Template
+[2015.02.14-20.38.46:877][625]Cmd: MAP CHECKDEP
+[2015.02.14-20.38.46:877][625]MapCheck: New page: Template - Feb 14, 2015, 10:38:46 AM
+[2015.02.14-20.38.47:099][625]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 220.481ms to complete.
+[2015.02.14-20.38.47:099][625]LogFileHelpers: Loading map 'Template' took 0.655
+[2015.02.14-20.39.09:745][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.02.14-20.40.31:522][355]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.02.14-20.40.31:530][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-20.40.35:374][391]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.02.14-20.40.35:445][391]LogMaterial: Missing cached shader map for material Brick_Material, compiling.
+[2015.02.14-20.40.35:449][391]LogMaterial: Missing cached shader map for material Brick_Material, compiling.
+[2015.02.14-20.40.35:453][391]LogMaterial: 0.001832 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.40.37:882][391]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.02.14-20.40.37:953][391]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.40.37:956][391]LogMaterial: Missing cached shader map for material Stone_Material, compiling.
+[2015.02.14-20.40.37:959][391]LogMaterial: 0.001386 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.14-20.40.39:553][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Template" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-20.40.39:662][391]LogSavePackage: Save=28.189156ms
+[2015.02.14-20.40.39:662][391]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Template3E629A3546D4B7C428B2ABBBAAD0E7FF.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap'
+[2015.02.14-20.40.39:705][391]LogFileHelpers: Saving map 'Template' took 0.391
+[2015.02.14-20.40.39:724][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Brick_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset" SILENT=true
+[2015.02.14-20.40.39:882][391]LogSavePackage: Save=107.097496ms
+[2015.02.14-20.40.39:882][391]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Brick_Material3A3724124E8E2A76EF7C8BB14759716C.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset'
+[2015.02.14-20.40.39:906][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Stone_Material" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset" SILENT=true
+[2015.02.14-20.40.40:064][391]LogSavePackage: Save=104.144554ms
+[2015.02.14-20.40.40:064][391]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Stone_Material19A03D5449551683B0AD90B9185DBE21.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset'
+[2015.02.14-20.40.40:993][392]Cmd: QUIT_EDITOR
+[2015.02.14-20.40.41:307][392]LogExit: Preparing to exit.
+[2015.02.14-20.40.41:799][392]LogExit: Editor shut down
+[2015.02.14-20.40.41:800][392]LogExit: Transaction tracking system shut down
+[2015.02.14-20.40.41:801][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAEA98F6A0
+[2015.02.14-20.40.41:802][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD657ED40
+[2015.02.14-20.40.41:805][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD68B18A0
+[2015.02.14-20.40.41:805][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD85F40E0
+[2015.02.14-20.40.41:809][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD5EF8C20
+[2015.02.14-20.40.41:809][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAD5EE7380
+[2015.02.14-20.40.41:810][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EADD460B80
+[2015.02.14-20.40.41:810][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EAF949EB60
+[2015.02.14-20.40.41:857][392]LogExit: Object subsystem successfully closed.
+[2015.02.14-20.40.41:940][392]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
+[2015.02.14-20.40.41:940][392]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.14-20.40.41:940][392]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.14-20.40.41:940][392]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.14-20.40.41:941][392]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.14-20.40.41:942][392]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.14-20.40.42:064][392]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.14-20.40.42:157][392]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.14-20.40.42:158][392]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.14-20.40.42:158][392]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.14-20.40.42:158][392]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.14-20.40.42:159][392]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.14-20.40.42:260][392]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.14-20.40.42:267][392]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.14-20.40.42:358][392]LogDerivedDataCache: Shutdown
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.14-20.40.42:358][392]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.14-20.40.42:360][392]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.14-20.40.42:361][392]LogExit: Exiting.
+[2015.02.14-20.40.42:380][392]Log file closed, 02/14/15 15:40:42
