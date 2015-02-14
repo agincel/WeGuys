@@ -720,4 +720,372 @@ LogInit: Rocket: 1
 [2015.02.14-04.29.18:706][957]LogFileHelpers: Saving map 'Map1' took 0.277
 [2015.02.14-04.29.18:719][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MovingPlatform" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MovingPlatform.uasset" SILENT=true
 [2015.02.14-04.29.18:919][957]LogSavePackage: Save=185.678680ms
-[2015.02.14-04.29.18:919][957]LogSavePackage: Movi
+[2015.02.14-04.29.18:919][957]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MovingPlatform4B14B7864C46CF448BEDC89461F76DBD.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MovingPlatform.uasset'
+[2015.02.14-04.29.27:431][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.29.27:476][421]LogSavePackage: Save=14.411897ms
+[2015.02.14-04.29.27:476][421]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map11CA6691C41A571AB7733D8B5C346EF8D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.29.27:511][421]LogFileHelpers: Saving map 'Map1' took 0.272
+[2015.02.14-04.29.28:393][468]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.14-04.29.28:393][468]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:29:28 PM)
+[2015.02.14-04.29.28:394][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001207s)
+[2015.02.14-04.29.28:395][468]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2015.02.14-04.29.28:395][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002028s)
+[2015.02.14-04.29.28:429][468]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.29.28:431][468]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.29.28:432][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.29.28
+[2015.02.14-04.29.28:433][468]LogWorld: Bringing up level for play took: 0.001055
+[2015.02.14-04.29.28:433][468]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.435
+[2015.02.14-04.32.50:534][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.32.50:534][590]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.32.50:611][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DAFDADD00
+[2015.02.14-04.34.49:070][232]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.02.14-04.34.49:076][232]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.34.49:952][272]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.14-04.34.49:952][272]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:34:49 PM)
+[2015.02.14-04.34.49:953][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001300s)
+[2015.02.14-04.34.49:954][272]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2015.02.14-04.34.49:954][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002041s)
+[2015.02.14-04.34.49:987][272]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.34.49:989][272]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.34.49:990][272]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.34.49
+[2015.02.14-04.34.49:990][272]LogWorld: Bringing up level for play took: 0.001254
+[2015.02.14-04.34.49:991][272]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.877
+[2015.02.14-04.35.38:012][151]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.35.38:012][151]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.35.38:068][151]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.35.38:090][151]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DB425F420
+[2015.02.14-04.35.46:851][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:851][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.14-04.35.46:851][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:851][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:852][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.14-04.35.46:852][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:852][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:852][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:852][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:853][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.14-04.35.46:853][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:853][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:853][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:853][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:854][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.14-04.35.46:854][635]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.14-04.35.56:358][189]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2015.02.14-04.35.56:365][189]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.35.57:011][222]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2015.02.14-04.35.57:017][222]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.35.58:004][276]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.02.14-04.35.58:011][276]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.39.48:934][204]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.39.48:934][204]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.02:178][903]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.02.14-04.40.02:434][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.40.02:481][903]LogSavePackage: Save=15.295855ms
+[2015.02.14-04.40.02:481][903]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1569C560041A92B12DEF4FCA47166372E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.40.02:516][903]LogFileHelpers: Saving map 'Map1' took 0.277
+[2015.02.14-04.40.06:035][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.40.06:081][ 70]LogSavePackage: Save=14.558581ms
+[2015.02.14-04.40.06:081][ 70]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map12717BC3342EA74F469B6E19346327E26.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.40.06:119][ 70]LogFileHelpers: Saving map 'Map1' took 0.276
+[2015.02.14-04.40.06:878][105]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.14-04.40.06:879][105]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:40:06 PM)
+[2015.02.14-04.40.06:880][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001205s)
+[2015.02.14-04.40.06:881][105]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2015.02.14-04.40.06:881][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.001829s)
+[2015.02.14-04.40.06:936][105]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.40.06:937][105]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.40.06:938][105]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.40.06
+[2015.02.14-04.40.06:939][105]LogWorld: Bringing up level for play took: 0.001073
+[2015.02.14-04.40.06:939][105]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.071
+[2015.02.14-04.40.23:423][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.23:424][ 92]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.23:511][ 92]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DB87FB4C0
+[2015.02.14-04.40.28:569][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:570][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:572][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:573][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:573][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:574][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:575][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:575][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:576][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:576][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:577][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.28:578][286]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.43:874][825]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.40.45:772][894]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.07:774][692]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.07:774][692]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.08:267][711]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.13:748][908]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.31:684][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.02.14-04.41.31:991][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.41.32:035][551]LogSavePackage: Save=14.746748ms
+[2015.02.14-04.41.32:036][551]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1599FDD7E425AD88C20C4089FD46615BE.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.41.32:075][551]LogFileHelpers: Saving map 'Map1' took 0.277
+[2015.02.14-04.41.32:089][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.41.32:323][551]LogSavePackage: Save=217.644012ms
+[2015.02.14-04.41.32:323][551]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacter79FC88964988A1A02F87D4AEE7DF037A.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.41.33:891][606]BlueprintLog: New page: Compile MyCharacter
+[2015.02.14-04.41.33:950][606]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.33:951][606]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.34:009][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.02.14-04.41.34:040][606]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.34:041][606]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.34:075][606]BlueprintEditorCompileResults: Info [2618.99] Compile of MyCharacter successful! [in 164 ms]
+[2015.02.14-04.41.35:873][679]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-04.41.35:876][679]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-04.41.35:917][679]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-04.41.35:963][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.02.14-04.41.35:982][679]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (2 blueprints)
+[2015.02.14-04.41.35:982][679]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:41:35 PM)
+[2015.02.14-04.41.35:984][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001185s)
+[2015.02.14-04.41.35:984][679]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2015.02.14-04.41.35:984][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.001826s)
+[2015.02.14-04.41.36:037][679]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.41.36:039][679]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.41.36:040][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.41.36
+[2015.02.14-04.41.36:040][679]LogWorld: Bringing up level for play took: 0.001117
+[2015.02.14-04.41.36:041][679]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.827
+[2015.02.14-04.41.39:341][875]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.39:342][875]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.39:462][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DBD391800
+[2015.02.14-04.41.43:246][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:246][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:248][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:249][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:250][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:251][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:251][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:252][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:252][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:253][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:253][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:254][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:254][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:255][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:256][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:256][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:257][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.43:257][  5]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.52:214][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.02.14-04.41.53:796][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.02.14-04.41.54:256][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2015.02.14-04.41.54:524][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.41.54:573][386]LogSavePackage: Save=14.718523ms
+[2015.02.14-04.41.54:573][386]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map10BD31A1D4290FB813BEB5E89116451F8.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.41.54:610][386]LogFileHelpers: Saving map 'Map1' took 0.281
+[2015.02.14-04.41.54:624][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.41.54:866][386]LogSavePackage: Save=224.537338ms
+[2015.02.14-04.41.54:866][386]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacter415491644C2C937B035459A663960629.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.41.55:223][397]BlueprintLog: New page: Compile MyCharacter
+[2015.02.14-04.41.55:337][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.55:338][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.55:402][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2015.02.14-04.41.55:437][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.55:438][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.41.55:469][397]BlueprintEditorCompileResults: Info [2640.38] Compile of MyCharacter successful! [in 174 ms]
+[2015.02.14-04.41.57:467][484]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-04.41.57:470][484]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-04.41.57:512][484]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-04.41.57:558][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2015.02.14-04.41.57:574][484]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (2 blueprints)
+[2015.02.14-04.41.57:574][484]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:41:57 PM)
+[2015.02.14-04.41.57:576][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001166s)
+[2015.02.14-04.41.57:576][484]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2015.02.14-04.41.57:576][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.001761s)
+[2015.02.14-04.41.57:633][484]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.41.57:635][484]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.41.57:635][484]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.41.57
+[2015.02.14-04.41.57:636][484]LogWorld: Bringing up level for play took: 0.001184
+[2015.02.14-04.41.57:637][484]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.768
+[2015.02.14-04.42.24:106][ 70]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.24:107][ 70]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.24:219][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DBDF63420
+[2015.02.14-04.42.24:948][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.42.24:994][ 94]LogSavePackage: Save=14.635131ms
+[2015.02.14-04.42.24:994][ 94]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1F5D18AEC4A2A2B10657B339366CA2B89.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.42.25:040][ 94]LogFileHelpers: Saving map 'Map1' took 0.288
+[2015.02.14-04.42.29:044][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.29:044][248]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.29:066][248]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2015.02.14-04.42.34:106][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.34:107][442]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.34:127][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2015.02.14-04.42.34:796][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2015.02.14-04.42.35:072][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.42.35:119][467]LogSavePackage: Save=14.596214ms
+[2015.02.14-04.42.35:119][467]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map179F7D2DF4CFBFCF20FD6239668B593B5.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.42.35:154][467]LogFileHelpers: Saving map 'Map1' took 0.278
+[2015.02.14-04.42.35:168][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.42.35:399][467]LogSavePackage: Save=215.418930ms
+[2015.02.14-04.42.35:399][467]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacterDC018FCD498F920D010B46B00EFD8DD4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.42.38:531][574]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.38:532][574]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.38:553][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2015.02.14-04.42.39:075][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2015.02.14-04.42.39:337][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.42.39:384][593]LogSavePackage: Save=14.650099ms
+[2015.02.14-04.42.39:384][593]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map115BDB0F4460740340E7CAD85035476E9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.42.39:418][593]LogFileHelpers: Saving map 'Map1' took 0.274
+[2015.02.14-04.42.39:431][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.42.39:662][593]LogSavePackage: Save=215.832474ms
+[2015.02.14-04.42.39:662][593]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacter9B290C8047E85604425ECA9B9B5FCB23.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.42.40:197][613]BlueprintLog: New page: Compile MyCharacter
+[2015.02.14-04.42.40:243][613]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.40:244][613]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.40:304][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2015.02.14-04.42.40:359][613]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.40:360][613]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.40:392][613]BlueprintEditorCompileResults: Info [2685.30] Compile of MyCharacter successful! [in 176 ms]
+[2015.02.14-04.42.44:498][762]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.44:498][762]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.44:519][762]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2015.02.14-04.42.46:012][818]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_67) Not registered. Aborting.
+[2015.02.14-04.42.46:266][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.42.46:313][818]LogSavePackage: Save=14.635131ms
+[2015.02.14-04.42.46:313][818]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1924FE1FF4B061A0C70EF03956A8DCCF7.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.42.46:348][818]LogFileHelpers: Saving map 'Map1' took 0.276
+[2015.02.14-04.42.46:361][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.42.46:595][818]LogSavePackage: Save=219.200668ms
+[2015.02.14-04.42.46:595][818]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacter6ED14F034DBE6F28AA6BD78D38498444.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.42.49:564][934]BlueprintLog: New page: Compile MyCharacter
+[2015.02.14-04.42.49:611][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.49:611][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.49:669][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_68) Not registered. Aborting.
+[2015.02.14-04.42.49:724][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.49:725][934]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.42.49:757][934]BlueprintEditorCompileResults: Info [2694.67] Compile of MyCharacter successful! [in 173 ms]
+[2015.02.14-04.43.21:523][172]BlueprintLog: New page: Compile MyPuppeteer
+[2015.02.14-04.43.21:568][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_69) Not registered. Aborting.
+[2015.02.14-04.43.21:596][172]BlueprintEditorCompileResults: Info [2726.51] Compile of MyPuppeteer successful! [in 65 ms]
+[2015.02.14-04.43.22:244][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.43.22:291][185]LogSavePackage: Save=14.470485ms
+[2015.02.14-04.43.22:292][185]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1E7082481437A3BB6D5712D9A18938ECA.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.43.22:328][185]LogFileHelpers: Saving map 'Map1' took 0.279
+[2015.02.14-04.43.22:331][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.14-04.43.22:361][185]LogSavePackage: Save=12.431009ms
+[2015.02.14-04.43.22:361][185]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteer9B76C6BF493291645A7E3FBA07EA48ED.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.14-04.43.52:425][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.14-04.43.52:456][364]LogSavePackage: Save=13.083607ms
+[2015.02.14-04.43.52:456][364]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteer6A754392405D95DD34566793F6201601.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.14-04.43.53:318][399]BlueprintLog: New page: Compile MyPuppeteer
+[2015.02.14-04.43.53:425][399]BlueprintEditorCompileResults: Info [2758.34] Compile of MyPuppeteer successful! [in 62 ms]
+[2015.02.14-04.47.06:312][927]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:313][927]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:341][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:341][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:342][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:342][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:343][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:343][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:344][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:344][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:345][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.06:346][928]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.25:503][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.14-04.47.25:543][633]LogSavePackage: Save=13.663504ms
+[2015.02.14-04.47.25:543][633]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteer4E4B935D4C1F1E965838D49DE584E3BB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.14-04.47.27:437][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.14-04.47.27:475][706]LogSavePackage: Save=13.913681ms
+[2015.02.14-04.47.27:475][706]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteer5BDE707C4ABEAD77989239A40B8A1BF5.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.14-04.47.28:115][732]BlueprintLog: New page: Compile MyPuppeteer
+[2015.02.14-04.47.28:256][732]BlueprintEditorCompileResults: Info [2973.17] Compile of MyPuppeteer successful! [in 64 ms]
+[2015.02.14-04.47.42:861][294]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.42:886][295]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.42:941][297]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.42:942][297]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.43:242][308]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.43:298][310]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.47:235][437]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.48:899][497]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.48:925][498]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.48:927][498]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.48:927][498]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.48:952][499]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.49:005][501]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.47.49:006][501]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.01:229][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_70) Not registered. Aborting.
+[2015.02.14-04.48.01:499][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.48.01:549][933]LogSavePackage: Save=15.536195ms
+[2015.02.14-04.48.01:549][933]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1455144164773EECB00AC059C6C7B77CB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.48.01:591][933]LogFileHelpers: Saving map 'Map1' took 0.289
+[2015.02.14-04.48.01:605][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.14-04.48.01:840][933]LogSavePackage: Save=217.723557ms
+[2015.02.14-04.48.01:840][933]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyCharacterD5DB19FF43E604F57D7C45A5FBF8BA3F.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset'
+[2015.02.14-04.48.05:322][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_71) Not registered. Aborting.
+[2015.02.14-04.48.06:001][ 76]BlueprintLog: New page: Compile MyCharacter
+[2015.02.14-04.48.06:063][ 76]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.06:064][ 76]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.06:163][ 76]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.06:164][ 76]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.06:208][ 76]BlueprintEditorCompileResults: Info [3011.12] Compile of MyCharacter successful! [in 185 ms]
+[2015.02.14-04.48.08:972][185]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.14-04.48.08:975][185]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.14-04.48.09:020][185]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.14-04.48.09:109][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_72) Not registered. Aborting.
+[2015.02.14-04.48.09:125][185]LogPlayLevel: PIE:  Blueprint regeneration took 152 ms (2 blueprints)
+[2015.02.14-04.48.09:125][185]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:48:09 PM)
+[2015.02.14-04.48.09:127][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001158s)
+[2015.02.14-04.48.09:127][185]LogPlayLevel: PIE: World Init took: (0.000483s)
+[2015.02.14-04.48.09:127][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.001767s)
+[2015.02.14-04.48.09:187][185]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.48.09:189][185]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.48.09:190][185]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.48.09
+[2015.02.14-04.48.09:190][185]LogWorld: Bringing up level for play took: 0.001283
+[2015.02.14-04.48.09:191][185]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.322
+[2015.02.14-04.48.21:445][918]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.21:446][918]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.21:572][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC1DBADE0
+[2015.02.14-04.48.22:179][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.48.22:230][933]LogSavePackage: Save=15.780385ms
+[2015.02.14-04.48.22:230][933]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1B2FD148A4FD60CEF3B7A0582469B5DB9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.48.22:268][933]LogFileHelpers: Saving map 'Map1' took 0.307
+[2015.02.14-04.48.35:414][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_73) Not registered. Aborting.
+[2015.02.14-04.48.35:475][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/KillZ" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/KillZ.uasset" SILENT=true
+[2015.02.14-04.48.35:509][417]LogSavePackage: Save=7.418919ms
+[2015.02.14-04.48.35:509][417]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/KillZ825948514B61F2FC386B838880256748.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/KillZ.uasset'
+[2015.02.14-04.48.36:023][435]BlueprintLog: New page: Compile KillZ
+[2015.02.14-04.48.36:085][435]BlueprintEditorCompileResults: Info [3041.00] Compile of KillZ successful! [in 59 ms]
+[2015.02.14-04.48.39:068][576]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.14-04.48.39:068][576]PIE: New page: PIE session: Map1 (Feb 13, 2015, 6:48:39 PM)
+[2015.02.14-04.48.39:069][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001174s)
+[2015.02.14-04.48.39:070][576]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2015.02.14-04.48.39:070][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.001730s)
+[2015.02.14-04.48.39:125][576]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.14-04.48.39:127][576]LogAIModule: Creating AISystem for world Map1
+[2015.02.14-04.48.39:128][576]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.13-23.48.39
+[2015.02.14-04.48.39:129][576]LogWorld: Bringing up level for play took: 0.001079
+[2015.02.14-04.48.39:129][576]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.261
+[2015.02.14-04.48.57:693][688]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.57:694][688]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.14-04.48.57:783][688]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC50C4AE0
+[2015.02.14-04.48.58:447][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.48.58:496][707]LogSavePackage: Save=15.166703ms
+[2015.02.14-04.48.58:496][707]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map15D11AB394EAE4E41054362A33A141692.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.48.58:532][707]LogFileHelpers: Saving map 'Map1' took 0.286
+[2015.02.14-04.49.01:925][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:926][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:927][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:928][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:928][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:929][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:930][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:931][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:932][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:932][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:933][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.01:936][827]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:544][849]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:570][850]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:597][851]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:598][851]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:625][852]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.02:988][865]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.03:263][875]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2015.02.14-04.49.08:858][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_74) Not registered. Aborting.
+[2015.02.14-04.49.09:143][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map1" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.14-04.49.09:196][ 51]LogSavePackage: Save=16.453510ms
+[2015.02.14-04.49.09:196][ 51]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map1D325E1304A360108E4F659875793E982.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap'
+[2015.02.14-04.49.09:234][ 51]LogFileHelpers: Saving map 'Map1' took 0.291
+[2015.02.14-04.49.09:250][ 5
