@@ -1,0 +1,470 @@
+﻿Log file open, 02/15/15 02:31:57
+LogInit:Display: Running engine for game: WeGuys
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.15-07.31.57:155][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.15-07.31.57:215][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.15-07.31.57:274][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.15-07.31.57:282][  0]LogInit: Object subsystem initialized
+[2015.02.15-07.31.57:283][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.15-07.31.57:283][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.15-07.31.57:283][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.15-07.31.57:283][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.15-07.31.57:283][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.15-07.31.57:284][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.15-07.31.57:284][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.15-07.31.57:291][  0]LogInit: Computer: ASUS
+[2015.02.15-07.31.57:291][  0]LogInit: User: Owner
+[2015.02.15-07.31.57:291][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.15-07.31.57:291][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.02.15-07.31.57:292][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.02.15-07.31.57:292][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.15-07.31.57:292][  0]LogMemory: Process Physical Memory: 48.31 MB used, 48.31 MB peak
+[2015.02.15-07.31.57:292][  0]LogMemory: Process Virtual Memory: 25.03 MB used, 25.04 MB peak
+[2015.02.15-07.31.57:292][  0]LogMemory: Physical Memory: 4086.77 MB used, 16267.18 MB total
+[2015.02.15-07.31.57:292][  0]LogMemory: Virtual Memory: 270.98 MB used, 134217728.00 MB total
+[2015.02.15-07.31.57:446][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.02.15-07.31.57:446][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.02.15-07.31.57:458][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.02.15-07.31.57:458][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.02.15-07.31.57:460][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.15-07.31.57:460][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.15-07.31.57:460][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.15-07.31.57:464][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.15-07.31.57:476][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.15-07.31.57:640][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.15-07.31.57:769][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.15-07.32.03:516][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.15-07.32.04:222][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.15-07.32.04:315][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.15-07.32.04:366][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.15-07.32.04:366][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.15-07.32.04:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.15-07.32.04:367][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.15-07.32.04:431][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.15-07.32.04:446][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.15-07.32.04:613][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.15-07.32.04:868][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.15-07.32.04:868][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.15-07.32.05:438][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.15-07.32.05:561][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.15-07.32.06:963][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.15-07.32.07:303][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/WeGuys/Binaries/Win64. Error: 0
+[2015.02.15-07.32.07:533][  0]SourceControl: Info Source control is disabled
+[2015.02.15-07.32.07:533][  0]SourceControl: Info Source control is disabled
+[2015.02.15-07.32.07:546][  0]SourceControl: Info Source control is disabled
+[2015.02.15-07.32.07:842][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.15-07.32.07:842][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.15-07.32.07:928][  0]LogEngine: Initializing Engine...
+[2015.02.15-07.32.08:069][  0]LogInit: XAudio2 using 'Speakers (M-Audio Micro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.15-07.32.08:077][  0]LogInit: FAudioDevice initialized.
+[2015.02.15-07.32.08:116][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.15-07.32.08:136][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.15-07.32.08:138][  0]LogInit: Texture streaming: Enabled
+[2015.02.15-07.32.08:197][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.15-07.32.08:197][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.15-07.32.08:199][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.02.15-07.32.08:199][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.15-07.32.08:228][  0]LogInit: Transaction tracking system initialized
+[2015.02.15-07.32.08:442][  0]BlueprintLog: New page: Editor Load
+[2015.02.15-07.32.08:510][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2015.02.15-07.32.08:510][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.15-07.32.09:269][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.15-07.32.09:675][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.15-07.32.10:061][  0]LogConsoleResponse:Display: 
+[2015.02.15-07.32.10:110][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.15-07.32.10:470][  0]SourceControl: Info Source control is disabled
+[2015.02.15-07.32.10:470][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.32.10:471][  0]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.10:489][  0]MapCheck: New page: Map Check
+[2015.02.15-07.32.10:489][  0]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.10:495][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A56F02D940
+[2015.02.15-07.32.11:396][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.32.11:397][  0]LogAIModule: Creating AISystem for world Template
+[2015.02.15-07.32.11:397][  0]Cmd: MAP CHECKDEP
+[2015.02.15-07.32.11:397][  0]MapCheck: New page: Template - Feb 14, 2015, 9:32:11 PM
+[2015.02.15-07.32.11:604][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 207.034ms to complete.
+[2015.02.15-07.32.11:604][  0]LogFileHelpers: Loading map 'Template' took 1.134
+[2015.02.15-07.32.11:702][  0]LogCollectionManager: Loaded 0 collections in 0.001582 seconds
+[2015.02.15-07.32.11:905][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.15-07.32.11:961][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.15-07.32.11:988][  0]LogLoad: Full Startup: 17.14 seconds (BP compile: 0.26 seconds)
+[2015.02.15-07.32.12:331][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.15-07.32.12:490][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.15-07.32.13:328][  3]LogAssetRegistry: Asset discovery search completed in 4.8302 seconds
+[2015.02.15-07.32.34:012][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.15-07.32.34:045][936]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.32.34:052][936]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.34:088][936]LoadErrors: New page: Loading map: Map1.umap
+[2015.02.15-07.32.34:089][936]MapCheck: New page: Map Check
+[2015.02.15-07.32.34:089][936]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.34:097][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A563FA9300
+[2015.02.15-07.32.34:196][936]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.32.34:196][936]LogAIModule: Creating AISystem for world Map1
+[2015.02.15-07.32.34:258][936]Cmd: MAP CHECKDEP
+[2015.02.15-07.32.34:259][936]MapCheck: New page: Map1 - Feb 14, 2015, 9:32:34 PM
+[2015.02.15-07.32.34:467][936]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 208.416ms to complete.
+[2015.02.15-07.32.34:467][936]LogFileHelpers: Loading map 'Map1' took 0.425
+[2015.02.15-07.32.36:727][ 65]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple)
+[2015.02.15-07.32.37:816][125]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.15-07.32.37:816][125]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.15-07.32.37:852][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.15-07.32.37:865][125]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2015.02.15-07.32.37:865][125]PIE: New page: PIE session: Map1 (Feb 14, 2015, 9:32:37 PM)
+[2015.02.15-07.32.37:867][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002009s)
+[2015.02.15-07.32.37:867][125]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2015.02.15-07.32.37:868][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002548s)
+[2015.02.15-07.32.37:919][125]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.15-07.32.37:921][125]LogAIModule: Creating AISystem for world Map1
+[2015.02.15-07.32.37:922][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.15-02.32.37
+[2015.02.15-07.32.37:922][125]LogWorld: Bringing up level for play took: 0.001353
+[2015.02.15-07.32.37:923][125]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 -0.781
+[2015.02.15-07.32.39:434][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A565E22CA0
+[2015.02.15-07.32.43:695][445]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.32.43:731][445]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.43:770][445]LoadErrors: New page: Loading map: Map3.umap
+[2015.02.15-07.32.43:771][445]MapCheck: New page: Map Check
+[2015.02.15-07.32.43:771][445]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.43:780][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A575698220
+[2015.02.15-07.32.43:887][445]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.32.43:887][445]LogAIModule: Creating AISystem for world Map3
+[2015.02.15-07.32.43:928][445]Cmd: MAP CHECKDEP
+[2015.02.15-07.32.43:928][445]MapCheck: New page: Map3 - Feb 14, 2015, 9:32:43 PM
+[2015.02.15-07.32.44:140][445]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 211.576ms to complete.
+[2015.02.15-07.32.44:140][445]LogFileHelpers: Loading map 'Map3' took 0.447
+[2015.02.15-07.32.52:797][953]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.15-07.32.52:816][953]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.32.52:848][953]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.52:887][953]LoadErrors: New page: Loading map: Map3.umap
+[2015.02.15-07.32.52:888][953]MapCheck: New page: Map Check
+[2015.02.15-07.32.52:888][953]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.52:898][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5642D60C0
+[2015.02.15-07.32.52:979][953]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.32.52:979][953]LogAIModule: Creating AISystem for world Map3
+[2015.02.15-07.32.53:024][953]Cmd: MAP CHECKDEP
+[2015.02.15-07.32.53:024][953]MapCheck: New page: Map3 - Feb 14, 2015, 9:32:53 PM
+[2015.02.15-07.32.53:243][953]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 219.23ms to complete.
+[2015.02.15-07.32.53:243][953]LogFileHelpers: Loading map 'Map3' took 0.430
+[2015.02.15-07.32.56:821][157]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.15-07.32.56:838][157]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.32.56:870][157]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.56:908][157]LoadErrors: New page: Loading map: Map3.umap
+[2015.02.15-07.32.56:909][157]MapCheck: New page: Map Check
+[2015.02.15-07.32.56:909][157]LightingResults: New page: Lighting Build
+[2015.02.15-07.32.56:918][157]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5742AB420
+[2015.02.15-07.32.57:002][157]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.32.57:003][157]LogAIModule: Creating AISystem for world Map3
+[2015.02.15-07.32.57:045][157]Cmd: MAP CHECKDEP
+[2015.02.15-07.32.57:046][157]MapCheck: New page: Map3 - Feb 14, 2015, 9:32:57 PM
+[2015.02.15-07.32.57:255][157]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 209.328ms to complete.
+[2015.02.15-07.32.57:255][157]LogFileHelpers: Loading map 'Map3' took 0.419
+[2015.02.15-07.33.00:437][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.15-07.33.00:456][336]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.33.00:489][336]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.00:526][336]LoadErrors: New page: Loading map: Map3.umap
+[2015.02.15-07.33.00:527][336]MapCheck: New page: Map Check
+[2015.02.15-07.33.00:527][336]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.00:537][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A575C234C0
+[2015.02.15-07.33.00:620][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.33.00:621][336]LogAIModule: Creating AISystem for world Map3
+[2015.02.15-07.33.00:659][336]Cmd: MAP CHECKDEP
+[2015.02.15-07.33.00:659][336]MapCheck: New page: Map3 - Feb 14, 2015, 9:33:00 PM
+[2015.02.15-07.33.00:867][336]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 207.946ms to complete.
+[2015.02.15-07.33.00:867][336]LogFileHelpers: Loading map 'Map3' took 0.413
+[2015.02.15-07.33.05:138][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.15-07.33.05:156][581]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.33.05:190][581]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.05:229][581]LoadErrors: New page: Loading map: Map5.umap
+[2015.02.15-07.33.05:231][581]MapCheck: New page: Map Check
+[2015.02.15-07.33.05:231][581]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.05:242][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A565DC7380
+[2015.02.15-07.33.05:254][581]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.15-07.33.05:254][581]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.15-07.33.05:341][581]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.33.05:341][581]LogAIModule: Creating AISystem for world Map5
+[2015.02.15-07.33.05:387][581]Cmd: MAP CHECKDEP
+[2015.02.15-07.33.05:388][581]MapCheck: New page: Map5 - Feb 14, 2015, 9:33:05 PM
+[2015.02.15-07.33.05:605][581]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 217.866ms to complete.
+[2015.02.15-07.33.05:605][581]LogFileHelpers: Loading map 'Map5' took 0.452
+[2015.02.15-07.33.12:246][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.15-07.33.12:263][966]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.33.12:296][966]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.12:335][966]LoadErrors: New page: Loading map: Map2.umap
+[2015.02.15-07.33.12:336][966]MapCheck: New page: Map Check
+[2015.02.15-07.33.12:336][966]LightingResults: New page: Lighting Build
+[2015.02.15-07.33.12:345][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A565DC59E0
+[2015.02.15-07.33.12:425][966]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.33.12:425][966]LogAIModule: Creating AISystem for world Map2
+[2015.02.15-07.33.12:469][966]Cmd: MAP CHECKDEP
+[2015.02.15-07.33.12:469][966]MapCheck: New page: Map2 - Feb 14, 2015, 9:33:12 PM
+[2015.02.15-07.33.12:685][966]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.205ms to complete.
+[2015.02.15-07.33.12:685][966]LogFileHelpers: Loading map 'Map2' took 0.424
+[2015.02.15-07.34.47:407][266]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.02.15-07.34.50:234][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.15-07.34.50:267][432]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.34.50:267][432]LightingResults: New page: Lighting Build
+[2015.02.15-07.34.50:305][432]LoadErrors: New page: Loading map: Map2.umap
+[2015.02.15-07.34.50:306][432]MapCheck: New page: Map Check
+[2015.02.15-07.34.50:306][432]LightingResults: New page: Lighting Build
+[2015.02.15-07.34.50:363][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A56CAFE520
+[2015.02.15-07.34.50:423][432]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.34.50:423][432]LogAIModule: Creating AISystem for world Map2
+[2015.02.15-07.34.50:459][432]Cmd: MAP CHECKDEP
+[2015.02.15-07.34.50:459][432]MapCheck: New page: Map2 - Feb 14, 2015, 9:34:50 PM
+[2015.02.15-07.34.50:675][432]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.43ms to complete.
+[2015.02.15-07.34.50:677][432]LogFileHelpers: Loading map 'Map2' took 0.413
+[2015.02.15-07.34.53:346][584]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.34.56:078][746]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.34.57:635][836]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.34.59:277][932]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.15-07.34.59:277][932]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.15-07.34.59:346][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.15-07.34.59:363][932]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.34.59:363][932]LightingResults: New page: Lighting Build
+[2015.02.15-07.34.59:401][932]LoadErrors: New page: Loading map: Map5.umap
+[2015.02.15-07.34.59:402][932]MapCheck: New page: Map Check
+[2015.02.15-07.34.59:402][932]LightingResults: New page: Lighting Build
+[2015.02.15-07.34.59:451][932]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A565C27A60
+[2015.02.15-07.34.59:469][932]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.34.59:469][932]LogAIModule: Creating AISystem for world Map5
+[2015.02.15-07.34.59:506][932]Cmd: MAP CHECKDEP
+[2015.02.15-07.34.59:506][932]MapCheck: New page: Map5 - Feb 14, 2015, 9:34:59 PM
+[2015.02.15-07.34.59:717][932]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 210.959ms to complete.
+[2015.02.15-07.34.59:719][932]LogFileHelpers: Loading map 'Map5' took 0.359
+[2015.02.15-07.35.00:609][977]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.01:958][ 56]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.02:287][ 73]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.03:055][116]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.06:453][305]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.07:878][388]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.14:321][758]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.15:663][836]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.18:194][969]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.19:622][ 37]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.21:635][140]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.22:411][169]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.22:836][181]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.23:018][184]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.23:475][186]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map2.Map4'
+[2015.02.15-07.35.32:354][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.15-07.35.32:385][625]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.35.32:385][625]LightingResults: New page: Lighting Build
+[2015.02.15-07.35.32:423][625]LoadErrors: New page: Loading map: Map2.umap
+[2015.02.15-07.35.32:425][625]MapCheck: New page: Map Check
+[2015.02.15-07.35.32:425][625]LightingResults: New page: Lighting Build
+[2015.02.15-07.35.32:435][625]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A5658EA2A0
+[2015.02.15-07.35.32:494][625]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.35.32:494][625]LogAIModule: Creating AISystem for world Map2
+[2015.02.15-07.35.32:541][625]Cmd: MAP CHECKDEP
+[2015.02.15-07.35.32:541][625]MapCheck: New page: Map2 - Feb 14, 2015, 9:35:32 PM
+[2015.02.15-07.35.32:763][625]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 222.855ms to complete.
+[2015.02.15-07.35.32:765][625]LogFileHelpers: Loading map 'Map2' took 0.383
+[2015.02.15-07.35.35:180][766]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.36:192][823]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.36:465][836]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.36:788][853]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.37:452][890]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.38:557][939]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.41:804][115]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.35.46:955][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.15-07.35.46:968][406]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.15-07.35.46:969][406]LightingResults: New page: Lighting Build
+[2015.02.15-07.35.47:006][406]LoadErrors: New page: Loading map: Map2.umap
+[2015.02.15-07.35.47:007][406]MapCheck: New page: Map Check
+[2015.02.15-07.35.47:007][406]LightingResults: New page: Lighting Build
+[2015.02.15-07.35.47:015][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A569DCF420
+[2015.02.15-07.35.47:154][406]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.15-07.35.47:154][406]LogAIModule: Creating AISystem for world Map2
+[2015.02.15-07.35.47:190][406]Cmd: MAP CHECKDEP
+[2015.02.15-07.35.47:191][406]MapCheck: New page: Map2 - Feb 14, 2015, 9:35:47 PM
+[2015.02.15-07.35.47:404][406]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 212.346ms to complete.
+[2015.02.15-07.35.47:406][406]LogFileHelpers: Loading map 'Map2' took 0.439
+[2015.02.15-07.35.54:976][858]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Maps/Map3.Map2'
+[2015.02.15-07.36.03:592][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.15-07.36.04:121][ 74]Cmd: QUIT_EDITOR
+[2015.02.15-07.36.04:435][ 74]LogExit: Preparing to exit.
+[2015.02.15-07.36.05:216][ 74]LogExit: Editor shut down
+[2015.02.15-07.36.05:216][ 74]LogExit: Transaction tracking system shut down
+[2015.02.15-07.36.05:217][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A56CDF6840
+[2015.02.15-07.36.05:240][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A57404DD00
+[2015.02.15-07.36.05:240][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A575A29B20
+[2015.02.15-07.36.05:240][ 74]LogExit: Object subsystem successfully closed.
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.15-07.36.05:323][ 74]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.15-07.36.05:324][ 74]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.15-07.36.05:413][ 74]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.15-07.36.05:571][ 74]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.15-07.36.05:572][ 74]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.15-07.36.05:673][ 74]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.15-07.36.05:673][ 74]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.15-07.36.05:673][ 74]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.15-07.36.05:675][ 74]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.15-07.36.05:683][ 74]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.15-07.36.05:741][ 74]LogDerivedDataCache: Shutdown
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.15-07.36.05:741][ 74]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.15-07.36.05:742][ 74]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.15-07.36.05:742][ 74]LogExit: Exiting.
+[2015.02.15-07.36.05:747][ 74]Log file closed, 02/15/15 02:36:05
