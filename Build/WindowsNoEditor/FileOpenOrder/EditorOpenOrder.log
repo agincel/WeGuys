@@ -1,0 +1,1062 @@
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/WeGuys.uproject" 1
+"../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin" 2
+"../../../Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin" 3
+"../../../Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin" 4
+"../../../Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin" 5
+"../../../Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin" 6
+"../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin" 7
+"../../../Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin" 8
+"../../../Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin" 9
+"../../../Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin" 10
+"../../../Engine/Plugins/Editor/PluginsEditor/PluginsEditor.uplugin" 11
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin" 12
+"../../../Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin" 13
+"../../../Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin" 14
+"../../../Engine/Plugins/Experimental/CodeView/CodeView.uplugin" 15
+"../../../Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin" 16
+"../../../Engine/Plugins/Experimental/Phya/Phya.uplugin" 17
+"../../../Engine/Plugins/Experimental/SteamVR/SteamVR.uplugin" 18
+"../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin" 19
+"../../../Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin" 20
+"../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin" 21
+"../../../Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin" 22
+"../../../Engine/Plugins/Messaging/ShmMessaging/ShmMessaging.uplugin" 23
+"../../../Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin" 24
+"../../../Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin" 25
+"../../../Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin" 26
+"../../../Engine/Plugins/Runtime/Analytics/Apsalar/IOSApsalar/IOSApsalar.uplugin" 27
+"../../../Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin" 28
+"../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin" 29
+"../../../Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin" 30
+"../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin" 31
+"../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin" 32
+"../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin" 33
+"../../../Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin" 34
+"../../../Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin" 35
+"../../../Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin" 36
+"../../../Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin" 37
+"../../../Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin" 38
+"../../../Engine/Plugins/Runtime/TwitchLiveStreaming/TwitchLiveStreaming.uplugin" 39
+"../../../Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin" 40
+"../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin" 41
+"../../../Engine/Plugins/ScriptGeneratorPlugin/ScriptGeneratorPlugin.uplugin" 42
+"../../../Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin" 43
+"../../../Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin" 44
+"..\..\..\Engine\Content\Internationalization\icudt53l\cnvalias.icu" 45
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US_POSIX.res" 46
+"..\..\..\Engine\Content\Internationalization\icudt53l\pool.res" 47
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US.res" 48
+"..\..\..\Engine\Content\Internationalization\icudt53l\en.res" 49
+"..\..\..\Engine\Content\Internationalization\icudt53l\root.res" 50
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ucadata.icu" 51
+"..\..\..\Engine\Content\Internationalization\icudt53l\nfc.nrm" 52
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US_POSIX.res" 53
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US.res" 54
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en.res" 55
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\root.res" 56
+"..\..\..\Engine\Content\Internationalization\icudt53l\numberingSystems.res" 57
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\supplementalData.res" 58
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pool.res" 59
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\en.res" 60
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\root.res" 61
+"..\..\..\Engine\Content\Internationalization\icudt53l\plurals.res" 62
+"..\..\..\Engine\Content\Internationalization\icudt53l\windowsZones.res" 63
+"..\..\..\Engine\Content\Internationalization\icudt53l\zoneinfo64.res" 64
+"..\..\..\Engine\Content\Internationalization\icudt53l\keyTypeData.res" 65
+"..\..\..\Engine\Content\Internationalization\icudt53l\timezoneTypes.res" 66
+"..\..\..\Engine\Content\Internationalization\icudt53l\supplementalData.res" 67
+"..\..\..\Engine\Content\Internationalization\icudt53l\likelySubtags.res" 68
+"../../../Engine/Config/Base.ini" 69
+"../../../Engine/Config/BaseEngine.ini" 70
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Config/DefaultEngine.ini" 71
+"../../../Engine/Config/Windows/WindowsEngine.ini" 72
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini" 73
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Engine.ini" 74
+"../../../Engine/Config/BaseGame.ini" 75
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Config/DefaultGame.ini" 76
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Game.ini" 77
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Game.ini" 78
+"../../../Engine/Config/BaseInput.ini" 79
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Config/DefaultInput.ini" 80
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Input.ini" 81
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Input.ini" 82
+"../../../Engine/Config/BaseEditor.ini" 83
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Config/DefaultEditor.ini" 84
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Editor.ini" 85
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Editor.ini" 86
+"../../../Engine/Config/BaseEditorLayout.ini" 87
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/EditorLayout.ini" 88
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/EditorLayout.ini" 89
+"../../../Engine/Config/BaseEditorUserSettings.ini" 90
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/EditorUserSettings.ini" 91
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/EditorUserSettings.ini" 92
+"../../../Engine/Config/BaseEditorKeyBindings.ini" 93
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/EditorKeyBindings.ini" 94
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/EditorKeyBindings.ini" 95
+"../../../Engine/Config/BaseCompat.ini" 96
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Compat.ini" 97
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Compat.ini" 98
+"../../../Engine/Config/BaseLightmass.ini" 99
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Lightmass.ini" 100
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Lightmass.ini" 101
+"../../../Engine/Config/BaseScalability.ini" 102
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Scalability.ini" 103
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/Scalability.ini" 104
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/GameUserSettings.ini" 105
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/GameUserSettings.ini" 106
+"../../../Engine/Config/BaseDeviceProfiles.ini" 107
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/DeviceProfiles.ini" 108
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/DeviceProfiles.ini" 109
+"../../../Engine/Config/ConsoleVariables.ini" 110
+"..\..\..\Engine\Content\Internationalization\icudt53l\es.res" 111
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\es.res" 112
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\es.res" 113
+"..\..\..\Engine\Content\Internationalization\icudt53l\es_ES.res" 114
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja.res" 115
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ja.res" 116
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ja.res" 117
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja_JP.res" 118
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko.res" 119
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ko.res" 120
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ko.res" 121
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko_KR.res" 122
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt_BR.res" 123
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt.res" 124
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\pt.res" 125
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pt.res" 126
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_CN.res" 127
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans_CN.res" 128
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans.res" 129
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh.res" 130
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_CN.res" 131
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans_CN.res" 132
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans.res" 133
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh.res" 134
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_CN.res" 135
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans_CN.res" 136
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans.res" 137
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh.res" 138
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Content/Localization/Editor/en/Editor.locres" 139
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Content/Localization/EditorTutorials/en/EditorTutorials.locres" 140
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Content/Localization/Engine/en/Engine.locres" 141
+"../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf" 142
+"../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf" 143
+"../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf" 144
+"../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf" 145
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSpriteVertexFactory.usf" 146
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VertexFactoryCommon.usf" 147
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Common.usf" 148
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderVersion.usf" 149
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Definitions.usf" 150
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Random.usf" 151
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleVertexFactoryCommon.usf" 152
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleGPUSpriteVertexFactory.usf" 153
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBeamTrailVertexFactory.usf" 154
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldVisualizationVertexFactory.usf" 155
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactory.usf" 156
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactoryCommon.usf" 157
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshParticleVertexFactory.usf" 158
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinVertexFactory.usf" 159
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheCommon.usf" 160
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LandscapeVertexFactory.usf" 161
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SlateElementPixelShader.usf" 162
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MaterialTemplate.usf" 163
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOfFieldCommon.usf" 164
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SpeedTreeCommon.usf" 165
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphereCommon.usf" 166
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCommon.usf" 167
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredShadingCommon.usf" 168
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightAccumulator.usf" 169
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SlateVertexShader.usf" 170
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/OneColorShader.usf" 171
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ResolveVertexShader.usf" 172
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ResolvePixelShader.usf" 173
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VisualizeTexture.usf" 174
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenSpaceReflections.usf" 175
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BRDF.usf" 176
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MonteCarlo.usf" 177
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FilterVertexShader.usf" 178
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FilterPixelShader.usf" 179
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeHDR.usf" 180
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramCommon.usf" 181
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TonemapCommon.usf" 182
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MiniFontCommon.usf" 183
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeBuffer.usf" 184
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessUpscale.usf" 185
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTonemap.usf" 186
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTestImage.usf" 187
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalAA.usf" 188
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalCommon.usf" 189
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSubsurface.usf" 190
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SeparableSSS.usf" 191
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSelectionOutline.usf" 192
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSceneColorFringe.usf" 193
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessNoiseBlur.usf" 194
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMotionBlur.usf" 195
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MorpheusInclude.usf" 196
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMobile.usf" 197
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMaterialShaders.usf" 198
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensFlares.usf" 199
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensBlur.usf" 200
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBloom.usf" 201
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHMD.usf" 202
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramReduce.usf" 203
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogram.usf" 204
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessGBufferHints.usf" 205
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessEyeAdaptation.usf" 206
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDownsample.usf" 207
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDOF.usf" 208
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCompositeEditorPrimitives.usf" 209
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCombineLUTs.usf" 210
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBusyWait.usf" 211
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBokehDOF.usf" 212
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FXAAShader.usf" 213
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Fxaa3_11.usf" 214
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessPassThrough.usf" 215
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLpvIndirect.usf" 216
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightingCommon.usf" 217
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DynamicLightingCommon.usf" 218
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/IESLightProfilesCommon.usf" 219
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVFinalPass.usf" 220
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVCommon.usf" 221
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredDecal.usf" 222
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbientOcclusion.usf" 223
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbient.usf" 224
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/CubemapCommon.usf" 225
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VelocityShader.usf" 226
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Tessellation.usf" 227
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FlatTessellation.usf" 228
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PNTriangles.usf" 229
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightingShaders.usf" 230
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SHCommon.usf" 231
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionCommon.usf" 232
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightInjectionShaders.usf" 233
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionCommon.usf" 234
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentShadowDepthShaders.usf" 235
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthCommon.usf" 236
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TiledDeferredLightShaders.usf" 237
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionPixelShader.usf" 238
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowFilteringCommon.usf" 239
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionVertexShader.usf" 240
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthPixelShader.usf" 241
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteVplCommon.usf" 242
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteCommon.usf" 243
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthVertexShader.usf" 244
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyPixelShader.usf" 245
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyVertexShader.usf" 246
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityAccumulatePixelShader.usf" 247
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HZBOcclusion.usf" 248
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/OcclusionQueryVertexShader.usf" 249
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyPixelShader.usf" 250
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyVertexShader.usf" 251
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShaders.usf" 252
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShared.usf" 253
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLightingShared.usf" 254
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentComputeShaders.usf" 255
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightShaftShader.usf" 256
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/StationaryLightOverlapShaders.usf" 257
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightPixelShaders.usf" 258
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightVertexShaders.usf" 259
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVVisualise.usf" 260
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVGeometryVolumeCommon.usf" 261
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVDirectLightInject.usf" 262
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVPropagate.usf" 263
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVBuildGeometryVolume.usf" 264
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_AccumulateVplLists.usf" 265
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_GenerateVplLists.usf" 266
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClearLists.usf" 267
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClear.usf" 268
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightMapDensityShader.usf" 269
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionPixelShader.usf" 270
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionVertexShader.usf" 271
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HdrCustomResolveShaders.usf" 272
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GPUBenchmark.usf" 273
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GammaCorrection.usf" 274
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingPixelShader.usf" 275
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingCommon.usf" 276
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightmapCommon.usf" 277
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingVertexShader.usf" 278
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogCommon.usf" 279
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogPixelShader.usf" 280
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogVertexShader.usf" 281
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulatePS.usf" 282
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulateVS.usf" 283
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortApplyScreenPS.usf" 284
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLighting.usf" 285
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLighting.usf" 286
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldLightingShared.usf" 287
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldAOShared.usf" 288
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLightingCompute.usf" 289
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldShadowing.usf" 290
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyPixelShader.usf" 291
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyVertexShader.usf" 292
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PositionOnlyDepthVertexShader.usf" 293
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DownsampleDepthPixelShader.usf" 294
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassPixelShader.usf" 295
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassCommon.usf" 296
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexShader.usf" 297
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexCommon.usf" 298
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassTessellationShaders.usf" 299
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecompute.usf" 300
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeCommon.usf" 301
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeInscatter.usf" 302
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphericFogShader.usf" 303
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSortKeyGen.usf" 304
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBoundsShader.usf" 305
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimVisualizeShader.usf" 306
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleInjectionShader.usf" 307
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimulationShader.usf" 308
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleCurveInjectionShader.usf" 309
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldCompositeShaders.usf" 310
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/UpdateTextureShaders.usf" 311
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementColorChannelMaskPixelShader.usf" 312
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementHitProxyPixelShader.usf" 313
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementPixelShader.usf" 314
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ColorUtils.usf" 315
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementVertexShader.usf" 316
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenVertexShader.usf" 317
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenPixelShader.usf" 318
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/RadixSortShaders.usf" 319
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheComputeShader.usf" 320
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/NullPixelShader.usf" 321
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ClearReplacementShaders.usf" 322
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementTexture2DPreviewPixelShader.usf" 323
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementNormalMapPixelShader.usf" 324
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatepixelshader.usf" 325
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatevertexshader.usf" 326
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintPixelShader.usf" 327
+"C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintVertexShader.usf" 328
+"../../../Engine/Config/Android/AndroidEngine.ini" 329
+"../../../Engine/Config/IOS/IOSEngine.ini" 330
+"../../../Engine/Config/Linux/LinuxEngine.ini" 331
+"C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc" 332
+"../../../Engine/DerivedDataCache/DDC.ddp" 333
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 334
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 335
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 336
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 337
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 338
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 339
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 340
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 341
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 342
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 343
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 344
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 345
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 346
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 347
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 348
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 349
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 350
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 351
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 352
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 353
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 354
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 355
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 356
+"../../../Engine/Content/EngineResources/Black.uasset" 357
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 358
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 359
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 360
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 361
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 362
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 363
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 364
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 365
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 366
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 367
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 368
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 369
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 370
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 371
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 372
+"../../../Engine/Content/EngineSounds/Master.uasset" 373
+"../../../Engine/Content/EngineSounds/Music.uasset" 374
+"../../../Engine/Content/EngineSounds/SFX.uasset" 375
+"../../../Engine/Content/EngineSounds/Normal_Attack.uasset" 376
+"../../../Engine/Content/EngineSounds/Special_Attack_PSM.uasset" 377
+"../../../Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset" 378
+"../../../Engine/Content/EngineSounds/Voice.uasset" 379
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 380
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 381
+"../../../Engine/Content/EngineTireTypes/DefaultTireType.uasset" 382
+"../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf" 383
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf" 384
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Black.ttf" 385
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf" 386
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf" 387
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 388
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 389
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 390
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 391
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 392
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 393
+"../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 394
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 395
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 396
+"../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 397
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 398
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset" 399
+"C:/Users/Owner/AppData/Local/UnrealEngine/4.6/Saved/Config/Windows/SourceControlSettings.ini" 400
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/CleanSourceConfigs/SourceControlSettings.ini" 401
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/SourceControlSettings.ini" 402
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 403
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 404
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 405
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 406
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 407
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 408
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 409
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 410
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 411
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 412
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 413
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 414
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 415
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Intermediate/CachedAssetRegistry.bin" 416
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Apple.uasset" 417
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Bullet.uasset" 418
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" 419
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/KillZ.uasset" 420
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/PlayerGate.uasset" 421
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" 422
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 423
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 424
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 425
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 426
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 427
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 428
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 429
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 430
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 431
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 432
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 433
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 434
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 435
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 436
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 437
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 438
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 439
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 440
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 441
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/2DSideScrollerGameMode.uasset" 442
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" 443
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 444
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyCharacter.uasset" 445
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_idle.uasset" 446
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_idle_sheet_Sprite.uasset" 447
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_idle_sheet.uasset" 448
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_idle_sheet_Sprite2.uasset" 449
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_idle_sheet_Sprite3.uasset" 450
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_idle_sheet_Sprite4.uasset" 451
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" 452
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MovingPlatform.uasset" 453
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleSpeed.uasset" 454
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/Ledge.uasset" 455
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Textures/2DBackgroundBlockAtlas.uasset" 456
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Button.uasset" 457
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Button_Sprite.uasset" 458
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Button.uasset" 459
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/apple_Sprite.uasset" 460
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/apple.uasset" 461
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Destructible.uasset" 462
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset" 463
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Goal1_Sprite.uasset" 464
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Goal1.uasset" 465
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_GoalLight.uasset" 466
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 467
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 468
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/PrototypingSprite.uasset" 469
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/PrototypingSpriteMaterial.uasset" 470
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Textures/2DBackgroundTile.uasset" 471
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Gate_Sprite.uasset" 472
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Gate.uasset" 473
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/bullet_Sprite.uasset" 474
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/bullet.uasset" 475
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_BulletHit.uasset" 476
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Burst.uasset" 477
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Burst_M.uasset" 478
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 479
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 480
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 481
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 482
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 483
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 484
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 485
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Destruct1_Sprite.uasset" 486
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Destruct1.uasset" 487
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Explosion.uasset" 488
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_walking.uasset" 489
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet_Sprite.uasset" 490
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet.uasset" 491
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet_Sprite3.uasset" 492
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet_Sprite4.uasset" 493
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_jumping.uasset" 494
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Jumping/Kid_jumping_sheet_Sprite.uasset" 495
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Jumping/kid_jumping.uasset" 496
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Jumping/Kid_jumping_sheet_Sprite2.uasset" 497
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_falling.uasset" 498
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_falling_sheet_Sprite.uasset" 499
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_falling.uasset" 500
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Idle/kid_falling_sheet_Sprite2.uasset" 501
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_68D971A24FDD2A95426B7284E7E8F__E7A2F593B57D1861DCB848239D964FC0DFB65219.udd" 502
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6551088048855D5EFFC617B12D467__5046B6EAFCBCEB96EFB23BD42327D1EC522C5911.udd" 503
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3E1316AE44A613728CC16EA9F25631F__42918AE20EF8F9990D52DAF38205F6B066CD70E8.udd" 504
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_68D971A24FDD2A95426B7284E7E8F__CAED86C6D4AC72A0108CCB864D35B90DB343944F.udd" 505
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6551088048855D5EFFC617B12D467__4CD1E343D01F789624222A5C6D145CBAF936A3C2.udd" 506
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_98B885F94E8A100569B57BB6D762B__3052A965D467CF1F8CDD3ADCC4DC1B082DB5B248.udd" 507
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_98B885F94E8A100569B57BB6D762B__53C47ECF5F73EC890D68C40746B74AF8A062C2F2.udd" 508
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6551088048855D5EFFC617B12D467__8239EB3B664B297957AB31900D98CC711D7C84B0.udd" 509
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1B3E2D0E4D012108BEA48A9B9B239__2D6215EB7000826923F4DB1D52B699BF4C736212.udd" 510
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_68D971A24FDD2A95426B7284E7E8F__694CB02BC5BC1A86EBB7D5AA238EA1AB02DD2965.udd" 511
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1B3E2D0E4D012108BEA48A9B9B239__C2F8D57DCE6BA2D17D5C92A094B842CF67478CC5.udd" 512
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1B3E2D0E4D012108BEA48A9B9B239__5D050444B90D2BBC340502491AD0B80EFFCC2E56.udd" 513
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_68D971A24FDD2A95426B7284E7E8F__FB16A3497D0BD1B7D7870BA9EE1B570777A79574.udd" 514
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_1B3E2D0E4D012108BEA48A9B9B239__C38DF338AE7B1137676738A42040F629BBB69C26.udd" 515
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_68D971A24FDD2A95426B7284E7E8F__4D95FA762E97991035FE583BBF64A27973E687CE.udd" 516
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/6/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E02ADFF940E7CF2089C51698C996A__60227D0E0E5B98338BADA113547517371EEB424E.udd" 517
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E02ADFF940E7CF2089C51698C996A__53EBB82028B42F4C533D4FE90DE5C62C61FB8B38.udd" 518
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/2/1/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_A4E40CE4424902B497401CAD667F9A6B__1_1_13073_0.udd" 519
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_F884B9E94EE807F131FCECBC2EBEE__F44A4A640452B2CC6C71B40405524DA057E36AF8.udd" 520
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_F884B9E94EE807F131FCECBC2EBEE__6C8A9B290449BCB501C86801E458431E81403536.udd" 521
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_E02ADFF940E7CF2089C51698C996A__DBCDC5E34ACB71C3E7C1E397EF76123270528005.udd" 522
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_EA8BAE2940CF5A04FCB49BAB5CFE7__E70E3DF4113A4FF85B7524FB6CEBB710DA6E1BB1.udd" 523
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_F884B9E94EE807F131FCECBC2EBEE__5C8B96253E24A83BEDC6C06D78549FA1D080F859.udd" 524
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_7706CA1E41F929392C3E4A88AAECA__7FAD70FB7A012D9559C5A99301081ACD559391E5.udd" 525
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_7706CA1E41F929392C3E4A88AAECA__0A95E9CE6FFC8CE8FCC12C422FD62F1C081329E0.udd" 526
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_C208B10B4FB2D9715879CDA05828E4C__A826A2FBC361BFC6622D912CFB12CA28E5ECCFD7.udd" 527
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_6C454CD34B34E8EF1EF07F9566296DE__4600CDD670B86E5318646485F2134DC96E2E5B36.udd" 528
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_7706CA1E41F929392C3E4A88AAECA__2601D724453587BDB0D4B0282E08B08590E4CC1E.udd" 529
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_7706CA1E41F929392C3E4A88AAECA__02BC9D530B2C1906CFB5B9096347B8FCF7CA0AB2.udd" 530
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_1AEB9C544EE5247960D44182975BACD__EB980442FB2B134B8A7C31972CF6D40830340188.udd" 531
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFCF3C91D6__44BF68F1BCC8371C75303C5CD1E6097A8D43E8E1.udd" 532
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" 533
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Spike.uasset" 534
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/SpikesSprite.uasset" 535
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/spikes.uasset" 536
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Title_Sprite.uasset" 537
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Title.uasset" 538
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_D82FF62C4B79DA7CAD5BC88555DE7__07E17A54321A2DDB17C8B57E27B65D7D50E92CE2.udd" 539
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_A2F5E0D8425B18B6B5EFFBA1DFA00__12D3D7A7939DD87CD9087EF77AFAF4E08432679D.udd" 540
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_A2F5E0D8425B18B6B5EFFBA1DFA00__2F36BA188DC951A751935C57C55D87EB94B49C9D.udd" 541
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_D82FF62C4B79DA7CAD5BC88555DE7__7268C8301030F98B9F5690D9A452DC8513742F69.udd" 542
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_D82FF62C4B79DA7CAD5BC88555DE7__128DEE7DC8AFC8F41EF99A50C1B4F9338B17AC03.udd" 543
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/4/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_D82FF62C4B79DA7CAD5BC88555DE7__613CC7C28C1FCB675656D961026FE8C3941BA171.udd" 544
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/7/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_D82FF62C4B79DA7CAD5BC88555DE7__035A455105B81FDB91D66BD7D0CCB2B85BA0B4EE.udd" 545
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/4/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_8CD65779454C5423DA07E99191DF38A7__1_1_13073_0.udd" 546
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Intermediate/Shaders/WorkingDirectory/11888/0/WorkerOutputOnly.out" 547
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/StarterMap.umap" 548
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 549
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 550
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 551
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 552
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 553
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 554
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 555
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 556
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 557
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 558
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 559
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Lamp.uasset" 560
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Lamp_M.uasset" 561
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Lamp_N.uasset" 562
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 563
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Fire01_Cue.uasset" 564
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Fire01.uasset" 565
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Fire.uasset" 566
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 567
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 568
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 569
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 570
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Water_N.uasset" 571
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 572
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Smoke01_Cue.uasset" 573
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Smoke01.uasset" 574
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Smoke.uasset" 575
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 576
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 577
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Fire_Sparks01.uasset" 578
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Sparks.uasset" 579
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Spark.uasset" 580
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Spark_Core.uasset" 581
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 582
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Steam01_Cue.uasset" 583
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Steam01.uasset" 584
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Steam_Lit.uasset" 585
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 586
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 587
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 588
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 589
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 590
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 591
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 592
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 593
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_MacroVariation.uasset" 594
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 595
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 596
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 597
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 598
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 599
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 600
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 601
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 602
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 603
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 604
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 605
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 606
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 607
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 608
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 609
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 610
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 611
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 612
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 613
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 614
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 615
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 616
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 617
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 618
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 619
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 620
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 621
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Gradinet_01.uasset" 622
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 623
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 624
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 625
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 626
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 627
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 628
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 629
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 630
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 631
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 632
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 633
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 634
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 635
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 636
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 637
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 638
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 639
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 640
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 641
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Ground_Grass.uasset" 642
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 643
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 644
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 645
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 646
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 647
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Ground_Moss.uasset" 648
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 649
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 650
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 651
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 652
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 653
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 654
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 655
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Copper.uasset" 656
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 657
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Gold.uasset" 658
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 659
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Rust.uasset" 660
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 661
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 662
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Metal_Steel.uasset" 663
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 664
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 665
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 666
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 667
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 668
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 669
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 670
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 671
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 672
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Rock_Slate.uasset" 673
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 674
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 675
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 676
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 677
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 678
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 679
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 680
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 681
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 682
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 683
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 684
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Tech_Panel.uasset" 685
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 686
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 687
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Water_Lake.uasset" 688
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Water_Ocean.uasset" 689
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Water_M.uasset" 690
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 691
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 692
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 693
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 694
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 695
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 696
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Wood_Oak.uasset" 697
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 698
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 699
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Wood_Pine.uasset" 700
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 701
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 702
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 703
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 704
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 705
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Chair.uasset" 706
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Chair_M.uasset" 707
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Chair_N.uasset" 708
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Floor_400x400.uasset" 709
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Basic_Floor.uasset" 710
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_400x200.uasset" 711
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Basic_Wall.uasset" 712
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 713
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 714
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Collapse_Cue.uasset" 715
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Collapse01.uasset" 716
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Collapse02.uasset" 717
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 718
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Birds01.uasset" 719
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Wind05.uasset" 720
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Wind06.uasset" 721
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 722
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Starter_Music01.uasset" 723
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 724
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 725
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 726
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/MaterialSphere.uasset" 727
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Chair.uasset" 728
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_CornerFrame.uasset" 729
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Frame.uasset" 730
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Frame_M.uasset" 731
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Frame_N.uasset" 732
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_DoorFrame.uasset" 733
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_GlassWindow.uasset" 734
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_Glass.uasset" 735
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_PillarFrame.uasset" 736
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_PillarFrame300.uasset" 737
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Statue.uasset" 738
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Statue.uasset" 739
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Statue_M.uasset" 740
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Statue_N.uasset" 741
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 742
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_TableRound.uasset" 743
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_TableRound.uasset" 744
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_TableRound_M.uasset" 745
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_TableRound_N.uasset" 746
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_WindowFrame.uasset" 747
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Cube.uasset" 748
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 749
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Sphere.uasset" 750
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 751
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 752
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Minimal_Default.umap" 753
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Advanced_Lighting.umap" 754
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 755
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 756
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 757
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 758
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 759
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 760
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 761
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 762
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 763
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 764
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 765
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 766
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_AssetPlatform.uasset" 767
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 768
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 769
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 770
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 771
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 772
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 773
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 774
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 775
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 776
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/BulletWall.uasset" 777
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Portal.uasset" 778
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/blueportal_Sprite.uasset" 779
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/blueportal.uasset" 780
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/orangeportal_Sprite.uasset" 781
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/orangeportal.uasset" 782
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Music/Song1_Cue.uasset" 783
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Music/Song1_Master.uasset" 784
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/Background_Sprite.uasset" 785
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Textures/2DBackground.uasset" 786
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/PrototypingSprite.uasset" 787
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_59A98A764E39B49E65465684E93E7__37AAD581C69FCAC35B5CAD4BE86C77DF091B1CCA.udd" 788
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_486CBBC342E21E333F39F9918119A__EC0DADEF540E9644D6A15DC41C8B194F323B3590.udd" 789
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_0916B0CD48F93249FF7545B8D9DAB16__7B77A93775588F70BD310C8D5E4E575782B6EDEB.udd" 790
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_59A98A764E39B49E65465684E93E7__6CB7C51A912C31489C43C2E811C1FBEDAA990D4F.udd" 791
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_486CBBC342E21E333F39F9918119A__2A72DDC5F6CCF376C21E40798FA5D93BBAFF3486.udd" 792
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_0916B0CD48F93249FF7545B8D9DAB16__AE48A9C6C3191ACAD8EFFE338C72F7FE7414FE18.udd" 793
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_59A98A764E39B49E65465684E93E7__7EAE78A81811D7D60790ADE2D1CF13246BEBE102.udd" 794
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/0/2/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_486CBBC342E21E333F39F9918119A__C048073565F2CC296D2321248DE27C667D616B3E.udd" 795
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_59A98A764E39B49E65465684E93E7__5E20B54CF44B55A8B3261348AD684D90833A5189.udd" 796
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/3/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_486CBBC342E21E333F39F9918119A__A7C63D3FB7CC1CDA5127744ED2595598849653AD.udd" 797
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_0916B0CD48F93249FF7545B8D9DAB16__E79F41E177EB291B6A603B42E291054D6DE20AFD.udd" 798
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_0916B0CD48F93249FF7545B8D9DAB16__5FC19754AF6C58384836C43ADE09C251E5D726EB.udd" 799
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFCF3C91D6__D69196871AA5C3DDD5F4663E0784134752100234.udd" 800
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/8/0/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_EBAA9E434A2EFDF7F17765A2BA52416F__1_1_13073_0.udd" 801
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/7/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_A56F9421449E771C35A5FF8F08F6216B__1_1_13073_0.udd" 802
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/6/AUDIO_0002_0000_OGG_0001_31B9AB6D4876A409B6F6D4BCC62D3B1F.udd" 803
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap" 804
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material.uasset" 805
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Wood_Material.uasset" 806
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/1/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFFA612D45__598914FE2DF7C3C89B4F4DF65F2D86AB5EDD18B9.udd" 807
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/8/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF949F0779__964B857E055538227EF1D88C7A4D794AC464834C.udd" 808
+"C:/Users/Owner/Documents/Unreal Projects/WeGuys/Intermediate/Shaders/WorkingDirectory/11888/1/WorkerOutputOnly.out" 809
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map4.umap" 810
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" 811
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Brick_Material.uasset" 812
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/3/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF882AF3C4__0D7B9C1EF07A32B543B445FEDC0548F8AE65C518.udd" 813
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map27.umap" 814
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF949F0779__7AB01070F7AAF012EB571DB2397EC00E2185FB18.udd" 815
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map2.umap" 816
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" 817
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF882AF3C4__784B191F36CF93111577CCA275B23599D3CE43A8.udd" 818
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" 819
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap2.umap" 820
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap1.umap" 821
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Textures/2DCharacter_RunAnimAtlas.uasset" 822
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_FEF90E0F46FB0CBACC7631B425ADE__B1933AD51EDBFC8A800B77E974F611145B8EF5BF.udd" 823
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_FEF90E0F46FB0CBACC7631B425ADE__9E32245637CA004289082E87E2913E367E6D6B5E.udd" 824
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_FEF90E0F46FB0CBACC7631B425ADE__FB4BB0D1AF80FB39572D3EBADAC215AB719399A1.udd" 825
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Textures/2DCharacter_IdleAnimAtlas.uasset" 826
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/4/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_FEF90E0F46FB0CBACC7631B425ADE__7E006276F72C98EA2B3668A4E9852C93F75C4A92.udd" 827
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/9/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_FEF90E0F46FB0CBACC7631B425ADE__D0E034B0A400023CB92574C986FC28236B79DCF2.udd" 828
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_543E6C63422EA1F44B92409851065__25213912F06E19746090095B4E7885BC8BC1787C.udd" 829
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_543E6C63422EA1F44B92409851065__7ECFE8DE895C40750DF13BF7F07C96E9AFBE31CD.udd" 830
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_543E6C63422EA1F44B92409851065__8036FEDD2C7D218FE4B2BD300898A08F8D79AC83.udd" 831
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_543E6C63422EA1F44B92409851065__E0B76BF92C52D57ECEE1F85897F2A55AF4291363.udd" 832
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/2/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_543E6C63422EA1F44B92409851065__9C8A7FF455FFB81A7B49505FD94174BBDACB0A34.udd" 833
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_A_S.uasset" 834
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_A_N.uasset" 835
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Wood_a_d.uasset" 836
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset" 837
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset" 838
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset" 839
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_UNV_Concrete02.uasset" 840
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset" 841
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset" 842
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Stone_Brick_N.uasset" 843
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Stone_Brick_D.uasset" 844
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Sky_Stars.uasset" 845
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset" 846
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Shelf_N.uasset" 847
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Shelf_M.uasset" 848
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset" 849
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset" 850
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset" 851
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_11b_D.uasset" 852
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_10_N.uasset" 853
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_10_D.uasset" 854
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_09_D.uasset" 855
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_08_N.uasset" 856
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_08_D.uasset" 857
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_07_N.uasset" 858
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_07_D.uasset" 859
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_07b_D.uasset" 860
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_06_N.uasset" 861
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_06_D.uasset" 862
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_05_N.uasset" 863
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_05_D.uasset" 864
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_03_N.uasset" 865
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_03_D.uasset" 866
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_01_N.uasset" 867
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rock_01_D.uasset" 868
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Rocky_01_N.uasset" 869
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_RockMesh_N.uasset" 870
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_RockMesh_M.uasset" 871
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_PatchyGrass_N.uasset" 872
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_PatchyGrass_D.uasset" 873
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset" 874
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset" 875
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset" 876
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_PaintedMetal01.uasset" 877
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset" 878
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset" 879
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset" 880
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset" 881
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset" 882
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset" 883
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset" 884
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset" 885
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset" 886
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset" 887
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset" 888
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset" 889
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Noise_N.uasset" 890
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset" 891
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset" 892
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_Detail_N.uasset" 893
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_02_N.uasset" 894
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_02_D.uasset" 895
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_01_N.uasset" 896
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Ground_01_D.uasset" 897
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Gravel_N.uasset" 898
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Gravel_D.uasset" 899
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset" 900
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset" 901
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset" 902
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset" 903
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset" 904
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset" 905
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset" 906
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset" 907
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Door_N.uasset" 908
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Door_M.uasset" 909
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Dirt_N.uasset" 910
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Dirt_D.uasset" 911
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset" 912
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset" 913
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset" 914
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset" 915
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Wall07.uasset" 916
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_N.uasset" 917
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset" 918
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_Floor01.uasset" 919
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_D.uasset" 920
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_01_N.uasset" 921
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete_01_D.uasset" 922
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete01_N.uasset" 923
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Concrete01_D.uasset" 924
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Cobble_01_H.uasset" 925
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset" 926
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset" 927
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset" 928
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset" 929
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset" 930
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Cliff_N.uasset" 931
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Cliff_M.uasset" 932
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Bush_N.uasset" 933
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Bush_D.uasset" 934
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset" 935
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset" 936
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Bark02_N.uasset" 937
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_Bark02_D.uasset" 938
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset" 939
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/T_ArmorMetal01.uasset" 940
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/Sky54a2048LDR.uasset" 941
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/Sky54a2048.uasset" 942
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/Metal_Tile_2_N.uasset" 943
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Textures/Metal_Tile_2.uasset" 944
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 945
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 946
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 947
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Tube.uasset" 948
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 949
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 950
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 951
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Trim.uasset" 952
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Torus.uasset" 953
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Plane.uasset" 954
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 955
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 956
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Pipe.uasset" 957
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 958
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 959
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Shapes/Shape_Cone.uasset" 960
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Shelf.uasset" 961
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Rock.uasset" 962
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 963
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 964
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Door.uasset" 965
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/Materials/M_Bush.uasset" 966
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Stairs.uasset" 967
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Shelf.uasset" 968
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Rock.uasset" 969
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 970
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Door.uasset" 971
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Couch.uasset" 972
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Props/SM_Bush.uasset" 973
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 974
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 975
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Explosion_Cue.uasset" 976
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Explosion01.uasset" 977
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Explosion02.uasset" 978
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Light02_Cue.uasset" 979
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Light02.uasset" 980
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Light01_Cue.uasset" 981
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Audio/Light01.uasset" 982
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 983
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 984
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_500x500.uasset" 985
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_400x400.uasset" 986
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Wall_400x300.uasset" 987
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset" 988
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset" 989
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/StarterContent/Architecture/Pillar_50x500.uasset" 990
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_9.uasset" 991
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_8.uasset" 992
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_7.uasset" 993
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_6.uasset" 994
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_5.uasset" 995
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_4.uasset" 996
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_3.uasset" 997
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_2.uasset" 998
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_16.uasset" 999
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_15.uasset" 1000
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_14.uasset" 1001
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_13.uasset" 1002
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_12.uasset" 1003
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_11.uasset" 1004
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_10.uasset" 1005
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunFrames/RunCycle_1.uasset" 1006
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Goal_Sprite.uasset" 1007
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/Goal.uasset" 1008
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_976865F644C3CDAA5E0134B3FD40F__9C040AF45496E147A19535A21141B41E72B9433F.udd" 1009
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/2/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_976865F644C3CDAA5E0134B3FD40F__AF11F32BEF799AE396B8E864EB7EB0BAFD89000A.udd" 1010
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/8/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_976865F644C3CDAA5E0134B3FD40F__6FE0837E3630C7B6A1F8413609497C6CB84E040F.udd" 1011
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_976865F644C3CDAA5E0134B3FD40F__A772DA641139BB9E7C46E8927DB970F5CE717B2E.udd" 1012
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle8.uasset" 1013
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle7.uasset" 1014
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle6.uasset" 1015
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle5.uasset" 1016
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle4.uasset" 1017
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle3.uasset" 1018
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle2.uasset" 1019
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleFrames/IdleCycle1.uasset" 1020
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/RunningAnimation.uasset" 1021
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/IdleAnimation.uasset" 1022
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/Stone_Material2.uasset" 1023
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Materials/MyStone.uasset" 1024
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet_Sprite5.uasset" 1025
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Walking/kid_walking_sheet_Sprite2.uasset" 1026
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/slotmachinepowerof2_Sprite.uasset" 1027
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/slotmachinepowerof2_Mat.uasset" 1028
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/slotmachinepowerof2.uasset" 1029
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Sky_Blue.uasset" 1030
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Sky.uasset" 1031
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_sheet_Sprite5.uasset" 1032
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_sheet_Sprite4.uasset" 1033
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_sheet_Sprite3.uasset" 1034
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_sheet_Sprite2.uasset" 1035
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_sheet_Sprite.uasset" 1036
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_5.uasset" 1037
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_4.uasset" 1038
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_3.uasset" 1039
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_walking_2.uasset" 1040
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_jumping_Sprite.uasset" 1041
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_jumping_sheet_Sprite2.uasset" 1042
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/Kid_jumping_sheet_Sprite.uasset" 1043
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_jumping_2.uasset" 1044
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_sheet_Sprite4.uasset" 1045
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_sheet_Sprite3.uasset" 1046
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_sheet_Sprite2.uasset" 1047
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_sheet_Sprite.uasset" 1048
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_4.uasset" 1049
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_3.uasset" 1050
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_idle_2.uasset" 1051
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_5E22C13B4FA0B3DF0E584C8D96C29__7D091930A863FD701A5E9CE9469276C82620954A.udd" 1052
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_falling_sheet_Sprite2.uasset" 1053
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_falling_sheet_Sprite.uasset" 1054
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/kid_falling_2.uasset" 1055
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Flipbooks/char_jump.uasset" 1056
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Data/AppleType.uasset" 1057
+"../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Button_Sprite.uasset" 1058
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_5E22C13B4FA0B3DF0E584C8D96C29__F3B76AFAA9CB1F749534109A43977E023E2C6529.udd" 1059
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_5E22C13B4FA0B3DF0E584C8D96C29__FF7D9FAFCD875B80EC57C04581FC7FCD04AAB1E4.udd" 1060
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/5/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_5E22C13B4FA0B3DF0E584C8D96C29__1DCF1B7D460AD0542BA4D5874EA4F815BE4E0B01.udd" 1061
+"C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_5E22C13B4FA0B3DF0E584C8D96C29__4F29034D19355EBD46234DC5EE9109A18DA162E0.udd" 1062

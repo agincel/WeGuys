@@ -1,0 +1,942 @@
+﻿Log file open, 02/15/15 22:38:16
+LogInit:Display: Running engine for game: WeGuys
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.16-03.38.16:082][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.16-03.38.16:140][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.16-03.38.16:198][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.16-03.38.16:205][  0]LogInit: Object subsystem initialized
+[2015.02.16-03.38.16:206][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.16-03.38.16:206][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.16-03.38.16:206][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.16-03.38.16:206][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.16-03.38.16:207][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.16-03.38.16:207][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.16-03.38.16:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.16-03.38.16:214][  0]LogInit: Computer: ASUS
+[2015.02.16-03.38.16:214][  0]LogInit: User: Owner
+[2015.02.16-03.38.16:214][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.16-03.38.16:214][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.02.16-03.38.16:215][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.02.16-03.38.16:215][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.38.16:215][  0]LogMemory: Process Physical Memory: 48.27 MB used, 48.27 MB peak
+[2015.02.16-03.38.16:215][  0]LogMemory: Process Virtual Memory: 25.02 MB used, 25.02 MB peak
+[2015.02.16-03.38.16:215][  0]LogMemory: Physical Memory: 3885.82 MB used, 16267.18 MB total
+[2015.02.16-03.38.16:215][  0]LogMemory: Virtual Memory: 270.98 MB used, 134217728.00 MB total
+[2015.02.16-03.38.16:294][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.02.16-03.38.16:294][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.02.16-03.38.16:305][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.02.16-03.38.16:305][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.02.16-03.38.16:306][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.16-03.38.16:306][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.16-03.38.16:306][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.16-03.38.16:311][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.16-03.38.16:323][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.16-03.38.16:500][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.16-03.38.16:619][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.16-03.38.21:894][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-03.38.22:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-03.38.22:580][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.16-03.38.22:617][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.16-03.38.22:617][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.16-03.38.22:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.16-03.38.22:617][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.16-03.38.22:674][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.16-03.38.22:687][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.16-03.38.22:843][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.16-03.38.22:994][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.16-03.38.22:994][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.16-03.38.23:460][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.16-03.38.23:596][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.16-03.38.24:879][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.16-03.38.25:207][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/WeGuys/Binaries/Win64. Error: 0
+[2015.02.16-03.38.25:427][  0]SourceControl: Info Source control is disabled
+[2015.02.16-03.38.25:427][  0]SourceControl: Info Source control is disabled
+[2015.02.16-03.38.25:440][  0]SourceControl: Info Source control is disabled
+[2015.02.16-03.38.25:720][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.16-03.38.25:720][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.16-03.38.25:802][  0]LogEngine: Initializing Engine...
+[2015.02.16-03.38.25:939][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.16-03.38.26:083][  0]LogInit: FAudioDevice initialized.
+[2015.02.16-03.38.26:123][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.16-03.38.26:143][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.16-03.38.26:146][  0]LogInit: Texture streaming: Enabled
+[2015.02.16-03.38.26:201][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.16-03.38.26:201][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.16-03.38.26:202][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.02.16-03.38.26:202][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.16-03.38.26:231][  0]LogInit: Transaction tracking system initialized
+[2015.02.16-03.38.26:430][  0]BlueprintLog: New page: Editor Load
+[2015.02.16-03.38.26:494][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.02.16-03.38.26:494][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.16-03.38.27:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-03.38.27:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-03.38.27:959][  0]LogConsoleResponse:Display: 
+[2015.02.16-03.38.28:006][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.16-03.38.28:352][  0]SourceControl: Info Source control is disabled
+[2015.02.16-03.38.28:352][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.38.28:353][  0]LightingResults: New page: Lighting Build
+[2015.02.16-03.38.28:368][  0]MapCheck: New page: Map Check
+[2015.02.16-03.38.28:368][  0]LightingResults: New page: Lighting Build
+[2015.02.16-03.38.28:375][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B524409940
+[2015.02.16-03.38.29:483][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.38.29:483][  0]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.38.29:484][  0]Cmd: MAP CHECKDEP
+[2015.02.16-03.38.29:484][  0]MapCheck: New page: Template - Feb 15, 2015, 5:38:29 PM
+[2015.02.16-03.38.29:694][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 210.136ms to complete.
+[2015.02.16-03.38.29:694][  0]LogFileHelpers: Loading map 'Template' took 1.341
+[2015.02.16-03.38.29:795][  0]LogCollectionManager: Loaded 0 collections in 0.001531 seconds
+[2015.02.16-03.38.29:989][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.16-03.38.30:044][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.16-03.38.30:072][  0]LogLoad: Full Startup: 16.25 seconds (BP compile: 0.34 seconds)
+[2015.02.16-03.38.30:414][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.16-03.38.30:571][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.16-03.38.31:087][  2]LogAssetRegistry: Asset discovery search completed in 4.6042 seconds
+[2015.02.16-03.38.40:281][ 31]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.38.40:282][ 31]LogPlayLevel: [PIE] Compiling Template before PIE...
+[2015.02.16-03.38.40:330][ 31]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.16-03.38.40:360][ 31]LogPlayLevel: PIE:  Blueprint regeneration took 78 ms (1 blueprints)
+[2015.02.16-03.38.40:360][ 31]PIE: New page: PIE session: Template (Feb 15, 2015, 5:38:40 PM)
+[2015.02.16-03.38.40:363][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003325s)
+[2015.02.16-03.38.40:364][ 31]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2015.02.16-03.38.40:364][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Template.Template to /Game/Maps/UEDPIE_0_Template.Template (0.003949s)
+[2015.02.16-03.38.40:468][ 31]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.38.40:470][ 31]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.38.40:471][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.38.40
+[2015.02.16-03.38.40:472][ 31]LogWorld: Bringing up level for play took: 0.001748
+[2015.02.16-03.38.40:473][ 31]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Template -0.127
+[2015.02.16-03.39.27:244][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.16-03.39.27:255][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BD827A0
+[2015.02.16-03.39.51:243][249]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.39.51:243][249]LogPlayLevel: [PIE] Compiling Template before PIE...
+[2015.02.16-03.39.51:281][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.16-03.39.51:291][249]LogPlayLevel: PIE:  Blueprint regeneration took 47 ms (1 blueprints)
+[2015.02.16-03.39.51:291][249]PIE: New page: PIE session: Template (Feb 15, 2015, 5:39:51 PM)
+[2015.02.16-03.39.51:293][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002010s)
+[2015.02.16-03.39.51:294][249]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2015.02.16-03.39.51:294][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Template.Template to /Game/Maps/UEDPIE_0_Template.Template (0.002648s)
+[2015.02.16-03.39.51:325][249]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.39.51:327][249]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.39.51:328][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.39.51
+[2015.02.16-03.39.51:329][249]LogWorld: Bringing up level for play took: 0.001448
+[2015.02.16-03.39.51:329][249]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Template 0.73
+[2015.02.16-03.40.00:351][787]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BC34680
+[2015.02.16-03.40.06:921][174]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.40.06:931][174]LightingResults: New page: Lighting Build
+[2015.02.16-03.40.06:966][174]LoadErrors: New page: Loading map: Map1.umap
+[2015.02.16-03.40.06:967][174]MapCheck: New page: Map Check
+[2015.02.16-03.40.06:967][174]LightingResults: New page: Lighting Build
+[2015.02.16-03.40.06:975][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B525D4F600
+[2015.02.16-03.40.07:067][174]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.40.07:067][174]LogAIModule: Creating AISystem for world Map1
+[2015.02.16-03.40.07:120][174]Cmd: MAP CHECKDEP
+[2015.02.16-03.40.07:120][174]MapCheck: New page: Map1 - Feb 15, 2015, 5:40:07 PM
+[2015.02.16-03.40.07:325][174]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 205.616ms to complete.
+[2015.02.16-03.40.07:326][174]LogFileHelpers: Loading map 'Map1' took 0.406
+[2015.02.16-03.40.09:028][274]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.40.09:028][274]LogPlayLevel: [PIE] Compiling Map1 before PIE...
+[2015.02.16-03.40.09:064][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.16-03.40.09:077][274]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2015.02.16-03.40.09:077][274]PIE: New page: PIE session: Map1 (Feb 15, 2015, 5:40:09 PM)
+[2015.02.16-03.40.09:079][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2015.02.16-03.40.09:080][274]LogPlayLevel: PIE: World Init took: (0.000402s)
+[2015.02.16-03.40.09:080][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map1.Map1 to /Game/Maps/UEDPIE_0_Map1.Map1 (0.002545s)
+[2015.02.16-03.40.09:115][274]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.40.09:117][274]LogAIModule: Creating AISystem for world Map1
+[2015.02.16-03.40.09:118][274]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.15-22.40.09
+[2015.02.16-03.40.09:118][274]LogWorld: Bringing up level for play took: 0.001395
+[2015.02.16-03.40.09:119][274]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map1 0.519
+[2015.02.16-03.41.20:121][525]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Map2.umap
+[2015.02.16-03.41.20:255][526]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Map2.umap
+[2015.02.16-03.41.20:255][526]LogNet: Browse: /Game/Maps/Map2
+[2015.02.16-03.41.20:256][526]LogLoad: LoadMap: /Game/Maps/Map2
+[2015.02.16-03.41.20:266][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B52CF0A700
+[2015.02.16-03.41.20:266][526]Cmd: MEM
+[2015.02.16-03.41.20:275][526]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.41.20:275][526]LogMemory: Process Physical Memory: 419.91 MB used, 448.63 MB peak
+[2015.02.16-03.41.20:275][526]LogMemory: Process Virtual Memory: 327.16 MB used, 369.07 MB peak
+[2015.02.16-03.41.20:275][526]LogMemory: Physical Memory: 4215.72 MB used, 16267.18 MB total
+[2015.02.16-03.41.20:275][526]LogMemory: Virtual Memory: 886.37 MB used, 134217728.00 MB total
+[2015.02.16-03.41.20:275][526]LogMemory: 
+[2015.02.16-03.41.20:275][526]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.41.20:632][526]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.41.20:634][526]LogAIModule: Creating AISystem for world Map2
+[2015.02.16-03.41.20:639][526]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map2.Map2 up for play (max tick rate 60) at 2015.02.15-22.41.20
+[2015.02.16-03.41.20:641][526]LogWorld: Bringing up level for play took: 0.006966
+[2015.02.16-03.45.59:918][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BB10D60
+[2015.02.16-03.46.03:544][488]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map3.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.46.03:580][488]LightingResults: New page: Lighting Build
+[2015.02.16-03.46.03:619][488]LoadErrors: New page: Loading map: Map3.umap
+[2015.02.16-03.46.03:620][488]MapCheck: New page: Map Check
+[2015.02.16-03.46.03:620][488]LightingResults: New page: Lighting Build
+[2015.02.16-03.46.03:630][488]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BB51580
+[2015.02.16-03.46.03:752][488]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.46.03:752][488]LogAIModule: Creating AISystem for world Map3
+[2015.02.16-03.46.03:790][488]Cmd: MAP CHECKDEP
+[2015.02.16-03.46.03:790][488]MapCheck: New page: Map3 - Feb 15, 2015, 5:46:03 PM
+[2015.02.16-03.46.04:005][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 215.014ms to complete.
+[2015.02.16-03.46.04:005][488]LogFileHelpers: Loading map 'Map3' took 0.463
+[2015.02.16-03.46.06:611][642]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.46.06:611][642]LogPlayLevel: [PIE] Compiling Map3 before PIE...
+[2015.02.16-03.46.06:647][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.16-03.46.06:660][642]LogPlayLevel: PIE:  Blueprint regeneration took 48 ms (1 blueprints)
+[2015.02.16-03.46.06:660][642]PIE: New page: PIE session: Map3 (Feb 15, 2015, 5:46:06 PM)
+[2015.02.16-03.46.06:663][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003555s)
+[2015.02.16-03.46.06:664][642]LogPlayLevel: PIE: World Init took: (0.000414s)
+[2015.02.16-03.46.06:664][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map3.Map3 to /Game/Maps/UEDPIE_0_Map3.Map3 (0.004105s)
+[2015.02.16-03.46.06:705][642]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.46.06:707][642]LogAIModule: Creating AISystem for world Map3
+[2015.02.16-03.46.06:709][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map3.Map3 up for play (max tick rate 60) at 2015.02.15-22.46.06
+[2015.02.16-03.46.06:710][642]LogWorld: Bringing up level for play took: 0.002369
+[2015.02.16-03.46.06:714][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map3 0.113
+[2015.02.16-03.47.38:800][158]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve Template.umap
+[2015.02.16-03.47.38:935][159]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Template.umap
+[2015.02.16-03.47.38:935][159]LogNet: Browse: /Game/Maps/Template
+[2015.02.16-03.47.38:935][159]LogLoad: LoadMap: /Game/Maps/Template
+[2015.02.16-03.47.38:947][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B52A373240
+[2015.02.16-03.47.38:948][159]Cmd: MEM
+[2015.02.16-03.47.38:960][159]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.47.38:960][159]LogMemory: Process Physical Memory: 442.80 MB used, 471.56 MB peak
+[2015.02.16-03.47.38:960][159]LogMemory: Process Virtual Memory: 349.95 MB used, 392.22 MB peak
+[2015.02.16-03.47.38:960][159]LogMemory: Physical Memory: 4208.93 MB used, 16267.18 MB total
+[2015.02.16-03.47.38:960][159]LogMemory: Virtual Memory: 900.86 MB used, 134217728.00 MB total
+[2015.02.16-03.47.38:960][159]LogMemory: 
+[2015.02.16-03.47.38:960][159]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.47.39:217][159]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.47.39:218][159]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.47.39:221][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.47.39
+[2015.02.16-03.47.39:221][159]LogWorld: Bringing up level for play took: 0.003040
+[2015.02.16-03.48.00:921][453]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Template.umap
+[2015.02.16-03.48.01:055][454]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Template.umap
+[2015.02.16-03.48.01:055][454]LogNet: Browse: /Game/Maps/Template
+[2015.02.16-03.48.01:055][454]LogLoad: LoadMap: /Game/Maps/Template
+[2015.02.16-03.48.01:067][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BC37B00
+[2015.02.16-03.48.01:067][454]Cmd: MEM
+[2015.02.16-03.48.01:076][454]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.48.01:076][454]LogMemory: Process Physical Memory: 444.66 MB used, 471.56 MB peak
+[2015.02.16-03.48.01:076][454]LogMemory: Process Virtual Memory: 355.69 MB used, 392.22 MB peak
+[2015.02.16-03.48.01:076][454]LogMemory: Physical Memory: 4209.04 MB used, 16267.18 MB total
+[2015.02.16-03.48.01:076][454]LogMemory: Virtual Memory: 905.92 MB used, 134217728.00 MB total
+[2015.02.16-03.48.01:076][454]LogMemory: 
+[2015.02.16-03.48.01:076][454]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.48.01:340][454]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.48.01:341][454]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.48.01:344][454]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.48.01
+[2015.02.16-03.48.01:345][454]LogWorld: Bringing up level for play took: 0.002950
+[2015.02.16-03.48.02:126][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BC37BA0
+[2015.02.16-03.48.05:918][718]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.48.05:951][718]LightingResults: New page: Lighting Build
+[2015.02.16-03.48.05:991][718]LoadErrors: New page: Loading map: Map5.umap
+[2015.02.16-03.48.05:992][718]MapCheck: New page: Map Check
+[2015.02.16-03.48.05:992][718]LightingResults: New page: Lighting Build
+[2015.02.16-03.48.06:002][718]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BBE8180
+[2015.02.16-03.48.06:026][718]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.16-03.48.06:026][718]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.16-03.48.06:130][718]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.48.06:130][718]LogAIModule: Creating AISystem for world Map5
+[2015.02.16-03.48.06:175][718]Cmd: MAP CHECKDEP
+[2015.02.16-03.48.06:175][718]MapCheck: New page: Map5 - Feb 15, 2015, 5:48:06 PM
+[2015.02.16-03.48.06:397][718]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 220.6ms to complete.
+[2015.02.16-03.48.06:397][718]LogFileHelpers: Loading map 'Map5' took 0.481
+[2015.02.16-03.48.12:751][ 89]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.48.12:751][ 89]LogPlayLevel: [PIE] Compiling Map5 before PIE...
+[2015.02.16-03.48.12:788][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.16-03.48.12:803][ 89]LogPlayLevel: PIE:  Blueprint regeneration took 52 ms (1 blueprints)
+[2015.02.16-03.48.12:803][ 89]PIE: New page: PIE session: Map5 (Feb 15, 2015, 5:48:12 PM)
+[2015.02.16-03.48.12:808][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005131s)
+[2015.02.16-03.48.12:808][ 89]LogPlayLevel: PIE: World Init took: (0.000410s)
+[2015.02.16-03.48.12:809][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map5.Map5 to /Game/Maps/UEDPIE_0_Map5.Map5 (0.005709s)
+[2015.02.16-03.48.12:848][ 89]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.48.12:850][ 89]LogAIModule: Creating AISystem for world Map5
+[2015.02.16-03.48.12:853][ 89]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map5.Map5 up for play (max tick rate 60) at 2015.02.15-22.48.12
+[2015.02.16-03.48.12:857][ 89]LogWorld: Bringing up level for play took: 0.006681
+[2015.02.16-03.48.12:858][ 89]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map5 0.258
+[2015.02.16-03.48.40:494][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BB12D40
+[2015.02.16-03.48.49:403][227]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple)
+[2015.02.16-03.48.54:947][549]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple5)
+[2015.02.16-03.49.00:168][854]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple7)
+[2015.02.16-03.49.06:596][230]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple4)
+[2015.02.16-03.49.13:202][569]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple3)
+[2015.02.16-03.49.17:637][827]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple10)
+[2015.02.16-03.49.22:202][ 92]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple2)
+[2015.02.16-03.49.27:522][403]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple9)
+[2015.02.16-03.49.32:671][701]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple8)
+[2015.02.16-03.49.38:405][983]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple6)
+[2015.02.16-03.49.42:493][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map5" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-03.49.42:647][203]LogSavePackage: Save=53.379185ms
+[2015.02.16-03.49.42:647][203]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Map55B86CFE143A4046FE814D4BD526BC014.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Map5.umap'
+[2015.02.16-03.49.42:690][203]LogFileHelpers: Saving map 'Map5' took 0.415
+[2015.02.16-03.49.43:587][255]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.49.43:588][255]LogPlayLevel: [PIE] Compiling Map5 before PIE...
+[2015.02.16-03.49.43:632][255]LogPlayLevel: PIE:  Blueprint regeneration took 44 ms (1 blueprints)
+[2015.02.16-03.49.43:632][255]PIE: New page: PIE session: Map5 (Feb 15, 2015, 5:49:43 PM)
+[2015.02.16-03.49.43:637][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005257s)
+[2015.02.16-03.49.43:638][255]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2015.02.16-03.49.43:638][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map5.Map5 to /Game/Maps/UEDPIE_0_Map5.Map5 (0.005896s)
+[2015.02.16-03.49.43:666][255]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.49.43:668][255]LogAIModule: Creating AISystem for world Map5
+[2015.02.16-03.49.43:671][255]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map5.Map5 up for play (max tick rate 60) at 2015.02.15-22.49.43
+[2015.02.16-03.49.43:675][255]LogWorld: Bringing up level for play took: 0.006823
+[2015.02.16-03.49.43:676][255]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Map5 1.076
+[2015.02.16-03.50.55:421][460]LogPackageName: SearchForPackageOnDisk took   0.133s to resolve Template.umap
+[2015.02.16-03.50.55:559][461]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Template.umap
+[2015.02.16-03.50.55:559][461]LogNet: Browse: /Game/Maps/Template
+[2015.02.16-03.50.55:559][461]LogLoad: LoadMap: /Game/Maps/Template
+[2015.02.16-03.50.55:571][461]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5197B5C60
+[2015.02.16-03.50.55:571][461]Cmd: MEM
+[2015.02.16-03.50.55:581][461]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.50.55:581][461]LogMemory: Process Physical Memory: 470.33 MB used, 501.52 MB peak
+[2015.02.16-03.50.55:581][461]LogMemory: Process Virtual Memory: 375.76 MB used, 420.05 MB peak
+[2015.02.16-03.50.55:581][461]LogMemory: Physical Memory: 4247.70 MB used, 16267.18 MB total
+[2015.02.16-03.50.55:581][461]LogMemory: Virtual Memory: 912.39 MB used, 134217728.00 MB total
+[2015.02.16-03.50.55:581][461]LogMemory: 
+[2015.02.16-03.50.55:581][461]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.50.55:841][461]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.50.55:843][461]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.50.55:845][461]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.50.55
+[2015.02.16-03.50.55:846][461]LogWorld: Bringing up level for play took: 0.002888
+[2015.02.16-03.50.58:833][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B519815300
+[2015.02.16-03.51.44:526][367]Cmd: PARTICLE RESET SELECTED
+[2015.02.16-03.51.44:526][367]LogEditorServer: Exec Particle!
+[2015.02.16-03.51.47:052][504]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.51.47:088][504]LightingResults: New page: Lighting Build
+[2015.02.16-03.51.47:131][504]LoadErrors: New page: Loading map: 1PMap1.umap
+[2015.02.16-03.51.47:133][504]MapCheck: New page: Map Check
+[2015.02.16-03.51.47:133][504]LightingResults: New page: Lighting Build
+[2015.02.16-03.51.47:143][504]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BC41BC0
+[2015.02.16-03.51.47:242][504]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.51.47:242][504]LogAIModule: Creating AISystem for world 1PMap1
+[2015.02.16-03.51.47:281][504]Cmd: MAP CHECKDEP
+[2015.02.16-03.51.47:281][504]MapCheck: New page: 1PMap1 - Feb 15, 2015, 5:51:47 PM
+[2015.02.16-03.51.47:511][504]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 230.09ms to complete.
+[2015.02.16-03.51.47:511][504]LogFileHelpers: Loading map '1PMap1' took 0.463
+[2015.02.16-03.51.49:429][616]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.51.49:429][616]LogPlayLevel: [PIE] Compiling 1PMap1 before PIE...
+[2015.02.16-03.51.49:474][616]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.16-03.51.49:488][616]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2015.02.16-03.51.49:489][616]PIE: New page: PIE session: 1PMap1 (Feb 15, 2015, 5:51:49 PM)
+[2015.02.16-03.51.49:491][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002479s)
+[2015.02.16-03.51.49:492][616]LogPlayLevel: PIE: World Init took: (0.000428s)
+[2015.02.16-03.51.49:492][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/1PMap1.1PMap1 to /Game/Maps/UEDPIE_0_1PMap1.1PMap1 (0.003056s)
+[2015.02.16-03.51.49:538][616]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.51.49:539][616]LogAIModule: Creating AISystem for world 1PMap1
+[2015.02.16-03.51.49:541][616]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap1.1PMap1 up for play (max tick rate 60) at 2015.02.15-22.51.49
+[2015.02.16-03.51.49:542][616]LogWorld: Bringing up level for play took: 0.003009
+[2015.02.16-03.51.49:543][616]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_1PMap1 0.943
+[2015.02.16-03.52.32:801][202]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve 1PMap2.umap
+[2015.02.16-03.52.32:935][203]LogPackageName: SearchForPackageOnDisk took   0.126s to resolve 1PMap2.umap
+[2015.02.16-03.52.32:935][203]LogNet: Browse: /Game/Maps/1PMap2
+[2015.02.16-03.52.32:935][203]LogLoad: LoadMap: /Game/Maps/1PMap2
+[2015.02.16-03.52.32:947][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BC37380
+[2015.02.16-03.52.32:947][203]Cmd: MEM
+[2015.02.16-03.52.32:956][203]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.52.32:956][203]LogMemory: Process Physical Memory: 493.89 MB used, 523.17 MB peak
+[2015.02.16-03.52.32:956][203]LogMemory: Process Virtual Memory: 398.88 MB used, 439.93 MB peak
+[2015.02.16-03.52.32:956][203]LogMemory: Physical Memory: 4275.65 MB used, 16267.18 MB total
+[2015.02.16-03.52.32:956][203]LogMemory: Virtual Memory: 935.45 MB used, 134217728.00 MB total
+[2015.02.16-03.52.32:956][203]LogMemory: 
+[2015.02.16-03.52.32:956][203]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.52.33:219][203]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.52.33:220][203]LogAIModule: Creating AISystem for world 1PMap2
+[2015.02.16-03.52.33:233][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap2.1PMap2 up for play (max tick rate 60) at 2015.02.15-22.52.33
+[2015.02.16-03.52.33:235][203]LogWorld: Bringing up level for play took: 0.014507
+[2015.02.16-03.52.35:262][321]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5198154E0
+[2015.02.16-03.52.40:897][651]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap2.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.52.40:933][651]LightingResults: New page: Lighting Build
+[2015.02.16-03.52.40:972][651]LoadErrors: New page: Loading map: 1PMap2.umap
+[2015.02.16-03.52.40:973][651]MapCheck: New page: Map Check
+[2015.02.16-03.52.40:973][651]LightingResults: New page: Lighting Build
+[2015.02.16-03.52.40:983][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B521E65DA0
+[2015.02.16-03.52.41:111][651]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.52.41:111][651]LogAIModule: Creating AISystem for world 1PMap2
+[2015.02.16-03.52.41:150][651]Cmd: MAP CHECKDEP
+[2015.02.16-03.52.41:151][651]MapCheck: New page: 1PMap2 - Feb 15, 2015, 5:52:41 PM
+[2015.02.16-03.52.41:370][651]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.685ms to complete.
+[2015.02.16-03.52.41:370][651]LogFileHelpers: Loading map '1PMap2' took 0.475
+[2015.02.16-03.52.45:260][880]LogEditorViewport: Clicking on Actor (LMB): Apple_C (Apple)
+[2015.02.16-03.52.52:912][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.16-03.52.53:191][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap2" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-03.52.53:346][330]LogSavePackage: Save=50.137150ms
+[2015.02.16-03.52.53:346][330]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap226C7ACA745C1A6CF51098B877CA2486F.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap2.umap'
+[2015.02.16-03.52.53:389][330]LogFileHelpers: Saving map '1PMap2' took 0.420
+[2015.02.16-03.52.54:233][377]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-03.52.54:233][377]LogPlayLevel: [PIE] Compiling 1PMap2 before PIE...
+[2015.02.16-03.52.54:276][377]LogPlayLevel: PIE:  Blueprint regeneration took 43 ms (1 blueprints)
+[2015.02.16-03.52.54:277][377]PIE: New page: PIE session: 1PMap2 (Feb 15, 2015, 5:52:54 PM)
+[2015.02.16-03.52.54:282][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004803s)
+[2015.02.16-03.52.54:282][377]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2015.02.16-03.52.54:282][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/1PMap2.1PMap2 to /Game/Maps/UEDPIE_0_1PMap2.1PMap2 (0.005367s)
+[2015.02.16-03.52.54:324][377]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.52.54:326][377]LogAIModule: Creating AISystem for world 1PMap2
+[2015.02.16-03.52.54:328][377]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap2.1PMap2 up for play (max tick rate 60) at 2015.02.15-22.52.54
+[2015.02.16-03.52.54:330][377]LogWorld: Bringing up level for play took: 0.004452
+[2015.02.16-03.52.54:333][377]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_1PMap2 -0.267
+[2015.02.16-03.55.08:025][389]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve Template.umap
+[2015.02.16-03.55.08:161][390]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Template.umap
+[2015.02.16-03.55.08:161][390]LogNet: Browse: /Game/Maps/Template
+[2015.02.16-03.55.08:161][390]LogLoad: LoadMap: /Game/Maps/Template
+[2015.02.16-03.55.08:172][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5197B77E0
+[2015.02.16-03.55.08:172][390]Cmd: MEM
+[2015.02.16-03.55.08:182][390]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-03.55.08:182][390]LogMemory: Process Physical Memory: 498.55 MB used, 531.02 MB peak
+[2015.02.16-03.55.08:182][390]LogMemory: Process Virtual Memory: 402.56 MB used, 447.86 MB peak
+[2015.02.16-03.55.08:182][390]LogMemory: Physical Memory: 4265.99 MB used, 16267.18 MB total
+[2015.02.16-03.55.08:182][390]LogMemory: Virtual Memory: 937.51 MB used, 134217728.00 MB total
+[2015.02.16-03.55.08:182][390]LogMemory: 
+[2015.02.16-03.55.08:182][390]Allocator Stats for TBB: (not implemented)
+[2015.02.16-03.55.08:441][390]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-03.55.08:443][390]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.55.08:445][390]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.15-22.55.08
+[2015.02.16-03.55.08:446][390]LogWorld: Bringing up level for play took: 0.002889
+[2015.02.16-03.55.10:520][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5198AF1A0
+[2015.02.16-03.56.36:701][652]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-03.56.36:738][652]LightingResults: New page: Lighting Build
+[2015.02.16-03.56.36:777][652]LoadErrors: New page: Loading map: Template.umap
+[2015.02.16-03.56.36:778][652]MapCheck: New page: Map Check
+[2015.02.16-03.56.36:778][652]LightingResults: New page: Lighting Build
+[2015.02.16-03.56.36:788][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5197B51C0
+[2015.02.16-03.56.36:892][652]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-03.56.36:892][652]LogAIModule: Creating AISystem for world Template
+[2015.02.16-03.56.36:934][652]Cmd: MAP CHECKDEP
+[2015.02.16-03.56.36:934][652]MapCheck: New page: Template - Feb 15, 2015, 5:56:36 PM
+[2015.02.16-03.56.37:162][652]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 227.309ms to complete.
+[2015.02.16-03.56.37:162][652]LogFileHelpers: Loading map 'Template' took 0.463
+[2015.02.16-03.56.51:375][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.16-03.56.51:390][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-03.56.51:430][196]LogSavePackage: Save=29.546526ms
+[2015.02.16-03.56.51:430][196]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap32FF592F44FAF0424D8F4048E64C7E369.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-03.56.51:478][196]LogFileHelpers: Saving map '1PMap3' took 0.442
+[2015.02.16-03.59.00:412][ 13]LogEditorViewport: Clicking on Actor (LMB): PlayerGate_C (PlayerGate)
+[2015.02.16-03.59.01:111][ 53]Cmd: DELETE
+[2015.02.16-03.59.01:111][ 53]Cmd: ACTOR DELETE
+[2015.02.16-03.59.01:112][ 53]LogEditorActor: Deleted Actor: PlayerGate_C
+[2015.02.16-03.59.01:112][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.16-03.59.01:124][ 53]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.02.16-03.59.02:034][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-03.59.02:164][ 92]LogSavePackage: Save=29.426783ms
+[2015.02.16-03.59.02:164][ 92]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap3BE020B6E4D0D33EF5E94159E1E65AC00.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-03.59.02:209][ 92]LogFileHelpers: Saving map '1PMap3' took 0.393
+[2015.02.16-04.01.26:042][732]LogEditorViewport: Clicking on Actor (LMB): Goal_C (Goal)
+[2015.02.16-04.01.30:990][996]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite)
+[2015.02.16-04.01.31:072][996]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.01.43:201][691]PIE:Warning: Warning Scale ''X=-1.500 Y=1.000 Z=0.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.43:234][693]PIE:Warning: Warning Scale ''X=-1.250 Y=1.000 Z=0.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.44:988][797]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:006][798]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=1.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:033][799]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=1.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:033][799]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=1.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:058][800]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=2.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:086][801]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=2.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:112][802]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=3.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:140][803]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=3.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:164][804]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=3.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:193][805]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=4.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:217][806]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=4.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:245][807]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=4.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:270][808]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=5.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:297][809]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=5.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:322][810]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=5.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:350][811]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=5.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:442][816]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=6.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:475][818]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=6.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:508][820]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=6.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:528][821]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:529][821]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:553][822]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:580][823]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:606][824]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.45:967][845]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.46:018][848]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.46:051][850]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=7.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.46:051][850]PIE:Warning: Warning Scale ''X=-1.000 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.47:279][922]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:822][ 13]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:841][ 14]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:866][ 15]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:894][ 16]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:920][ 17]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:948][ 18]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.48:973][ 19]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:000][ 20]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:025][ 21]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:053][ 22]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:080][ 23]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:123][ 25]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:158][ 27]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:213][ 30]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:280][ 34]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:313][ 36]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:329][ 37]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:359][ 38]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:384][ 39]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:412][ 40]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:438][ 41]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:465][ 42]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:524][ 45]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:607][ 50]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:707][ 56]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:724][ 57]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:750][ 58]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:776][ 59]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:801][ 60]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:830][ 61]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:854][ 62]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:883][ 63]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:908][ 64]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:936][ 65]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:961][ 66]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.49:988][ 67]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:014][ 68]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:041][ 69]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:083][ 71]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:271][ 82]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:288][ 83]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:316][ 84]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:341][ 85]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:369][ 86]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:394][ 87]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:421][ 88]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.50:446][ 89]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:390][142]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:412][143]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:442][144]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:470][145]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:498][146]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:526][147]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:554][148]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:580][149]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:677][154]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:828][163]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:849][164]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:879][165]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.51:990][171]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.52:057][175]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.52:357][193]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.52:377][194]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.53:440][257]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.53:461][258]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=6.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.01.56:609][443]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.01.56:624][443]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.03:469][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.03:483][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.13:471][391]PIE:Warning: Warning Scale ''X=-2.000 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:504][393]PIE:Warning: Warning Scale ''X=-2.500 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:626][400]PIE:Warning: Warning Scale ''X=-2.750 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:693][404]PIE:Warning: Warning Scale ''X=-3.000 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:710][405]PIE:Warning: Warning Scale ''X=-3.500 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:727][406]PIE:Warning: Warning Scale ''X=-3.750 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:815][411]PIE:Warning: Warning Scale ''X=-4.000 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:865][414]PIE:Warning: Warning Scale ''X=-4.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:898][416]PIE:Warning: Warning Scale ''X=-4.500 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:948][419]PIE:Warning: Warning Scale ''X=-4.750 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.13:998][422]PIE:Warning: Warning Scale ''X=-4.500 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.14:366][444]PIE:Warning: Warning Scale ''X=-4.750 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.14:499][452]PIE:Warning: Warning Scale ''X=-5.000 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.14:583][457]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.14:782][469]PIE:Warning: Warning Scale ''X=-5.500 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.14:865][474]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:679][582]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:696][583]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:722][584]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:743][585]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:768][586]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:790][587]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:814][588]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:836][589]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:860][590]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:882][591]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:908][592]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:930][593]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:955][594]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.16:977][595]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:002][596]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:208][608]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:224][609]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:245][610]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:270][611]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:327][614]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:343][615]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:395][618]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:412][619]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:432][620]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:457][621]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:745][638]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.17:813][642]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.18:128][661]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.18:145][662]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.18:164][663]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.19:156][722]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.19:292][730]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.20:619][809]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.20:689][813]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.20:739][816]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.20:789][819]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.20:839][822]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.23:530][978]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.02.16-04.02.23:536][978]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.24:536][ 36]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite7)
+[2015.02.16-04.02.24:543][ 36]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.27:590][216]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.02.28:645][279]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.16-04.02.28:917][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-04.02.29:049][279]LogSavePackage: Save=29.210390ms
+[2015.02.16-04.02.29:049][279]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap3E7EB5C3C4B1388A06247019136E2A526.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-04.02.29:098][279]LogFileHelpers: Saving map '1PMap3' took 0.403
+[2015.02.16-04.02.31:060][392]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.31:074][392]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.35:444][632]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter2)
+[2015.02.16-04.02.35:459][632]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.35:460][632]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.36:332][678]Cmd: DELETE
+[2015.02.16-04.02.36:332][678]Cmd: ACTOR DELETE
+[2015.02.16-04.02.36:333][678]LogEditorActor: Deleted Actor: MyCharacter_C
+[2015.02.16-04.02.36:374][678]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.02.16-04.02.37:606][752]LogEditorViewport: Clicking on Actor (LMB): Goal_C (Goal)
+[2015.02.16-04.02.41:196][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-04.02.41:327][949]LogSavePackage: Save=28.573616ms
+[2015.02.16-04.02.41:327][949]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap366262156460D6D244EB588A0412E1954.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-04.02.41:370][949]LogFileHelpers: Saving map '1PMap3' took 0.402
+[2015.02.16-04.02.43:288][ 63]LogEditorViewport: Clicking on Actor (LMB): MyCharacter_C (MyCharacter)
+[2015.02.16-04.02.43:303][ 63]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.43:307][ 63]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.48:282][324]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-04.02.48:282][324]LogPlayLevel: [PIE] Compiling 1PMap3 before PIE...
+[2015.02.16-04.02.48:322][324]LogPlayLevel: PIE:  Blueprint regeneration took 40 ms (1 blueprints)
+[2015.02.16-04.02.48:322][324]PIE: New page: PIE session: 1PMap3 (Feb 15, 2015, 6:02:48 PM)
+[2015.02.16-04.02.48:324][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001829s)
+[2015.02.16-04.02.48:325][324]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2015.02.16-04.02.48:325][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/1PMap3.1PMap3 to /Game/Maps/UEDPIE_0_1PMap3.1PMap3 (0.002466s)
+[2015.02.16-04.02.48:553][324]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-04.02.48:554][324]LogAIModule: Creating AISystem for world 1PMap3
+[2015.02.16-04.02.48:555][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap3.1PMap3 up for play (max tick rate 60) at 2015.02.15-23.02.48
+[2015.02.16-04.02.48:556][324]LogWorld: Bringing up level for play took: 0.001284
+[2015.02.16-04.02.48:557][324]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_1PMap3 -0.043
+[2015.02.16-04.02.51:844][517]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.51:848][517]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.51:879][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51D41CC20
+[2015.02.16-04.02.53:243][595]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2015.02.16-04.02.53:251][595]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.02.53:914][631]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2015.02.16-04.02.54:529][666]Cmd: DELETE
+[2015.02.16-04.02.54:529][666]Cmd: ACTOR DELETE
+[2015.02.16-04.02.54:530][666]LogEditorActor: Deleted Actor: Portal_C
+[2015.02.16-04.02.54:542][666]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.02.16-04.02.55:724][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-04.02.55:850][720]LogSavePackage: Save=28.014673ms
+[2015.02.16-04.02.55:850][720]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap322F3C86640077B39CCD56F8F3F164C04.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-04.02.55:893][720]LogFileHelpers: Saving map '1PMap3' took 0.388
+[2015.02.16-04.03.05:799][242]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite7)
+[2015.02.16-04.03.05:806][242]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.06:553][285]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:570][286]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:597][287]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:623][288]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:648][289]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:672][290]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:697][291]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:721][292]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:746][293]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:770][294]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:797][295]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.06:821][296]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:047][309]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:064][310]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:089][311]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:113][312]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:154][314]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:171][315]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:190][316]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:230][318]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:246][319]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.07:318][323]PIE:Warning: Warning Scale ''X=-5.250 Y=1.000 Z=0.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite7.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.08:069][367]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite)
+[2015.02.16-04.03.08:076][367]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.09:712][462]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.09:814][468]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.09:930][475]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.09:997][479]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:014][480]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:037][481]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:063][482]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:104][484]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:137][486]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.10:170][488]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:505][567]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:522][568]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:546][569]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:571][570]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:594][571]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:619][572]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:643][573]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:667][574]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:690][575]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:715][576]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:739][577]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:763][578]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:788][579]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:828][581]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:895][585]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:912][586]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:936][587]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:978][589]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.11:994][590]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:020][591]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:045][592]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:119][596]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:136][597]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:160][598]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:184][599]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:208][600]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:548][620]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:565][621]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:589][622]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:614][623]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:671][626]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:721][629]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:738][630]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:760][631]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:785][632]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.12:993][644]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:011][645]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:103][650]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:170][654]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:787][691]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:805][692]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:830][693]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.13:853][694]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.14:327][722]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.14:344][723]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.14:368][724]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.14:389][725]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.15:981][819]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=9.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.16:114][827]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.16:214][833]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.500'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.16:314][839]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.250'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.16:482][849]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.16:515][851]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.18:100][945]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.18:117][946]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.18:142][947]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=7.750'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.20:854][108]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.23:242][250]PIE:Warning: Warning Scale ''X=-0.750 Y=1.000 Z=8.000'' is not valid on object '/Game/Maps/1PMap3.1PMap3:PersistentLevel.PrototypingSprite_8.RenderComponent PrototypingSprite'.
+[2015.02.16-04.03.24:589][330]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite6)
+[2015.02.16-04.03.24:596][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.26:135][421]Cmd: DELETE
+[2015.02.16-04.03.26:135][421]Cmd: ACTOR DELETE
+[2015.02.16-04.03.26:135][421]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2015.02.16-04.03.26:135][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.16-04.03.26:147][421]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2015.02.16-04.03.27:330][492]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypingSprite)
+[2015.02.16-04.03.27:338][492]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.28:334][548]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.28:348][548]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-04.03.31:700][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-04.03.31:827][716]LogSavePackage: Save=28.719017ms
+[2015.02.16-04.03.31:827][716]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap31A4C41EC4FD2ACF607AD53B99BA44538.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-04.03.31:871][716]LogFileHelpers: Saving map '1PMap3' took 0.392
+[2015.02.16-04.03.33:710][824]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2015.02.16-04.03.39:795][176]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-04.03.39:795][176]LogPlayLevel: [PIE] Compiling 1PMap3 before PIE...
+[2015.02.16-04.03.39:833][176]LogPlayLevel: PIE:  Blueprint regeneration took 37 ms (1 blueprints)
+[2015.02.16-04.03.39:833][176]PIE: New page: PIE session: 1PMap3 (Feb 15, 2015, 6:03:39 PM)
+[2015.02.16-04.03.39:835][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001874s)
+[2015.02.16-04.03.39:835][176]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2015.02.16-04.03.39:835][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/1PMap3.1PMap3 to /Game/Maps/UEDPIE_0_1PMap3.1PMap3 (0.002481s)
+[2015.02.16-04.03.39:867][176]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-04.03.39:869][176]LogAIModule: Creating AISystem for world 1PMap3
+[2015.02.16-04.03.39:870][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap3.1PMap3 up for play (max tick rate 60) at 2015.02.15-23.03.39
+[2015.02.16-04.03.39:870][176]LogWorld: Bringing up level for play took: 0.001382
+[2015.02.16-04.03.39:871][176]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_1PMap3 -0.729
+[2015.02.16-04.03.53:508][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B519816660
+[2015.02.16-04.03.54:336][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/1PMap3" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-04.03.54:462][ 21]LogSavePackage: Save=28.458576ms
+[2015.02.16-04.03.54:463][ 21]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/1PMap3ADFA99FE46E37EF339411C9ED24DA013.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/1PMap3.umap'
+[2015.02.16-04.03.54:507][ 21]LogFileHelpers: Saving map '1PMap3' took 0.390
+[2015.02.16-04.04.01:192][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.02.16-04.04.01:751][422]Cmd: QUIT_EDITOR
+[2015.02.16-04.04.02:049][422]LogExit: Preparing to exit.
+[2015.02.16-04.04.03:036][422]LogExit: Editor shut down
+[2015.02.16-04.04.03:036][422]LogExit: Transaction tracking system shut down
+[2015.02.16-04.04.03:037][422]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B51BA7EDE0
+[2015.02.16-04.04.03:037][422]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B5296C8B80
+[2015.02.16-04.04.03:068][422]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B529985B20
+[2015.02.16-04.04.03:068][422]LogExit: Object subsystem successfully closed.
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.16-04.04.03:148][422]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.16-04.04.03:149][422]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.16-04.04.03:204][422]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.16-04.04.03:319][422]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.16-04.04.03:320][422]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.16-04.04.03:421][422]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.16-04.04.03:421][422]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.16-04.04.03:421][422]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.16-04.04.03:423][422]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.16-04.04.03:430][422]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.16-04.04.03:449][422]LogDerivedDataCache: Shutdown
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.16-04.04.03:449][422]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.16-04.04.03:450][422]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.16-04.04.03:451][422]LogExit: Exiting.
+[2015.02.16-04.04.03:455][422]Log file closed, 02/15/15 23:04:03

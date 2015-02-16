@@ -1,0 +1,565 @@
+﻿Log file open, 02/16/15 03:53:09
+LogInit:Display: Running engine for game: WeGuys
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/UE45/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.16-08.53.09:666][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.02.16-08.53.09:727][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.16-08.53.09:792][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.16-08.53.09:799][  0]LogInit: Object subsystem initialized
+[2015.02.16-08.53.09:801][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.16-08.53.09:801][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.16-08.53.09:801][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.02.16-08.53.09:801][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.16-08.53.09:801][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.02.16-08.53.09:801][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.16-08.53.09:801][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.16-08.53.09:809][  0]LogInit: Computer: ASUS
+[2015.02.16-08.53.09:809][  0]LogInit: User: Owner
+[2015.02.16-08.53.09:809][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.16-08.53.09:809][  0]LogInit: High frequency timer resolution =2.338346 MHz
+[2015.02.16-08.53.09:809][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.02.16-08.53.09:809][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.53.09:809][  0]LogMemory: Process Physical Memory: 48.32 MB used, 48.32 MB peak
+[2015.02.16-08.53.09:809][  0]LogMemory: Process Virtual Memory: 25.04 MB used, 25.04 MB peak
+[2015.02.16-08.53.09:809][  0]LogMemory: Physical Memory: 3352.54 MB used, 16267.18 MB total
+[2015.02.16-08.53.09:809][  0]LogMemory: Virtual Memory: 270.98 MB used, 134217728.00 MB total
+[2015.02.16-08.53.09:909][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.02.16-08.53.09:909][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.02.16-08.53.09:927][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 750M (Feature Level 11_0)
+[2015.02.16-08.53.09:927][  0]LogD3D11RHI: Adapter has 1988MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.02.16-08.53.09:928][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.02.16-08.53.09:928][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.02.16-08.53.09:928][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.16-08.53.09:936][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.16-08.53.09:948][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.16-08.53.10:130][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.16-08.53.10:271][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.16-08.53.15:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-08.53.16:428][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-08.53.16:510][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.16-08.53.16:547][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.16-08.53.16:547][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.16-08.53.16:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.16-08.53.16:548][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.16-08.53.16:606][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.16-08.53.16:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.16-08.53.16:773][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.16-08.53.16:924][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.16-08.53.16:924][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.16-08.53.17:393][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.16-08.53.17:525][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.16-08.53.18:833][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.16-08.53.19:165][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Owner/Documents/Unreal Projects/WeGuys/Binaries/Win64. Error: 0
+[2015.02.16-08.53.19:423][  0]SourceControl: Info Source control is disabled
+[2015.02.16-08.53.19:423][  0]SourceControl: Info Source control is disabled
+[2015.02.16-08.53.19:435][  0]SourceControl: Info Source control is disabled
+[2015.02.16-08.53.19:752][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.16-08.53.19:752][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.02.16-08.53.19:836][  0]LogEngine: Initializing Engine...
+[2015.02.16-08.53.19:975][  0]LogInit: XAudio2 using 'Speakers (2- M-Audio Micro)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.16-08.53.19:982][  0]LogInit: FAudioDevice initialized.
+[2015.02.16-08.53.20:019][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.16-08.53.20:039][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Owner/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.16-08.53.20:041][  0]LogInit: Texture streaming: Enabled
+[2015.02.16-08.53.20:096][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.16-08.53.20:096][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.16-08.53.20:097][  0]LogAnalytics: SetUserId d53fbd01599cddc5eda2e5a33cd9f114
+[2015.02.16-08.53.20:097][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.16-08.53.20:125][  0]LogInit: Transaction tracking system initialized
+[2015.02.16-08.53.20:333][  0]BlueprintLog: New page: Editor Load
+[2015.02.16-08.53.20:401][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.02.16-08.53.20:401][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.16-08.53.21:167][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-08.53.21:547][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.16-08.53.21:937][  0]LogConsoleResponse:Display: 
+[2015.02.16-08.53.21:985][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.16-08.53.22:364][  0]SourceControl: Info Source control is disabled
+[2015.02.16-08.53.22:364][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-08.53.22:365][  0]LightingResults: New page: Lighting Build
+[2015.02.16-08.53.22:381][  0]MapCheck: New page: Map Check
+[2015.02.16-08.53.22:381][  0]LightingResults: New page: Lighting Build
+[2015.02.16-08.53.22:387][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AB0CE9580
+[2015.02.16-08.53.23:486][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-08.53.23:487][  0]LogAIModule: Creating AISystem for world Template
+[2015.02.16-08.53.23:487][  0]Cmd: MAP CHECKDEP
+[2015.02.16-08.53.23:487][  0]MapCheck: New page: Template - Feb 15, 2015, 10:53:23 PM
+[2015.02.16-08.53.23:698][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 211.349ms to complete.
+[2015.02.16-08.53.23:698][  0]LogFileHelpers: Loading map 'Template' took 1.333
+[2015.02.16-08.53.23:796][  0]LogCollectionManager: Loaded 0 collections in 0.001563 seconds
+[2015.02.16-08.53.23:981][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.16-08.53.24:034][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.16-08.53.24:061][  0]LogLoad: Full Startup: 16.67 seconds (BP compile: 0.33 seconds)
+[2015.02.16-08.53.24:406][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.16-08.53.24:580][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.16-08.53.25:402][  3]LogAssetRegistry: Asset discovery search completed in 5.0124 seconds
+[2015.02.16-08.54.32:597][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.16-08.54.32:689][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TitleHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" SILENT=true
+[2015.02.16-08.54.32:798][396]LogSavePackage: Save=3.948945ms
+[2015.02.16-08.54.32:798][396]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleHUD9F06AC8144DCDE8D2E2D31A2AB6A860E.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset'
+[2015.02.16-08.54.36:707][585]BlueprintLog: New page: Compile TitleHUD
+[2015.02.16-08.54.36:777][585]BlueprintEditorCompileResults: Info [0089.39] Compile of TitleHUD successful! [in 69 ms]
+[2015.02.16-08.54.37:719][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TitleHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" SILENT=true
+[2015.02.16-08.54.37:828][628]LogSavePackage: Save=3.954504ms
+[2015.02.16-08.54.37:828][628]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleHUD07DC86DE4957516E10B355BB329AD5B9.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset'
+[2015.02.16-08.54.40:030][742]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.54.40:032][742]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.16-08.54.40:071][742]LogPlayLevel: [PIE] Compiling Template before PIE...
+[2015.02.16-08.54.40:130][742]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (2 blueprints)
+[2015.02.16-08.54.40:131][742]PIE: New page: PIE session: Template (Feb 15, 2015, 10:54:40 PM)
+[2015.02.16-08.54.40:133][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001968s)
+[2015.02.16-08.54.40:133][742]LogPlayLevel: PIE: World Init took: (0.000446s)
+[2015.02.16-08.54.40:133][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Template.Template to /Game/Maps/UEDPIE_0_Template.Template (0.002566s)
+[2015.02.16-08.54.40:198][742]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.54.40:199][742]LogAIModule: Creating AISystem for world Template
+[2015.02.16-08.54.40:200][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Template.Template up for play (max tick rate 60) at 2015.02.16-03.54.40
+[2015.02.16-08.54.40:201][742]LogWorld: Bringing up level for play took: 0.001800
+[2015.02.16-08.54.40:202][742]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Template -0.325
+[2015.02.16-08.54.41:811][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008ABC1AA480
+[2015.02.16-08.54.44:382][975]Cmd: MAP LOAD FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.16-08.54.44:420][975]LightingResults: New page: Lighting Build
+[2015.02.16-08.54.44:459][975]LoadErrors: New page: Loading map: Title.umap
+[2015.02.16-08.54.44:550][975]MapCheck: New page: Map Check
+[2015.02.16-08.54.44:550][975]LightingResults: New page: Lighting Build
+[2015.02.16-08.54.44:568][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA82AF2E0
+[2015.02.16-08.54.44:668][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.16-08.54.44:668][975]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.54.44:714][975]Cmd: MAP CHECKDEP
+[2015.02.16-08.54.44:714][975]MapCheck: New page: Title - Feb 15, 2015, 10:54:44 PM
+[2015.02.16-08.54.44:933][975]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 219.656ms to complete.
+[2015.02.16-08.54.44:933][975]LogFileHelpers: Loading map 'Title' took 0.553
+[2015.02.16-08.54.46:845][ 86]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.54.46:845][ 86]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-08.54.46:886][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.16-08.54.46:905][ 86]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2015.02.16-08.54.46:905][ 86]PIE: New page: PIE session: Title (Feb 15, 2015, 10:54:46 PM)
+[2015.02.16-08.54.46:908][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003089s)
+[2015.02.16-08.54.46:909][ 86]LogPlayLevel: PIE: World Init took: (0.000385s)
+[2015.02.16-08.54.46:909][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003633s)
+[2015.02.16-08.54.46:942][ 86]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.54.46:944][ 86]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.54.46:946][ 86]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.54.46
+[2015.02.16-08.54.46:951][ 86]LogWorld: Bringing up level for play took: 0.006759
+[2015.02.16-08.54.46:952][ 86]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.425
+[2015.02.16-08.54.51:569][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AAD347CE0
+[2015.02.16-08.54.53:879][477]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.54.53:879][477]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-08.54.53:934][477]LogPlayLevel: PIE:  Blueprint regeneration took 55 ms (1 blueprints)
+[2015.02.16-08.54.53:935][477]PIE: New page: PIE session: Title (Feb 15, 2015, 10:54:53 PM)
+[2015.02.16-08.54.53:938][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003081s)
+[2015.02.16-08.54.53:938][477]LogPlayLevel: PIE: World Init took: (0.000426s)
+[2015.02.16-08.54.53:938][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003638s)
+[2015.02.16-08.54.53:983][477]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.54.53:985][477]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.54.53:987][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.54.53
+[2015.02.16-08.54.53:992][477]LogWorld: Bringing up level for play took: 0.007011
+[2015.02.16-08.54.53:999][477]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title -0.528
+[2015.02.16-08.55.12:289][418]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA7ED0B80
+[2015.02.16-08.55.27:551][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TitleHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" SILENT=true
+[2015.02.16-08.55.27:658][ 97]LogSavePackage: Save=3.916016ms
+[2015.02.16-08.55.27:658][ 97]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleHUD6F0B2EFD4ADB84FA4BF9ED8EEE191868.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset'
+[2015.02.16-08.55.35:697][465]BlueprintLog: New page: Compile TitleHUD
+[2015.02.16-08.55.35:790][465]BlueprintEditorCompileResults: Info [0148.40] Compile of TitleHUD successful! [in 92 ms]
+[2015.02.16-08.55.36:380][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TitleHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" SILENT=true
+[2015.02.16-08.55.36:488][487]LogSavePackage: Save=3.904469ms
+[2015.02.16-08.55.36:488][487]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleHUD1A67FE0E404C996946A61987A46C64FD.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset'
+[2015.02.16-08.55.38:825][608]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.55.38:825][608]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-08.55.38:882][608]LogPlayLevel: PIE:  Blueprint regeneration took 57 ms (1 blueprints)
+[2015.02.16-08.55.38:882][608]PIE: New page: PIE session: Title (Feb 15, 2015, 10:55:38 PM)
+[2015.02.16-08.55.38:886][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003160s)
+[2015.02.16-08.55.38:886][608]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2015.02.16-08.55.38:886][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003767s)
+[2015.02.16-08.55.38:930][608]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.55.38:932][608]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.55.38:934][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.55.38
+[2015.02.16-08.55.38:939][608]LogWorld: Bringing up level for play took: 0.006988
+[2015.02.16-08.55.38:948][608]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.421
+[2015.02.16-08.55.43:844][850]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA7B6F060
+[2015.02.16-08.55.45:014][919]LogEditorViewport: Clicking Background
+[2015.02.16-08.55.45:734][962]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Title_Sprite)
+[2015.02.16-08.55.45:741][962]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-08.55.49:015][151]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.55.49:015][151]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-08.55.49:069][151]LogPlayLevel: PIE:  Blueprint regeneration took 54 ms (1 blueprints)
+[2015.02.16-08.55.49:070][151]PIE: New page: PIE session: Title (Feb 15, 2015, 10:55:49 PM)
+[2015.02.16-08.55.49:073][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003155s)
+[2015.02.16-08.55.49:073][151]LogPlayLevel: PIE: World Init took: (0.000410s)
+[2015.02.16-08.55.49:074][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003721s)
+[2015.02.16-08.55.49:119][151]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.55.49:121][151]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.55.49:123][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.55.49
+[2015.02.16-08.55.49:128][151]LogWorld: Bringing up level for play took: 0.007139
+[2015.02.16-08.55.49:135][151]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.608
+[2015.02.16-08.55.52:856][338]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-08.55.52:894][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA74B28E0
+[2015.02.16-08.56.16:472][266]BlueprintLog: New page: Compile TitleHUD
+[2015.02.16-08.56.16:548][266]BlueprintEditorCompileResults: Info [0189.16] Compile of TitleHUD successful! [in 76 ms]
+[2015.02.16-08.56.17:226][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-08.56.17:382][282]LogSavePackage: Save=33.649853ms
+[2015.02.16-08.56.17:382][282]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Title20D590F644AF4006C2A4819AC544E9AE.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-08.56.17:430][282]LogFileHelpers: Saving map 'Title' took 0.437
+[2015.02.16-08.56.17:435][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TitleHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset" SILENT=true
+[2015.02.16-08.56.17:542][282]LogSavePackage: Save=3.788148ms
+[2015.02.16-08.56.17:542][282]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleHUD53BFDDEC46561784B3AF25AB5841DE52.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/TitleHUD.uasset'
+[2015.02.16-08.56.18:528][332]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-08.56.18:528][332]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-08.56.18:585][332]LogPlayLevel: PIE:  Blueprint regeneration took 56 ms (1 blueprints)
+[2015.02.16-08.56.18:585][332]PIE: New page: PIE session: Title (Feb 15, 2015, 10:56:18 PM)
+[2015.02.16-08.56.18:588][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003107s)
+[2015.02.16-08.56.18:589][332]LogPlayLevel: PIE: World Init took: (0.000439s)
+[2015.02.16-08.56.18:589][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003681s)
+[2015.02.16-08.56.18:631][332]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.56.18:633][332]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.56.18:635][332]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.56.18
+[2015.02.16-08.56.18:640][332]LogWorld: Bringing up level for play took: 0.006832
+[2015.02.16-08.56.18:649][332]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.121
+[2015.02.16-08.56.26:543][732]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve 1PMap1.umap
+[2015.02.16-08.56.26:681][733]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve 1PMap1.umap
+[2015.02.16-08.56.26:681][733]LogNet: Browse: /Game/Maps/1PMap1
+[2015.02.16-08.56.26:681][733]LogLoad: LoadMap: /Game/Maps/1PMap1
+[2015.02.16-08.56.26:698][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA6143240
+[2015.02.16-08.56.26:698][733]Cmd: MEM
+[2015.02.16-08.56.26:714][733]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.56.26:714][733]LogMemory: Process Physical Memory: 491.45 MB used, 533.06 MB peak
+[2015.02.16-08.56.26:714][733]LogMemory: Process Virtual Memory: 392.55 MB used, 462.38 MB peak
+[2015.02.16-08.56.26:714][733]LogMemory: Physical Memory: 3976.31 MB used, 16267.18 MB total
+[2015.02.16-08.56.26:714][733]LogMemory: Virtual Memory: 947.81 MB used, 134217728.00 MB total
+[2015.02.16-08.56.26:714][733]LogMemory: 
+[2015.02.16-08.56.26:714][733]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.56.27:005][733]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.56.27:007][733]LogAIModule: Creating AISystem for world 1PMap1
+[2015.02.16-08.56.27:011][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap1.1PMap1 up for play (max tick rate 60) at 2015.02.16-03.56.27
+[2015.02.16-08.56.27:012][733]LogWorld: Bringing up level for play took: 0.004898
+[2015.02.16-08.56.37:125][283]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve 1PMap2.umap
+[2015.02.16-08.56.37:263][284]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve 1PMap2.umap
+[2015.02.16-08.56.37:263][284]LogNet: Browse: /Game/Maps/1PMap2
+[2015.02.16-08.56.37:263][284]LogLoad: LoadMap: /Game/Maps/1PMap2
+[2015.02.16-08.56.37:282][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA751A2A0
+[2015.02.16-08.56.37:282][284]Cmd: MEM
+[2015.02.16-08.56.37:297][284]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.56.37:297][284]LogMemory: Process Physical Memory: 510.17 MB used, 533.06 MB peak
+[2015.02.16-08.56.37:297][284]LogMemory: Process Virtual Memory: 411.87 MB used, 462.38 MB peak
+[2015.02.16-08.56.37:297][284]LogMemory: Physical Memory: 4000.96 MB used, 16267.18 MB total
+[2015.02.16-08.56.37:297][284]LogMemory: Virtual Memory: 969.07 MB used, 134217728.00 MB total
+[2015.02.16-08.56.37:297][284]LogMemory: 
+[2015.02.16-08.56.37:297][284]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.56.37:643][284]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.56.37:644][284]LogAIModule: Creating AISystem for world 1PMap2
+[2015.02.16-08.56.37:657][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap2.1PMap2 up for play (max tick rate 60) at 2015.02.16-03.56.37
+[2015.02.16-08.56.37:659][284]LogWorld: Bringing up level for play took: 0.014634
+[2015.02.16-08.57.29:775][145]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve 1PMap3.umap
+[2015.02.16-08.57.29:910][146]LogPackageName: SearchForPackageOnDisk took   0.126s to resolve 1PMap3.umap
+[2015.02.16-08.57.29:910][146]LogNet: Browse: /Game/Maps/1PMap3
+[2015.02.16-08.57.29:911][146]LogLoad: LoadMap: /Game/Maps/1PMap3
+[2015.02.16-08.57.29:930][146]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA76C0E00
+[2015.02.16-08.57.29:931][146]Cmd: MEM
+[2015.02.16-08.57.29:946][146]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.57.29:946][146]LogMemory: Process Physical Memory: 528.00 MB used, 585.27 MB peak
+[2015.02.16-08.57.29:946][146]LogMemory: Process Virtual Memory: 429.72 MB used, 513.24 MB peak
+[2015.02.16-08.57.29:946][146]LogMemory: Physical Memory: 4003.73 MB used, 16267.18 MB total
+[2015.02.16-08.57.29:946][146]LogMemory: Virtual Memory: 1003.45 MB used, 134217728.00 MB total
+[2015.02.16-08.57.29:946][146]LogMemory: 
+[2015.02.16-08.57.29:946][146]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.57.29:982][146]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.16-08.57.29:982][146]LoadErrors:Error: Error Failed import for CurveFloat
+[2015.02.16-08.57.30:236][146]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.57.30:238][146]LogAIModule: Creating AISystem for world 1PMap3
+[2015.02.16-08.57.30:246][146]LogWorld: Bringing World /Game/Maps/UEDPIE_0_1PMap3.1PMap3 up for play (max tick rate 60) at 2015.02.16-03.57.30
+[2015.02.16-08.57.30:249][146]LogWorld: Bringing up level for play took: 0.010791
+[2015.02.16-08.57.55:280][513]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Title.umap
+[2015.02.16-08.57.55:419][514]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Title.umap
+[2015.02.16-08.57.55:419][514]LogNet: Browse: /Game/Maps/Title
+[2015.02.16-08.57.55:419][514]LogLoad: LoadMap: /Game/Maps/Title
+[2015.02.16-08.57.55:439][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA82AF6A0
+[2015.02.16-08.57.55:439][514]Cmd: MEM
+[2015.02.16-08.57.55:454][514]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.57.55:455][514]LogMemory: Process Physical Memory: 522.38 MB used, 585.27 MB peak
+[2015.02.16-08.57.55:455][514]LogMemory: Process Virtual Memory: 422.52 MB used, 513.24 MB peak
+[2015.02.16-08.57.55:455][514]LogMemory: Physical Memory: 4003.96 MB used, 16267.18 MB total
+[2015.02.16-08.57.55:455][514]LogMemory: Virtual Memory: 985.82 MB used, 134217728.00 MB total
+[2015.02.16-08.57.55:455][514]LogMemory: 
+[2015.02.16-08.57.55:455][514]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.57.55:458][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003301s)
+[2015.02.16-08.57.55:458][514]LogPlayLevel: PIE: World Init took: (0.000435s)
+[2015.02.16-08.57.55:458][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003873s)
+[2015.02.16-08.57.55:459][514]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.57.55:461][514]LogAIModule: Creating AISystem for world Title
+[2015.02.16-08.57.55:463][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-03.57.55
+[2015.02.16-08.57.55:469][514]LogWorld: Bringing up level for play took: 0.006880
+[2015.02.16-08.57.55:469][514]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.02.16-08.57.58:933][688]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.16-08.57.59:072][689]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map1.umap
+[2015.02.16-08.57.59:072][689]LogNet: Browse: /Game/Maps/Map1
+[2015.02.16-08.57.59:072][689]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.16-08.57.59:089][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA6142D40
+[2015.02.16-08.57.59:090][689]Cmd: MEM
+[2015.02.16-08.57.59:106][689]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.57.59:106][689]LogMemory: Process Physical Memory: 531.13 MB used, 588.13 MB peak
+[2015.02.16-08.57.59:106][689]LogMemory: Process Virtual Memory: 431.70 MB used, 514.63 MB peak
+[2015.02.16-08.57.59:106][689]LogMemory: Physical Memory: 4006.54 MB used, 16267.18 MB total
+[2015.02.16-08.57.59:106][689]LogMemory: Virtual Memory: 993.81 MB used, 134217728.00 MB total
+[2015.02.16-08.57.59:106][689]LogMemory: 
+[2015.02.16-08.57.59:106][689]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.57.59:390][689]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.57.59:392][689]LogAIModule: Creating AISystem for world Map1
+[2015.02.16-08.57.59:394][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.16-03.57.59
+[2015.02.16-08.57.59:395][689]LogWorld: Bringing up level for play took: 0.002768
+[2015.02.16-08.58.28:133][258]LogPackageName: SearchForPackageOnDisk took   0.129s to resolve Map2.umap
+[2015.02.16-08.58.28:270][259]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Map2.umap
+[2015.02.16-08.58.28:270][259]LogNet: Browse: /Game/Maps/Map2
+[2015.02.16-08.58.28:270][259]LogLoad: LoadMap: /Game/Maps/Map2
+[2015.02.16-08.58.28:289][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA74098A0
+[2015.02.16-08.58.28:289][259]Cmd: MEM
+[2015.02.16-08.58.28:305][259]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.58.28:305][259]LogMemory: Process Physical Memory: 536.56 MB used, 588.13 MB peak
+[2015.02.16-08.58.28:305][259]LogMemory: Process Virtual Memory: 439.36 MB used, 514.63 MB peak
+[2015.02.16-08.58.28:305][259]LogMemory: Physical Memory: 4015.50 MB used, 16267.18 MB total
+[2015.02.16-08.58.28:305][259]LogMemory: Virtual Memory: 998.87 MB used, 134217728.00 MB total
+[2015.02.16-08.58.28:305][259]LogMemory: 
+[2015.02.16-08.58.28:305][259]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.58.28:577][259]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.58.28:579][259]LogAIModule: Creating AISystem for world Map2
+[2015.02.16-08.58.28:584][259]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map2.Map2 up for play (max tick rate 60) at 2015.02.16-03.58.28
+[2015.02.16-08.58.28:585][259]LogWorld: Bringing up level for play took: 0.006012
+[2015.02.16-08.59.28:515][537]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve Map3.umap
+[2015.02.16-08.59.28:653][538]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve Map3.umap
+[2015.02.16-08.59.28:653][538]LogNet: Browse: /Game/Maps/Map3
+[2015.02.16-08.59.28:653][538]LogLoad: LoadMap: /Game/Maps/Map3
+[2015.02.16-08.59.28:668][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA740A700
+[2015.02.16-08.59.28:670][538]Cmd: MEM
+[2015.02.16-08.59.28:686][538]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-08.59.28:686][538]LogMemory: Process Physical Memory: 541.11 MB used, 588.13 MB peak
+[2015.02.16-08.59.28:686][538]LogMemory: Process Virtual Memory: 444.88 MB used, 514.63 MB peak
+[2015.02.16-08.59.28:686][538]LogMemory: Physical Memory: 4017.79 MB used, 16267.18 MB total
+[2015.02.16-08.59.28:686][538]LogMemory: Virtual Memory: 1003.69 MB used, 134217728.00 MB total
+[2015.02.16-08.59.28:686][538]LogMemory: 
+[2015.02.16-08.59.28:686][538]Allocator Stats for TBB: (not implemented)
+[2015.02.16-08.59.28:989][538]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-08.59.28:990][538]LogAIModule: Creating AISystem for world Map3
+[2015.02.16-08.59.28:997][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map3.Map3 up for play (max tick rate 60) at 2015.02.16-03.59.28
+[2015.02.16-08.59.28:998][538]LogWorld: Bringing up level for play took: 0.007851
+[2015.02.16-08.59.46:535][486]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-08.59.46:570][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AA76C1120
+[2015.02.16-08.59.49:620][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.02.16-08.59.51:204][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/MySprites'
+[2015.02.16-08.59.53:263][861]LogRenderer:Warning: Reallocating scene render targets to support 1520x904.
+[2015.02.16-09.00.11:410][771]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.12:510][826]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.14:368][920]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.16:937][ 52]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.18:132][112]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.19:398][175]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.21:509][281]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.22:658][338]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.23:513][380]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.26:365][519]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.27:867][592]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.29:035][647]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.00.32:069][798]LogPaper2D: Triangulation of poly failed.
+[2015.02.16-09.01.49:759][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/MySprites/apple_Sprite" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/apple_Sprite.uasset" SILENT=true
+[2015.02.16-09.01.49:919][630]LogSavePackage: Save=53.997570ms
+[2015.02.16-09.01.49:919][630]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/apple_SpriteD8869AE543795BFFECB5F4B3B9CE032D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Sprites/MySprites/apple_Sprite.uasset'
+[2015.02.16-09.01.50:257][646]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.16-09.01.50:547][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-09.01.50:706][646]LogSavePackage: Save=34.304588ms
+[2015.02.16-09.01.50:707][646]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Title835FE0F94572C29706095D9614CD9355.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-09.01.50:758][646]LogFileHelpers: Saving map 'Title' took 0.439
+[2015.02.16-09.02.10:489][800]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.16-09.02.38:124][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.16-09.04.07:750][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.16-09.04.07:816][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.04.07:843][101]LogSavePackage: Save=4.015231ms
+[2015.02.16-09.04.07:843][101]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUDA577DD60492A4005A7179D9C5A168E77.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.04.08:997][143]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.04.09:082][143]BlueprintEditorCompileResults: Info [0661.69] Compile of GameHUD successful! [in 84 ms]
+[2015.02.16-09.04.23:428][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.04.23:543][669]LogSavePackage: Save=4.120434ms
+[2015.02.16-09.04.23:544][669]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUDC25E3DA948F7393B3F2E6FB142D44108.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.04.26:556][781]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.04.26:637][781]BlueprintEditorCompileResults: Info [0679.25] Compile of GameHUD successful! [in 81 ms]
+[2015.02.16-09.04.43:189][424]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.04.43:203][424]LogBlueprint:Warning: [compiler] Warning ReturnNode Exec pin has no connections on  EdGraphPin_23090 
+[2015.02.16-09.04.43:204][424]LogBlueprint:Error: [compiler] Error Binding: property ' TextDelegate ' on widget ' P1 ' bound to function ' Get_P1_Text_0 ', but the sigatnures don't match.  The function must return the same type as the property and have no parameters.
+[2015.02.16-09.04.43:288][424]LogBlueprint:Warning: [compiler] Warning [0695.90] Compile of GameHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 97 ms]
+[2015.02.16-09.04.43:288][424]BlueprintEditorCompileResults:Warning: Warning ReturnNode Exec pin has no connections on  EdGraphPin_23090 
+[2015.02.16-09.04.43:288][424]BlueprintEditorCompileResults:Error: Error Binding: property ' TextDelegate ' on widget ' P1 ' bound to function ' Get_P1_Text_0 ', but the sigatnures don't match.  The function must return the same type as the property and have no parameters.
+[2015.02.16-09.04.43:288][424]BlueprintEditorCompileResults:Warning: Warning [0695.90] Compile of GameHUD failed. 1 Fatal Issue(s) 1 Warning(s) [in 97 ms]
+[2015.02.16-09.04.43:883][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.04.43:994][448]LogSavePackage: Save=4.946659ms
+[2015.02.16-09.04.43:994][448]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUDDF9EA2E6486C154A6D30F88D3534F05D.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.04.51:195][795]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.04.51:265][795]BlueprintEditorCompileResults: Info [0703.88] Compile of GameHUD successful! [in 68 ms]
+[2015.02.16-09.05.09:527][577]BlueprintLog: New page: Compile MyPuppeteer
+[2015.02.16-09.05.09:625][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.16-09.05.09:698][577]BlueprintEditorCompileResults: Info [0722.31] Compile of MyPuppeteer successful! [in 156 ms]
+[2015.02.16-09.05.10:306][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-09.05.10:460][588]LogSavePackage: Save=33.962467ms
+[2015.02.16-09.05.10:461][588]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleE7A2C39F40C7D4D1E92AC5B8234841C7.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-09.05.10:508][588]LogFileHelpers: Saving map 'Title' took 0.433
+[2015.02.16-09.05.10:512][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.16-09.05.10:637][588]LogSavePackage: Save=19.080582ms
+[2015.02.16-09.05.10:637][588]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteerA47177B546CCE9AE5EA45289DD59CCAB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.16-09.05.10:649][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.05.10:757][588]LogSavePackage: Save=5.164334ms
+[2015.02.16-09.05.10:757][588]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUD3639EC2C4EF460C302605480C60656AC.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.06.06:834][887]BlueprintLog: New page: Compile MyPuppeteer
+[2015.02.16-09.06.06:997][887]BlueprintEditorCompileResults: Info [0779.61] Compile of MyPuppeteer successful! [in 146 ms]
+[2015.02.16-09.06.16:756][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-09.06.16:914][286]LogSavePackage: Save=33.116570ms
+[2015.02.16-09.06.16:914][286]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Title72326E2A45EB76EB6772DCBA536D4164.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-09.06.16:965][286]LogFileHelpers: Saving map 'Title' took 0.439
+[2015.02.16-09.06.16:968][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPuppeteer" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset" SILENT=true
+[2015.02.16-09.06.17:092][286]LogSavePackage: Save=21.019558ms
+[2015.02.16-09.06.17:092][286]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/MyPuppeteerE3C971AC4F0B4BF913AF05AB0A33113B.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/MyPuppeteer.uasset'
+[2015.02.16-09.06.26:306][664]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.06.26:377][664]BlueprintEditorCompileResults: Info [0798.99] Compile of GameHUD successful! [in 68 ms]
+[2015.02.16-09.06.26:881][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.06.26:993][683]LogSavePackage: Save=5.796405ms
+[2015.02.16-09.06.26:993][683]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUDF44A42D34968215299B32390CE3FFAB4.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.06.54:879][758]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.06.54:951][758]BlueprintEditorCompileResults: Info [0827.56] Compile of GameHUD successful! [in 68 ms]
+[2015.02.16-09.06.55:506][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.06.55:634][779]LogSavePackage: Save=7.470665ms
+[2015.02.16-09.06.55:634][779]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUD6911F3274E3048788538498DBD849BE0.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.07.17:994][672]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.16-09.07.28:161][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset" SILENT=true
+[2015.02.16-09.07.28:447][ 22]LogSavePackage: Save=176.508957ms
+[2015.02.16-09.07.28:447][ 22]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GoalCB9E3F854A7111FF5925579AF69DD923.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset'
+[2015.02.16-09.07.38:681][402]BlueprintLog: New page: Compile Goal
+[2015.02.16-09.07.38:793][402]BlueprintEditorCompileResults: Info [0871.40] Compile of Goal successful! [in 99 ms]
+[2015.02.16-09.07.39:198][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset" SILENT=true
+[2015.02.16-09.07.39:482][411]LogSavePackage: Save=177.498108ms
+[2015.02.16-09.07.39:482][411]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Goal4772AC664E87BCC06D0F81B8567BF022.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset'
+[2015.02.16-09.07.51:176][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset" SILENT=true
+[2015.02.16-09.07.51:458][836]LogSavePackage: Save=177.580643ms
+[2015.02.16-09.07.51:458][836]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Goal75B1076A42DDFC0DF648248A12E60A1A.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset'
+[2015.02.16-09.07.53:277][910]BlueprintLog: New page: Compile Goal
+[2015.02.16-09.07.53:371][910]BlueprintEditorCompileResults: Info [0885.98] Compile of Goal successful! [in 81 ms]
+[2015.02.16-09.08.21:479][ 98]BlueprintLog: New page: Compile Goal
+[2015.02.16-09.08.21:574][ 98]BlueprintEditorCompileResults: Info [0914.18] Compile of Goal successful! [in 80 ms]
+[2015.02.16-09.08.22:008][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Goal" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset" SILENT=true
+[2015.02.16-09.08.22:294][112]LogSavePackage: Save=179.656052ms
+[2015.02.16-09.08.22:294][112]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GoalFA96D080422A46318B1ED8BD32A53EDB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/Goal.uasset'
+[2015.02.16-09.08.23:833][191]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-09.08.23:838][191]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.16-09.08.24:034][191]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.16-09.08.24:113][191]LogPlayLevel: [PIE] Compiling PlayerGate before PIE...
+[2015.02.16-09.08.24:183][191]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.16-09.08.24:277][191]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.16-09.08.24:322][191]LogPlayLevel: [PIE] Compiling Spike before PIE...
+[2015.02.16-09.08.24:401][191]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-09.08.24:448][191]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.16-09.08.24:582][191]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.16-09.08.24:655][191]LogPlayLevel: [PIE] Compiling Portal before PIE...
+[2015.02.16-09.08.24:728][191]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.16-09.08.24:797][191]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2015.02.16-09.08.24:891][191]LogPlayLevel: PIE:  Blueprint regeneration took 1058 ms (12 blueprints)
+[2015.02.16-09.08.24:892][191]PIE: New page: PIE session: Title (Feb 15, 2015, 11:08:24 PM)
+[2015.02.16-09.08.24:895][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003196s)
+[2015.02.16-09.08.24:896][191]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2015.02.16-09.08.24:896][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.003810s)
+[2015.02.16-09.08.24:941][191]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-09.08.24:943][191]LogAIModule: Creating AISystem for world Title
+[2015.02.16-09.08.24:945][191]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-04.08.24
+[2015.02.16-09.08.24:951][191]LogWorld: Bringing up level for play took: 0.007070
+[2015.02.16-09.08.24:958][191]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.431
+[2015.02.16-09.08.25:717][219]LogPackageName: SearchForPackageOnDisk took   0.132s to resolve Map1.umap
+[2015.02.16-09.08.25:855][220]LogPackageName: SearchForPackageOnDisk took   0.126s to resolve Map1.umap
+[2015.02.16-09.08.25:855][220]LogNet: Browse: /Game/Maps/Map1
+[2015.02.16-09.08.25:855][220]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.16-09.08.25:856][220]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.16-09.08.25:880][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008ACE3B5A80
+[2015.02.16-09.08.25:880][220]Cmd: MEM
+[2015.02.16-09.08.25:901][220]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-09.08.25:901][220]LogMemory: Process Physical Memory: 774.04 MB used, 774.05 MB peak
+[2015.02.16-09.08.25:901][220]LogMemory: Process Virtual Memory: 674.08 MB used, 674.08 MB peak
+[2015.02.16-09.08.25:901][220]LogMemory: Physical Memory: 4268.98 MB used, 16267.18 MB total
+[2015.02.16-09.08.25:901][220]LogMemory: Virtual Memory: 1220.91 MB used, 134217728.00 MB total
+[2015.02.16-09.08.25:901][220]LogMemory: 
+[2015.02.16-09.08.25:901][220]Allocator Stats for TBB: (not implemented)
+[2015.02.16-09.08.26:250][220]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-09.08.26:252][220]LogAIModule: Creating AISystem for world Map1
+[2015.02.16-09.08.26:254][220]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.16-04.08.26
+[2015.02.16-09.08.26:257][220]LogWorld: Bringing up level for play took: 0.004732
+[2015.02.16-09.08.31:179][511]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-09.08.31:222][511]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008ABEA81300
+[2015.02.16-09.08.34:296][644]BlueprintLog: New page: Compile Goal
+[2015.02.16-09.08.34:387][644]BlueprintEditorCompileResults: Info [0927.00] Compile of Goal successful! [in 78 ms]
+[2015.02.16-09.09.07:044][ 20]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.09.07:133][ 20]BlueprintEditorCompileResults: Info [0959.74] Compile of GameHUD successful! [in 85 ms]
+[2015.02.16-09.09.11:554][219]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.16-09.09.11:554][219]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.16-09.09.11:554][219]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.16-09.09.11:554][219]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.16-09.09.11:554][219]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P1_Text_0.K2Node_CallFunction_3570 or K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P2_Text_0.K2Node_CallFunction_3570
+[2015.02.16-09.09.11:554][219]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P1_Text_0.K2Node_CallFunction_3570 or K2Node_CallFunction /Game/Blueprints/MyCharacter.MyCharacter:EventGraph.K2Node_CallFunction_3570
+[2015.02.16-09.09.11:555][219]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P1_Text_0.K2Node_CallFunction_3574 or K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P2_Text_0.K2Node_CallFunction_3574
+[2015.02.16-09.09.11:555][219]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P1_Text_0.K2Node_CallFunction_3572 or K2Node_CallFunction /Game/Blueprints/GameHUD.GameHUD:Get_P2_Text_0.K2Node_CallFunction_3572
+[2015.02.16-09.09.20:914][624]BlueprintLog: New page: Compile GameHUD
+[2015.02.16-09.09.21:005][624]BlueprintEditorCompileResults: Info [0973.61] Compile of GameHUD successful! [in 86 ms]
+[2015.02.16-09.09.21:655][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-09.09.21:815][638]LogSavePackage: Save=34.243008ms
+[2015.02.16-09.09.21:815][638]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/Title5B91C2474D84E09B8174C7AC303CC664.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-09.09.21:863][638]LogFileHelpers: Saving map 'Title' took 0.438
+[2015.02.16-09.09.21:866][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.09.21:981][638]LogSavePackage: Save=9.358752ms
+[2015.02.16-09.09.21:981][638]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUD862C2B6C47A43D0E184995B2860E3E0C.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.09.24:283][756]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-09.09.24:288][756]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.16-09.09.24:474][756]LogPlayLevel: [PIE] Compiling Bullet before PIE...
+[2015.02.16-09.09.24:549][756]LogPlayLevel: [PIE] Compiling PlayerGate before PIE...
+[2015.02.16-09.09.24:618][756]LogPlayLevel: [PIE] Compiling Apple before PIE...
+[2015.02.16-09.09.24:714][756]LogPlayLevel: [PIE] Compiling Goal before PIE...
+[2015.02.16-09.09.24:786][756]LogPlayLevel: [PIE] Compiling KillZ before PIE...
+[2015.02.16-09.09.24:835][756]LogPlayLevel: [PIE] Compiling Spike before PIE...
+[2015.02.16-09.09.24:919][756]LogPlayLevel: [PIE] Compiling Title before PIE...
+[2015.02.16-09.09.24:966][756]LogPlayLevel: [PIE] Compiling MyPuppeteer before PIE...
+[2015.02.16-09.09.25:093][756]LogPlayLevel: [PIE] Compiling Portal before PIE...
+[2015.02.16-09.09.25:167][756]LogPlayLevel: [PIE] Compiling Destructible before PIE...
+[2015.02.16-09.09.25:236][756]LogPlayLevel: [PIE] Compiling GameHUD before PIE...
+[2015.02.16-09.09.25:332][756]LogPlayLevel: PIE:  Blueprint regeneration took 1048 ms (12 blueprints)
+[2015.02.16-09.09.25:332][756]PIE: New page: PIE session: Title (Feb 15, 2015, 11:09:25 PM)
+[2015.02.16-09.09.25:335][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003262s)
+[2015.02.16-09.09.25:336][756]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2015.02.16-09.09.25:336][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Title.Title to /Game/Maps/UEDPIE_0_Title.Title (0.004333s)
+[2015.02.16-09.09.25:382][756]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-09.09.25:383][756]LogAIModule: Creating AISystem for world Title
+[2015.02.16-09.09.25:386][756]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Title.Title up for play (max tick rate 60) at 2015.02.16-04.09.25
+[2015.02.16-09.09.25:391][756]LogWorld: Bringing up level for play took: 0.007713
+[2015.02.16-09.09.25:399][756]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Title 0.872
+[2015.02.16-09.09.26:065][779]LogPackageName: SearchForPackageOnDisk took   0.140s to resolve Map1.umap
+[2015.02.16-09.09.26:204][780]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Map1.umap
+[2015.02.16-09.09.26:204][780]LogNet: Browse: /Game/Maps/Map1
+[2015.02.16-09.09.26:204][780]LogLoad: LoadMap: /Game/Maps/Map1
+[2015.02.16-09.09.26:205][780]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.16-09.09.26:227][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AC62DB6A0
+[2015.02.16-09.09.26:228][780]Cmd: MEM
+[2015.02.16-09.09.26:249][780]LogMemory: Platform Memory Stats for Windows
+[2015.02.16-09.09.26:249][780]LogMemory: Process Physical Memory: 796.05 MB used, 796.05 MB peak
+[2015.02.16-09.09.26:249][780]LogMemory: Process Virtual Memory: 696.25 MB used, 696.25 MB peak
+[2015.02.16-09.09.26:249][780]LogMemory: Physical Memory: 4291.68 MB used, 16267.18 MB total
+[2015.02.16-09.09.26:249][780]LogMemory: Virtual Memory: 1241.16 MB used, 134217728.00 MB total
+[2015.02.16-09.09.26:249][780]LogMemory: 
+[2015.02.16-09.09.26:249][780]Allocator Stats for TBB: (not implemented)
+[2015.02.16-09.09.26:622][780]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.02.16-09.09.26:623][780]LogAIModule: Creating AISystem for world Map1
+[2015.02.16-09.09.26:626][780]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2015.02.16-04.09.26
+[2015.02.16-09.09.26:628][780]LogWorld: Bringing up level for play took: 0.004673
+[2015.02.16-09.09.31:439][ 60]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.16-09.09.31:483][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008AC79D5440
+[2015.02.16-09.09.38:378][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Title" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.16-09.09.38:535][318]LogSavePackage: Save=33.394115ms
+[2015.02.16-09.09.38:535][318]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/TitleA556359545ADCFC706B30F80AEA6EACB.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Maps/Title.umap'
+[2015.02.16-09.09.38:583][318]LogFileHelpers: Saving map 'Title' took 0.433
+[2015.02.16-09.09.38:586][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameHUD" FILE="../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset" SILENT=true
+[2015.02.16-09.09.38:705][318]LogSavePackage: Save=10.816193ms
+[2015.02.16-09.09.38:705][318]LogSavePackage: Moving '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Saved/GameHUD990CC5AE43A7A4717A7FC4A7C186EDAC.tmp' to '../../../../../../../Users/Owner/Documents/Unreal Projects/WeGuys/Content/Blueprints/GameHUD.uasset'
+[2015.02.16-09.09.40:431][402]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.16-09.09.40:436][402]LogPlayLev
